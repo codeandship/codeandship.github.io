@@ -1,7 +1,0 @@
-baseURL = "http://codeandship.rocks/"
-languageCode = "de"
-defaultContentLanguage = "de"
-title = "CodeAndShip"
-theme = "keepit"
-publishDir = "docs"
-

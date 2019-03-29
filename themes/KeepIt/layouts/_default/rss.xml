@@ -17,13 +17,13 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <language>en</language>
     <copyright>{{ with .Site.Copyright }}{{.}}{{ end }}</copyright>
-    <itunes:new-feed-url>{{ .Site.BaseURL }}/podcasts/index.xml</itunes:new-feed-url>
+    <itunes:new-feed-url>{{ .Site.BaseURL }}/podcast/index.xml</itunes:new-feed-url>
     <itunes:subtitle>"This is a subtitle"</itunes:subtitle>
     <itunes:summary>"This is the podcast description"</itunes:summary>
     <itunes:category text="Technology">
         <itunes:category text="Developers" />
     </itunes:category>
-    <itunes:author>"Office Hours Hangout"</itunes:author>
+    <itunes:author>"Code And Ship"</itunes:author>
     <itunes:owner>
         <itunes:name>"{{ .Title }}"</itunes:name>
         <itunes:email>"moin@codeandship.rocks"</itunes:email>

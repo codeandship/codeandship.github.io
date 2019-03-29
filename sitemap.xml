@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
     <url>
-      <loc>http://codeandship.rocks/categories/</loc>
+      <loc>/categories/</loc>
       
       
       
@@ -13,7 +13,7 @@
     </url>
   
     <url>
-      <loc>http://codeandship.rocks/</loc>
+      <loc>/</loc>
       
       
       
@@ -23,7 +23,7 @@
     </url>
   
     <url>
-      <loc>http://codeandship.rocks/tags/</loc>
+      <loc>/tags/</loc>
       
       
       

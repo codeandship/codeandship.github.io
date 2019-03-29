@@ -9,50 +9,29 @@
      xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
      xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>CodeAndShip on CodeAndShip</title>
+    <title>Posts on CodeAndShip</title>
     <atom:link href="//index.xml" rel="self" type="application/rss+xml" />
     <link>/</link>
-    <description>Recent content in CodeAndShip on CodeAndShip</description>
-    <lastBuildDate>2019-03-29 14:14:58 &#43;0100 CET</lastBuildDate>
+    <description>Recent content in Posts on CodeAndShip</description>
+    <lastBuildDate>2019-03-29 12:33:05 &#43;0100 CET</lastBuildDate>
     <sy:updatePeriod>hourly</sy:updatePeriod>
     <sy:updateFrequency>1</sy:updateFrequency>
     <language>en</language>
     <copyright></copyright>
-    <itunes:new-feed-url>//podcasts/index.xml</itunes:new-feed-url>
+    <itunes:new-feed-url>//podcast/index.xml</itunes:new-feed-url>
     <itunes:subtitle>"This is a subtitle"</itunes:subtitle>
     <itunes:summary>"This is the podcast description"</itunes:summary>
     <itunes:category text="Technology">
         <itunes:category text="Developers" />
     </itunes:category>
-    <itunes:author>"Office Hours Hangout"</itunes:author>
+    <itunes:author>"Code And Ship"</itunes:author>
     <itunes:owner>
-        <itunes:name>"CodeAndShip"</itunes:name>
+        <itunes:name>"Posts"</itunes:name>
         <itunes:email>"moin@codeandship.rocks"</itunes:email>
     </itunes:owner>
     <itunes:block>no</itunes:block>
     <itunes:explicit>no</itunes:explicit>
     <itunes:image href="https://via.placeholder.com/150" />
-    
-    <item>
-        <link>/podcast/entrytogo/</link>
-        <title>Einführung in Go</title>
-        <pubDate>Fri, 29 Mar 2019 14:14:58 +0100</pubDate>
-        <description></description>
-
-        <enclosure url="https://drive.google.com/uc?export=download&amp;id=1hsmEyVvjiXgHH-nG9PS-dMhB99F4merz" length="" type="audio/mpeg" />
-        <guid>https://drive.google.com/uc?export=download&amp;id=1hsmEyVvjiXgHH-nG9PS-dMhB99F4merz</guid>
-
-        <itunes:author></itunes:author>
-        <itunes:summary>
-
-&lt;h4 id=&#34;unser-erster-podcast&#34;&gt;Unser erster Podcast&lt;/h4&gt;
-
-&lt;p&gt;bla bla bla&lt;/p&gt;
-</itunes:summary>
-        <itunes:image href="https://via.placeholder.com/150" />
-        <itunes:duration></itunes:duration>
-        <itunes:keywords></itunes:keywords>
-    </item>
     
     <item>
         <link>/posts/0001_codeandship/</link>

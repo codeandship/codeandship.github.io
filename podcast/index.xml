@@ -9,24 +9,24 @@
      xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
      xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>CodeAndShip on CodeAndShip</title>
+    <title>Podcasts on CodeAndShip</title>
     <atom:link href="//index.xml" rel="self" type="application/rss+xml" />
     <link>/</link>
-    <description>Recent content in CodeAndShip on CodeAndShip</description>
+    <description>Recent content in Podcasts on CodeAndShip</description>
     <lastBuildDate>2019-03-29 14:14:58 &#43;0100 CET</lastBuildDate>
     <sy:updatePeriod>hourly</sy:updatePeriod>
     <sy:updateFrequency>1</sy:updateFrequency>
     <language>en</language>
     <copyright></copyright>
-    <itunes:new-feed-url>//podcasts/index.xml</itunes:new-feed-url>
+    <itunes:new-feed-url>//podcast/index.xml</itunes:new-feed-url>
     <itunes:subtitle>"This is a subtitle"</itunes:subtitle>
     <itunes:summary>"This is the podcast description"</itunes:summary>
     <itunes:category text="Technology">
         <itunes:category text="Developers" />
     </itunes:category>
-    <itunes:author>"Office Hours Hangout"</itunes:author>
+    <itunes:author>"Code And Ship"</itunes:author>
     <itunes:owner>
-        <itunes:name>"CodeAndShip"</itunes:name>
+        <itunes:name>"Podcasts"</itunes:name>
         <itunes:email>"moin@codeandship.rocks"</itunes:email>
     </itunes:owner>
     <itunes:block>no</itunes:block>
@@ -49,22 +49,6 @@
 
 &lt;p&gt;bla bla bla&lt;/p&gt;
 </itunes:summary>
-        <itunes:image href="https://via.placeholder.com/150" />
-        <itunes:duration></itunes:duration>
-        <itunes:keywords></itunes:keywords>
-    </item>
-    
-    <item>
-        <link>/posts/0001_codeandship/</link>
-        <title>Einführung in Go</title>
-        <pubDate>Fri, 29 Mar 2019 12:33:05 +0100</pubDate>
-        <description></description>
-
-        <enclosure url="" length="" type="audio/mpeg" />
-        <guid></guid>
-
-        <itunes:author></itunes:author>
-        <itunes:summary></itunes:summary>
         <itunes:image href="https://via.placeholder.com/150" />
         <itunes:duration></itunes:duration>
         <itunes:keywords></itunes:keywords>

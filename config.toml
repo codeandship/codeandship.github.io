@@ -3,5 +3,5 @@ languageCode = "de"
 defaultContentLanguage = "de"
 title = "CodeAndShip"
 theme = "keepit"
-
+publishDir = "docs"
 

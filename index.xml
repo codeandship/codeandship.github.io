@@ -43,7 +43,7 @@
         <guid>https://cdn.codeandship.rocks/cas_001.mp3</guid>
 
         <itunes:author></itunes:author>
-        <itunes:summary>![CDATA[&lt;p&gt;&lt;strong&gt;Herzlich Willkommen zu unserem Podcast!&lt;/strong&gt;&lt;br /&gt;
+        <itunes:summary>&lt;![CDATA[&lt;p&gt;&lt;strong&gt;Herzlich Willkommen zu unserem Podcast!&lt;/strong&gt;&lt;br /&gt;
 In der ersten Folge geht es um die Programmiersprache Go.&lt;/p&gt;
 
 &lt;p&gt;Topics:&lt;/p&gt;
@@ -86,7 +86,7 @@ In der ersten Folge geht es um die Programmiersprache Go.&lt;/p&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Gebt uns Feedback auf Twitter: &lt;a href=&#34;https://twitter.com/codeandship&#34;&gt;@codeandship&lt;/a&gt;, Jonathan (&lt;a href=&#34;https://twitter.com/jowiemers&#34;&gt;@jowiemers&lt;/a&gt;), Ingmar (&lt;a href=&#34;https://twitter.com/_truefalse&#34;&gt;@_truefalse&lt;/a&gt;), oder per Email an &lt;a href=&#34;mailto:feedback@codeandship.rocks&#34;&gt;feedback (at) codeandship.rocks&lt;/a&gt;&lt;/p&gt;
-]]</itunes:summary>
+]]></itunes:summary>
         <itunes:image href="https://via.placeholder.com/150" />
         <itunes:duration>01:16:40</itunes:duration>
         <itunes:keywords></itunes:keywords>
@@ -102,8 +102,8 @@ In der ersten Folge geht es um die Programmiersprache Go.&lt;/p&gt;
         <guid></guid>
 
         <itunes:author></itunes:author>
-        <itunes:summary>![CDATA[&lt;p&gt;Wir sind zwei Typen aus Bremen, die bock haben büschen zu podcasten und so&amp;hellip; (to be written)&lt;/p&gt;
-]]</itunes:summary>
+        <itunes:summary>&lt;![CDATA[&lt;p&gt;Wir sind zwei Typen aus Bremen, die bock haben büschen zu podcasten und so&amp;hellip; (to be written)&lt;/p&gt;
+]]></itunes:summary>
         <itunes:image href="https://via.placeholder.com/150" />
         <itunes:duration></itunes:duration>
         <itunes:keywords></itunes:keywords>
@@ -119,7 +119,7 @@ In der ersten Folge geht es um die Programmiersprache Go.&lt;/p&gt;
         <guid></guid>
 
         <itunes:author></itunes:author>
-        <itunes:summary>![CDATA[]]</itunes:summary>
+        <itunes:summary>&lt;![CDATA[]]></itunes:summary>
         <itunes:image href="https://via.placeholder.com/150" />
         <itunes:duration></itunes:duration>
         <itunes:keywords></itunes:keywords>

@@ -10,15 +10,15 @@
      xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>CodeAndShip on CodeAndShip</title>
-    <atom:link href="https://codeandship.rocks//index.xml" rel="self" type="application/rss+xml" />
-    <link>https://codeandship.rocks/</link>
+    <atom:link href="//index.xml" rel="self" type="application/rss+xml" />
+    <link>/</link>
     <description>Recent content in CodeAndShip on CodeAndShip</description>
     <lastBuildDate>2019-03-29 14:14:58 &#43;0100 CET</lastBuildDate>
     <sy:updatePeriod>hourly</sy:updatePeriod>
     <sy:updateFrequency>1</sy:updateFrequency>
     <language>en</language>
     <copyright></copyright>
-    <itunes:new-feed-url>https://codeandship.rocks//podcasts/index.xml</itunes:new-feed-url>
+    <itunes:new-feed-url>//podcasts/index.xml</itunes:new-feed-url>
     <itunes:subtitle>"This is a subtitle"</itunes:subtitle>
     <itunes:summary>"This is the podcast description"</itunes:summary>
     <itunes:category text="Technology">
@@ -34,7 +34,7 @@
     <itunes:image href="https://via.placeholder.com/150" />
     
     <item>
-        <link>https://codeandship.rocks/podcast/entrytogo/</link>
+        <link>/podcast/entrytogo/</link>
         <title>Einführung in Go</title>
         <pubDate>Fri, 29 Mar 2019 14:14:58 +0100</pubDate>
         <description></description>
@@ -93,7 +93,7 @@ In der ersten Folge geht es um die Programmiersprache Go.&lt;/p&gt;
     </item>
     
     <item>
-        <link>https://codeandship.rocks/about/</link>
+        <link>/about/</link>
         <title>Über uns</title>
         <pubDate>Fri, 29 Mar 2019 12:49:09 +0100</pubDate>
         <description></description>
@@ -110,7 +110,7 @@ In der ersten Folge geht es um die Programmiersprache Go.&lt;/p&gt;
     </item>
     
     <item>
-        <link>https://codeandship.rocks/posts/0001_codeandship/</link>
+        <link>/posts/0001_codeandship/</link>
         <title>Einführung in Go</title>
         <pubDate>Fri, 29 Mar 2019 12:33:05 +0100</pubDate>
         <description></description>

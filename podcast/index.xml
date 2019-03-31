@@ -10,15 +10,15 @@
      xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Podcasts on CodeAndShip</title>
-    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
-    <link>/</link>
+    <atom:link href="codeandship.rocks/index.xml" rel="self" type="application/rss+xml" />
+    <link>codeandship.rocks</link>
     <description>Recent content in Podcasts on CodeAndShip</description>
     <lastBuildDate>2019-03-29 14:14:58 &#43;0100 CET</lastBuildDate>
     <sy:updatePeriod>hourly</sy:updatePeriod>
     <sy:updateFrequency>1</sy:updateFrequency>
     <language>en</language>
     <copyright></copyright>
-    <itunes:new-feed-url>/podcast/index.xml</itunes:new-feed-url>
+    <itunes:new-feed-url>codeandship.rocks/podcast/index.xml</itunes:new-feed-url>
     <itunes:subtitle>"This is a subtitle"</itunes:subtitle>
     <itunes:summary>"This is the podcast description"</itunes:summary>
     <itunes:category text="Technology">
@@ -31,10 +31,10 @@
     </itunes:owner>
     <itunes:block>no</itunes:block>
     <itunes:explicit>no</itunes:explicit>
-    <itunes:image href="https://via.placeholder.com/150" />
+    <itunes:image href="/cover.jpg" />
     
     <item>
-        <link>/podcast/entrytogo/</link>
+        <link>codeandship.rocks/podcast/entrytogo/</link>
         <title>Einführung in Go</title>
         <pubDate>Fri, 29 Mar 2019 14:14:58 +0100</pubDate>
         <description></description>
@@ -87,8 +87,8 @@ In der ersten Folge geht es um die Programmiersprache Go.&lt;/p&gt;
 
 &lt;p&gt;Gebt uns Feedback auf Twitter: &lt;a href=&#34;https://twitter.com/codeandship&#34;&gt;@codeandship&lt;/a&gt;, Jonathan (&lt;a href=&#34;https://twitter.com/jowiemers&#34;&gt;@jowiemers&lt;/a&gt;), Ingmar (&lt;a href=&#34;https://twitter.com/_truefalse&#34;&gt;@_truefalse&lt;/a&gt;), oder per Email an &lt;a href=&#34;mailto:feedback@codeandship.rocks&#34;&gt;feedback (at) codeandship.rocks&lt;/a&gt;&lt;/p&gt;
 </itunes:summary>
-        <itunes:image href="https://via.placeholder.com/150" />
-        <itunes:duration></itunes:duration>
+        <itunes:image href="/cover.jpg" />
+        <itunes:duration>01:16:40</itunes:duration>
         <itunes:keywords></itunes:keywords>
     </item>
     

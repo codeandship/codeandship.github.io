@@ -43,7 +43,11 @@
         <guid>https://cdn.codeandship.rocks/cas_001.mp3</guid>
 
         <itunes:author></itunes:author>
-        <itunes:summary type="html"><![CDATA[<p><strong>Herzlich Willkommen zu unserem Podcast!</strong><br />
+        <itunes:summary>Herzlich Willkommen zu unserem Podcast!
+In der ersten Folge geht es um die Programmiersprache Go.
+Topics:
+ Was spricht für Go? Unterschiede zu Java und anderen Programmiersprachen / Frameworks Go …</itunes:summary>
+        <content:encoded><![CDATA[<p><strong>Herzlich Willkommen zu unserem Podcast!</strong><br />
 In der ersten Folge geht es um die Programmiersprache Go.</p>
 
 <p>Topics:</p>
@@ -86,7 +90,7 @@ In der ersten Folge geht es um die Programmiersprache Go.</p>
 </ul>
 
 <p>Gebt uns Feedback auf Twitter: <a href="https://twitter.com/codeandship">@codeandship</a>, Jonathan (<a href="https://twitter.com/jowiemers">@jowiemers</a>), Ingmar (<a href="https://twitter.com/_truefalse">@_truefalse</a>), oder per Email an <a href="mailto:feedback@codeandship.rocks">feedback (at) codeandship.rocks</a></p>
-]]>></itunes:summary>
+]]>></content:encoded>
         <itunes:image href="https://via.placeholder.com/150" />
         <itunes:duration>01:16:40</itunes:duration>
         <itunes:keywords></itunes:keywords>
@@ -102,8 +106,10 @@ In der ersten Folge geht es um die Programmiersprache Go.</p>
         <guid></guid>
 
         <itunes:author></itunes:author>
-        <itunes:summary type="html"><![CDATA[<p>Wir sind zwei Typen aus Bremen, die bock haben büschen zu podcasten und so… (to be written)</p>
-]]>></itunes:summary>
+        <itunes:summary>Wir sind zwei Typen aus Bremen, die bock haben büschen zu podcasten und so… (to be written)
+</itunes:summary>
+        <content:encoded><![CDATA[<p>Wir sind zwei Typen aus Bremen, die bock haben büschen zu podcasten und so… (to be written)</p>
+]]>></content:encoded>
         <itunes:image href="https://via.placeholder.com/150" />
         <itunes:duration></itunes:duration>
         <itunes:keywords></itunes:keywords>
@@ -119,7 +125,8 @@ In der ersten Folge geht es um die Programmiersprache Go.</p>
         <guid></guid>
 
         <itunes:author></itunes:author>
-        <itunes:summary type="html"><![CDATA[]]>></itunes:summary>
+        <itunes:summary></itunes:summary>
+        <content:encoded><![CDATA[]]>></content:encoded>
         <itunes:image href="https://via.placeholder.com/150" />
         <itunes:duration></itunes:duration>
         <itunes:keywords></itunes:keywords>

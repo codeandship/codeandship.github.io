@@ -43,7 +43,7 @@
         <guid>/posts/0001_codeandship/</guid>
 
         <itunes:author></itunes:author>
-        <itunes:summary>&lt;![CDATA[]]></itunes:summary>
+        <itunes:summary type="html"><![CDATA[]]>></itunes:summary>
         <itunes:image href="https://codeandship.rocks/cover.jpg" />
         <itunes:duration></itunes:duration>
         <itunes:keywords></itunes:keywords>

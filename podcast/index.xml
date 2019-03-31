@@ -43,50 +43,50 @@
         <guid>/podcast/entrytogo/</guid>
 
         <itunes:author></itunes:author>
-        <itunes:summary>&lt;![CDATA[&lt;p&gt;&lt;strong&gt;Herzlich Willkommen zu unserem Podcast!&lt;/strong&gt;&lt;br /&gt;
-In der ersten Folge geht es um die Programmiersprache Go.&lt;/p&gt;
+        <itunes:summary type="html"><![CDATA[<p><strong>Herzlich Willkommen zu unserem Podcast!</strong><br />
+In der ersten Folge geht es um die Programmiersprache Go.</p>
 
-&lt;p&gt;Topics:&lt;/p&gt;
+<p>Topics:</p>
 
-&lt;ul&gt;
-&lt;li&gt;Was spricht für Go?&lt;/li&gt;
-&lt;li&gt;Unterschiede zu Java und anderen Programmiersprachen / Frameworks&lt;/li&gt;
-&lt;li&gt;Go Features
+<ul>
+<li>Was spricht für Go?</li>
+<li>Unterschiede zu Java und anderen Programmiersprachen / Frameworks</li>
+<li>Go Features
 
-&lt;ul&gt;
-&lt;li&gt;Go Routines&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Woran muss man sich gewöhnen?
+<ul>
+<li>Go Routines</li>
+</ul></li>
+<li>Woran muss man sich gewöhnen?
 
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;gofmt&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://blog.golang.org/using-go-modules&#34;&gt;Dependency Management&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Error Handling&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/golang-standards/project-layout&#34;&gt;Projektstruktur&lt;/a&gt;
+<ul>
+<li><code>gofmt</code></li>
+<li><a href="https://blog.golang.org/using-go-modules">Dependency Management</a></li>
+</ul></li>
+<li>Error Handling</li>
+<li><a href="https://github.com/golang-standards/project-layout">Projektstruktur</a>
 
-&lt;ul&gt;
-&lt;li&gt;WTF Dial (&lt;a href=&#34;https://medium.com/wtf-dial&#34;&gt;Medium&lt;/a&gt;, &lt;a href=&#34;https://github.com/benbjohnson/wtf/tree/http&#34;&gt;GitHub&lt;/a&gt;)&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Standard &lt;a href=&#34;https://github.com/golang/go/wiki/CodeTools&#34;&gt;Go Tools&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+<ul>
+<li>WTF Dial (<a href="https://medium.com/wtf-dial">Medium</a>, <a href="https://github.com/benbjohnson/wtf/tree/http">GitHub</a>)</li>
+</ul></li>
+<li>Standard <a href="https://github.com/golang/go/wiki/CodeTools">Go Tools</a></li>
+</ul>
 
-&lt;p&gt;Ideen für das erste eigene Go Projekt:&lt;/p&gt;
+<p>Ideen für das erste eigene Go Projekt:</p>
 
-&lt;ul&gt;
-&lt;li&gt;CLI Tools&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://rosettacode.org/wiki/Category:Draft_Programming_Tasks&#34;&gt;Rosetta Code Programming Tasks&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+<ul>
+<li>CLI Tools</li>
+<li><a href="https://rosettacode.org/wiki/Category:Draft_Programming_Tasks">Rosetta Code Programming Tasks</a></li>
+</ul>
 
-&lt;p&gt;Weitere hilfreiche Links:&lt;/p&gt;
+<p>Weitere hilfreiche Links:</p>
 
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://tour.golang.org/welcome/1&#34;&gt;Tour of Go&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/wiki&#34;&gt;Go Wiki&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+<ul>
+<li><a href="https://tour.golang.org/welcome/1">Tour of Go</a></li>
+<li><a href="https://github.com/golang/go/wiki">Go Wiki</a></li>
+</ul>
 
-&lt;p&gt;Gebt uns Feedback auf Twitter: &lt;a href=&#34;https://twitter.com/codeandship&#34;&gt;@codeandship&lt;/a&gt;, Jonathan (&lt;a href=&#34;https://twitter.com/jowiemers&#34;&gt;@jowiemers&lt;/a&gt;), Ingmar (&lt;a href=&#34;https://twitter.com/_truefalse&#34;&gt;@_truefalse&lt;/a&gt;), oder per Email an &lt;a href=&#34;mailto:feedback@codeandship.rocks&#34;&gt;feedback (at) codeandship.rocks&lt;/a&gt;&lt;/p&gt;
-]]></itunes:summary>
+<p>Gebt uns Feedback auf Twitter: <a href="https://twitter.com/codeandship">@codeandship</a>, Jonathan (<a href="https://twitter.com/jowiemers">@jowiemers</a>), Ingmar (<a href="https://twitter.com/_truefalse">@_truefalse</a>), oder per Email an <a href="mailto:feedback@codeandship.rocks">feedback (at) codeandship.rocks</a></p>
+]]>></itunes:summary>
         <itunes:image href="https://codeandship.rocks/cover.jpg" />
         <itunes:duration>01:16:40</itunes:duration>
         <itunes:keywords></itunes:keywords>

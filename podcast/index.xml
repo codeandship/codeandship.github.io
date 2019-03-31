@@ -9,25 +9,25 @@
      xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
      xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>Podcasts on CodeAndShip</title>
+    <title>CodeAndShip Podcast</title>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <link>/</link>
-    <description>Recent content in Podcasts on CodeAndShip</description>
+    <description>Ein Podcast übers programmieren und ausliefern von Software Projekten.</description>
     <lastBuildDate>2019-03-29 14:14:58 &#43;0100 CET</lastBuildDate>
     <sy:updatePeriod>hourly</sy:updatePeriod>
     <sy:updateFrequency>1</sy:updateFrequency>
     <language>en</language>
     <copyright></copyright>
     <itunes:new-feed-url>/podcast/index.xml</itunes:new-feed-url>
-    <itunes:subtitle>"This is a subtitle"</itunes:subtitle>
-    <itunes:summary>"This is the podcast description"</itunes:summary>
+    <itunes:subtitle>Ein Podcast übers programmieren und ausliefern von Software Projekten.</itunes:subtitle>
+    <itunes:summary></itunes:summary>
     <itunes:category text="Technology">
         <itunes:category text="Developers" />
     </itunes:category>
-    <itunes:author>"Code And Ship"</itunes:author>
+    <itunes:author>CodeAndShip</itunes:author>
     <itunes:owner>
-        <itunes:name>"Podcasts"</itunes:name>
-        <itunes:email>"feedback@codeandship.rocks"</itunes:email>
+        <itunes:name>CodeAndShip</itunes:name>
+        <itunes:email>feedback@codeandship.rocks</itunes:email>
     </itunes:owner>
     <itunes:block>no</itunes:block>
     <itunes:explicit>no</itunes:explicit>

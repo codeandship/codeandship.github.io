@@ -97,25 +97,6 @@ In der ersten Folge geht es um die Programmiersprache Go.</p>
     </item>
     
     <item>
-        <link>/about/</link>
-        <title>Über uns</title>
-        <pubDate>Fri, 29 Mar 2019 12:49:09 +0100</pubDate>
-        <description></description>
-
-        <enclosure url="" length="" type="audio/mpeg" />
-        <guid></guid>
-
-        <itunes:author></itunes:author>
-        <itunes:summary>Wir sind zwei Typen aus Bremen, die bock haben büschen zu podcasten und so… (to be written)
-</itunes:summary>
-        <content:encoded><![CDATA[<p>Wir sind zwei Typen aus Bremen, die bock haben büschen zu podcasten und so… (to be written)</p>
-]]>></content:encoded>
-        <itunes:image href="https://via.placeholder.com/150" />
-        <itunes:duration></itunes:duration>
-        <itunes:keywords></itunes:keywords>
-    </item>
-    
-    <item>
         <link>/posts/0001_codeandship/</link>
         <title>Einführung in Go</title>
         <pubDate>Fri, 29 Mar 2019 12:33:05 +0100</pubDate>

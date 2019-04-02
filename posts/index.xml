@@ -10,15 +10,15 @@
      xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>CodeAndShip Posts</title>
-    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
-    <link>/</link>
+    <atom:link href="https://codeandship.rocksindex.xml" rel="self" type="application/rss+xml" />
+    <link>https://codeandship.rocks</link>
     <description>Recent content in Posts on CodeAndShip</description>
     <lastBuildDate>2019-03-29 12:33:05 &#43;0100 CET</lastBuildDate>
     <sy:updatePeriod>hourly</sy:updatePeriod>
     <sy:updateFrequency>1</sy:updateFrequency>
     <language>en</language>
     <copyright></copyright>
-    <itunes:new-feed-url>/podcast/index.xml</itunes:new-feed-url>
+    <itunes:new-feed-url>https://codeandship.rockspodcast/index.xml</itunes:new-feed-url>
     <itunes:subtitle>"This is a subtitle"</itunes:subtitle>
     <itunes:summary>"This is the podcast description"</itunes:summary>
     <itunes:category text="Technology">
@@ -34,13 +34,13 @@
     <itunes:image href="https://codeandship.rocks/cover.jpg" />
     
     <item>
-        <link>/posts/0001_codeandship/</link>
+        <link>https://codeandship.rocks/posts/0001_codeandship/</link>
         <title>Einführung in Go</title>
         <pubDate>Fri, 29 Mar 2019 12:33:05 +0100</pubDate>
         <description></description>
 
         <enclosure url="" length="" type="audio/mpeg" />
-        <guid>/posts/0001_codeandship/</guid>
+        <guid>https://codeandship.rocks/posts/0001_codeandship/</guid>
 
         <itunes:author></itunes:author>
         <itunes:summary></itunes:summary>

@@ -10,15 +10,15 @@
      xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>CodeAndShip Categories</title>
-    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
-    <link>/</link>
+    <atom:link href="https://codeandship.rocksindex.xml" rel="self" type="application/rss+xml" />
+    <link>https://codeandship.rocks</link>
     <description>Recent content in Categories on CodeAndShip</description>
     <lastBuildDate>0001-01-01 00:00:00 &#43;0000 UTC</lastBuildDate>
     <sy:updatePeriod>hourly</sy:updatePeriod>
     <sy:updateFrequency>1</sy:updateFrequency>
     <language>en</language>
     <copyright></copyright>
-    <itunes:new-feed-url>/podcast/index.xml</itunes:new-feed-url>
+    <itunes:new-feed-url>https://codeandship.rockspodcast/index.xml</itunes:new-feed-url>
     <itunes:subtitle>"This is a subtitle"</itunes:subtitle>
     <itunes:summary>"This is the podcast description"</itunes:summary>
     <itunes:category text="Technology">

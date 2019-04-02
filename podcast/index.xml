@@ -10,7 +10,7 @@
      xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>CodeAndShip Podcast</title>
-    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://codeandship.rocksindex.xml" rel="self" type="application/rss+xml" />
     <link>https://codeandship.rocks</link>
     <description>Ein Podcast übers programmieren und ausliefern von Software Projekten.</description>
     <lastBuildDate>2019-03-29 14:14:58 &#43;0100 CET</lastBuildDate>
@@ -19,7 +19,7 @@
     <language>en</language>
     <copyright></copyright>
     
-    <itunes:subtitle>mit Jonathan && Ingmar</itunes:subtitle>
+    <itunes:subtitle>mit Jonathan und Ingmar</itunes:subtitle>
     <itunes:summary>Ein Podcast übers programmieren und ausliefern von Software Projekten.</itunes:summary>
     <itunes:category text="Technology">
         <itunes:category text="Developers" />
@@ -34,13 +34,13 @@
     <itunes:image href="https://codeandship.rocks/cover.jpg" />
     
     <item>
-        <link>/podcast/entrytogo/</link>
+        <link>https://codeandship.rocks/podcast/entrytogo/</link>
         <title>Einführung in Go</title>
         <pubDate>Fri, 29 Mar 2019 14:14:58 +0100</pubDate>
         <description></description>
 
         <enclosure url="https://cdn.codeandship.rocks/podcast/cas_001.mp3" length="73696079" type="audio/mpeg" />
-        <guid>/podcast/entrytogo/</guid>
+        <guid>https://codeandship.rocks/podcast/entrytogo/</guid>
 
         <itunes:author></itunes:author>
         <itunes:summary>Herzlich Willkommen zu unserem Podcast!

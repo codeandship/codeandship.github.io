@@ -11,16 +11,16 @@
   <channel>
     <title>CodeAndShip Podcast</title>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
-    <link>/</link>
+    <link>https://codeandship.rocks</link>
     <description>Ein Podcast übers programmieren und ausliefern von Software Projekten.</description>
     <lastBuildDate>2019-03-29 14:14:58 &#43;0100 CET</lastBuildDate>
     <sy:updatePeriod>hourly</sy:updatePeriod>
     <sy:updateFrequency>1</sy:updateFrequency>
     <language>en</language>
     <copyright></copyright>
-    <itunes:new-feed-url>/podcast/index.xml</itunes:new-feed-url>
-    <itunes:subtitle>Ein Podcast übers programmieren und ausliefern von Software Projekten.</itunes:subtitle>
-    <itunes:summary></itunes:summary>
+    
+    <itunes:subtitle>mit Jonathan && Ingmar</itunes:subtitle>
+    <itunes:summary>Ein Podcast übers programmieren und ausliefern von Software Projekten.</itunes:summary>
     <itunes:category text="Technology">
         <itunes:category text="Developers" />
     </itunes:category>

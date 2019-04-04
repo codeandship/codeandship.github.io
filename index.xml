@@ -9,10 +9,10 @@
      xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
      xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>CodeAndShip on CodeAndShip</title>
+    <title>Code and Ship on Code and Ship</title>
     <atom:link href="https://codeandship.rocks/index.xml" rel="self" type="application/rss+xml" />
     <link>https://codeandship.rocks</link>
-    <description>Recent content in CodeAndShip on CodeAndShip</description>
+    <description>Recent content in Code and Ship on Code and Ship</description>
     <lastBuildDate>2019-03-29 14:14:58 &#43;0100 CET</lastBuildDate>
     <sy:updatePeriod>hourly</sy:updatePeriod>
     <sy:updateFrequency>1</sy:updateFrequency>
@@ -26,7 +26,7 @@
     </itunes:category>
     <itunes:author>"Office Hours Hangout"</itunes:author>
     <itunes:owner>
-        <itunes:name>"CodeAndShip"</itunes:name>
+        <itunes:name>"Code and Ship"</itunes:name>
         <itunes:email>"moin@codeandship.rocks"</itunes:email>
     </itunes:owner>
     <itunes:block>no</itunes:block>

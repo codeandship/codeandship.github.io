@@ -9,7 +9,7 @@
      xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
      xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>CodeAndShip Podcast</title>
+    <title>Code and Ship</title>
     <atom:link href="https://codeandship.rocks/index.xml" rel="self" type="application/rss+xml" />
     <link>https://codeandship.rocks/</link>
     <description>Jonathan und Ingmar sprechen übers Programmieren und Ausliefern von Software Projekten. Außerdem tauschen die beiden Bremer sich über Tools, Framewoks und das Leben als Softwareentwickler aus.</description>
@@ -23,9 +23,9 @@
     <itunes:category text="Technology">
         <itunes:category text="Developers" />
     </itunes:category>
-    <itunes:author>CodeAndShip</itunes:author>
+    <itunes:author>Code and Ship</itunes:author>
     <itunes:owner>
-        <itunes:name>CodeAndShip</itunes:name>
+        <itunes:name>Code and Ship</itunes:name>
         <itunes:email>feedback@codeandship.rocks</itunes:email>
     </itunes:owner>
     <itunes:block>no</itunes:block>

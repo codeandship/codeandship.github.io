@@ -9,10 +9,10 @@
      xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
      xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>CodeAndShip Tags</title>
+    <title>Code and Ship Tags</title>
     <atom:link href="https://codeandship.rocksindex.xml" rel="self" type="application/rss+xml" />
     <link>https://codeandship.rocks</link>
-    <description>Recent content in Tags on CodeAndShip</description>
+    <description>Recent content in Tags on Code and Ship</description>
     <lastBuildDate>0001-01-01 00:00:00 &#43;0000 UTC</lastBuildDate>
     <sy:updatePeriod>hourly</sy:updatePeriod>
     <sy:updateFrequency>1</sy:updateFrequency>

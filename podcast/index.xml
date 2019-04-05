@@ -30,7 +30,7 @@
     </itunes:owner>
     <itunes:block>no</itunes:block>
     <itunes:explicit>no</itunes:explicit>
-    <itunes:image href="https://codeandship.rocks/cover.jpg" />
+    <itunes:image href="https://codeandship.rocks/cover-2000.jpg" />
     
     <item>
         <link>https://codeandship.rocks/podcast/entrytogo/</link>
@@ -90,7 +90,7 @@ In der ersten Folge geht es um die Programmiersprache Go.</p>
 
 <p>Gebt uns Feedback auf Twitter: <a href="https://twitter.com/codeandship">@codeandship</a>, Jonathan (<a href="https://twitter.com/jowiemers">@jowiemers</a>), Ingmar (<a href="https://twitter.com/_truefalse">@_truefalse</a>), oder per Email an <a href="mailto:feedback@codeandship.rocks">feedback (at) codeandship.rocks</a></p>
 ]]></content:encoded>
-        <itunes:image href="https://codeandship.rocks/cover.jpg" />
+        <itunes:image href="https://codeandship.rocks/cover-2000.jpg" />
         <itunes:duration>01:16:40</itunes:duration>
         <itunes:keywords></itunes:keywords>
     </item>

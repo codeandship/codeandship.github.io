@@ -135,7 +135,11 @@
 
 
     </div>
+    <p>
+        <script>window.podcastData={"title":"Code and Ship","subtitle":"","description":"Jonathan und Ingmar sprechen übers Programmieren und Ausliefern von Software Projekten. Außerdem tauschen die beiden Bremer sich über Tools, Framewoks und das Leben als Softwareentwickler aus.","cover":"","feeds":[{"type":"audio","format":"mp3","url":"https://codeandship.rocks/podcast/index.xml"}]}</script><script class="podlove-subscribe-button" src="https://cdn.podlove.org/subscribe-button/javascripts/app.js" data-language="de" data-size="small" data-json-data="podcastData" data-color="#06969B" data-format="rectangle" data-style="outline"></script><noscript><a href="https://codeandship.rocks/podcast/index.xml">Subscribe to feed</a></noscript>
+    </p>
 </div>
+<script src="https://cdn.podlove.org/web-player/embed.js"></script>
 <article class="post-warp">
     <header class="post-header">
         <h1 class="post-title">Einführung in Go</h1>
@@ -154,10 +158,35 @@
             0 min
         </div>
     </header>
-    <audio controls>
-        <source src="" type="audio/mpeg">
-        Your browser does not support the audio element.
-    </audio>
+    <br/>
+    <div id="podcast-player"></div>
+    <script>
+        podlovePlayer('#podcast-player', {
+            show: {
+                title: 'Code and Ship',
+                subtitle: 'Menschen! Technik! Sensationen!',
+                
+                link: 'https:\/\/codeandship.rocks'
+            },
+            title: 'Einführung in Go',
+            duration: '', 
+            link: 'https:\/\/codeandship.rocks\/posts\/0001_codeandship\/',
+            poster: 'https:\/\/codeandship.rocks\/cover.jpg',
+            audio: [{
+                url: '',
+                mimeType: 'audio/mp3',
+                size:  null ,
+            title: 'Audio MP3'
+            }],
+            theme: {
+                main: '#06969B',
+                highlight: '#fff'
+            },
+            tabs: {
+                info: false
+            }
+        });
+    </script>
     <div class="post-content">
         
 

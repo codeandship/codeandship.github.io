@@ -1,51 +1,212 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0"
-     xmlns:content="http://purl.org/rss/1.0/modules/content/"
-     xmlns:wfw="http://wellformedweb.org/CommentAPI/"
-     xmlns:dc="http://purl.org/dc/elements/1.1/"
-     xmlns:atom="http://www.w3.org/2005/Atom"
-     xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
-     xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
-     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
-     xmlns:media="http://search.yahoo.com/mrss/">
-  <channel>
-    <title>Code and Ship</title>
-    <atom:link href="https://codeandship.rocks/index.xml" rel="self" type="application/rss+xml" />
-    <link>https://codeandship.rocks/</link>
-    <description>Jonathan und Ingmar sprechen übers Programmieren und Ausliefern von Software Projekten. Außerdem tauschen die beiden Bremer sich über Tools, Framewoks und das Leben als Softwareentwickler aus.</description>
-    <lastBuildDate>2019-04-17 18:08:09 &#43;0200 CEST</lastBuildDate>
-    <sy:updatePeriod>hourly</sy:updatePeriod>
-    <sy:updateFrequency>1</sy:updateFrequency>
-    <language>en</language>
-    <copyright></copyright>
-    <itunes:subtitle>Ein Techpodcast aus Bremen von Ingmar und Jonathan</itunes:subtitle>
-    <itunes:summary>Jonathan und Ingmar sprechen übers Programmieren und Ausliefern von Software Projekten. Außerdem tauschen die beiden Bremer sich über Tools, Framewoks und das Leben als Softwareentwickler aus.</itunes:summary>
-    <itunes:category text="Technology">
-        <itunes:category text="Developers" />
-    </itunes:category>
-    <itunes:author>Code and Ship</itunes:author>
-    <itunes:owner>
-        <itunes:name>Code and Ship</itunes:name>
-        <itunes:email>feedback@codeandship.rocks</itunes:email>
-    </itunes:owner>
-    <itunes:block>no</itunes:block>
-    <itunes:explicit>no</itunes:explicit>
-    <itunes:image href="https://codeandship.rocks/cover-2000.jpg" />
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noodp" />      
+    <link rel="prev" href="https://codeandship.rocks/podcast/entrytogo/" /> 
+    <link rel="canonical" href="https://codeandship.rocks/podcast/2/" />
+    <link rel='shortcut icon' type='image/x-icon' href='/favicon.ico' />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <title>
+          Go Libraries | Code and Ship 
+    </title>
+    <meta name="title" content="Go Libraries | Code and Ship">   
+  
+  <link rel="stylesheet" href="/font/iconfont.css">
+  <link rel="stylesheet" href="/css/main.min.css">
+
+ <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Go Libraries"/>
+<meta name="twitter:description" content="Diesmal geht es um HTTP Libraries und Frameworks für Go. Jonathan fürchtet um seine Stellung als “Herr der Dinge”, denn bei Frameworks muss man sich manchmal in die Welt der Codegenerierung begeben. Hilfe, Kontrollverlust! Außerdem geht es darum, wie man gute Libraries erkennt und warum man eine spezielle lieber meiden sollte. Am Ende sprechen wir noch über Libraries für die Entwicklung von CLI Tools."/>
+ <script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Go Libraries",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://codeandship.rocks/podcast/2/"
+  },
+  
+  "genre": "podcast",
+  
+  "wordcount": 846,
+  "url": "https://codeandship.rocks/podcast/2/",
+  "datePublished": "2019-04-17T18:08:09+02:00",
+  "dateModified": "2019-04-17T18:08:09+02:00",
+  
+  
+  
+  "description": "Diesmal geht es um HTTP Libraries und Frameworks für Go. Jonathan fürchtet um seine Stellung als “Herr der Dinge”, denn bei Frameworks muss man sich manchmal in die Welt der Codegenerierung begeben. Hilfe, Kontrollverlust! Außerdem geht es darum, wie man gute Libraries erkennt und warum man eine spezielle lieber meiden sollte. Am Ende sprechen wir noch über Libraries für die Entwicklung von CLI Tools."
+}
+</script>
+</head>
+  
+  <body class="">
+    <div class="wrapper">
+        
+    	 <main class="main">
+          <div class="container">
+      		
+<div class="intro">
     
-    <item>
-        <link>https://codeandship.rocks/podcast/2/</link>
-        <title>Go Libraries</title>
-        <pubDate>Wed, 17 Apr 2019 18:08:09 +0200</pubDate>
-        <description></description>
+    
+    
+    <div class="avatar">
+        <a href="/"> <img src="/cover-no-text.jpg"> </a>
+    </div>
+    
+    
+    
+    <h2 class="description">
+        Jonathan und Ingmar sprechen übers Programmieren und Ausliefern von Software Projekten. Außerdem tauschen die beiden Bremer sich über Tools, Framewoks und das Leben als Softwareentwickler aus.
+    </h2>
+    
+    <div class="social-links">
+        
+<a href="https://github.com/codeandship" target="_blank" rel="me noopener noreffer" target="_blank"><i class="iconfont icon-github"></i></a>
 
-        <enclosure url="https://cdn.codeandship.rocks/podcast/cas_002.mp3" length="66898216" type="audio/mpeg" />
-        <guid>https://codeandship.rocks/podcast/2/</guid>
 
-        <itunes:author></itunes:author>
-        <itunes:summary> Diesmal geht es um HTTP Libraries und Frameworks für Go. Jonathan fürchtet um seine Stellung als “Herr der Dinge”, denn bei Frameworks muss man sich manchmal in die Welt der Codegenerierung begeben. …</itunes:summary>
-        <content:encoded><![CDATA[
 
-<p>Diesmal geht es um HTTP Libraries und Frameworks für Go. Jonathan fürchtet um seine Stellung als “Herr der Dinge”, denn bei Frameworks muss man sich manchmal in die Welt der Codegenerierung begeben. Hilfe, Kontrollverlust! Außerdem geht es darum, wie man gute Libraries erkennt und warum man eine spezielle lieber meiden sollte.
+<a href="https://twitter.com/codeandship" target="_blank" rel="me noopener noreffer" target="_blank"><i class="iconfont icon-twitter"></i></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="https://open.spotify.com/show/68VGe4DFCUxvcJp44VDVL3?si=AUTTI_xRST-wmsENs2ysCg" rel="me noopener noreffer" target="_blank"><i class="iconfont icon-spotify"></i></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    <p>
+            <script>window.podcastData={"title":"Code and Ship","subtitle":"Ein Techpodcast aus Bremen von Ingmar und Jonathan","description":"Jonathan und Ingmar sprechen übers Programmieren und Ausliefern von Software Projekten. Außerdem tauschen die beiden Bremer sich über Tools, Framewoks und das Leben als Softwareentwickler aus.","cover":"https://codeandship.rocks/cover.jpg","feeds":[{"type":"audio","format":"mp3","url":"https://codeandship.rocks/podcast/index.xml","directory-url-itunes":"https://podcasts.apple.com/de/podcast/code-and-ship/id1458278980"}]}</script><script class="podlove-subscribe-button" src="https://cdn.podlove.org/subscribe-button/javascripts/app.js" data-language="de" data-size="small" data-json-data="podcastData" data-color="#06969b" data-format="rectangle" data-style="outline"></script><noscript><a href="https://codeandship.rocks/podcast/index.xml">Subscribe to feed</a></noscript>
+    </p>
+</div>
+<script src="https://cdn.podlove.org/web-player/embed.js"></script>
+<article class="post-warp">
+    <header class="post-header">
+        <h1 class="post-title">Go Libraries</h1>
+
+        <div class="post-meta">
+            Geschrieben von <a href="https://codeandship.rocks"
+                rel="author">Ingmar &amp;&amp; Jonathan</a>
+            mit ♥
+            <span class="post-time">
+                am <time
+                    datetime=17.04.2019>17.04.2019</time>
+            </span>
+            in
+            
+            <i class="iconfont icon-timer"></i>
+            4 min
+        </div>
+    </header>
+    <br/>
+    <div id="podcast-player"></div>
+    <script>
+        podlovePlayer('#podcast-player', {
+            show: {
+                title: 'Code and Ship',
+                subtitle: 'Ein Techpodcast aus Bremen von Ingmar und Jonathan',
+                
+                link: 'https:\/\/codeandship.rocks'
+            },
+            title: 'Go Libraries',
+            duration: '01:09:41', 
+            link: 'https:\/\/codeandship.rocks\/podcast\/2\/',
+            poster: 'https:\/\/codeandship.rocks\/cover.jpg',
+            audio: [{
+                url: 'https:\/\/cdn.codeandship.rocks\/podcast\/cas_002.mp3',
+                mimeType: 'audio/mp3',
+                size:  66898216 ,
+            title: 'Audio MP3'
+            }],
+            theme: {
+                main: '#06969B',
+                highlight: '#fff'
+            },
+            tabs: {
+                info: false
+            }
+        });
+    </script>
+    <div class="post-content">
+        
+
+        
+        
+        
+        
+        
+        
+        
+        
+
+        
+        
+        
+
+        
+
+<p>Diesmal geht es um HTTP Libraries und Frameworks für Go. Jonathan fürchtet um seine Stellung als &ldquo;Herr der Dinge&rdquo;, denn bei Frameworks muss man sich manchmal in die Welt der Codegenerierung begeben. Hilfe, Kontrollverlust! Außerdem geht es darum, wie man gute Libraries erkennt und warum man eine spezielle lieber meiden sollte.
 Am Ende sprechen wir noch über Libraries für die Entwicklung von CLI Tools.</p>
 
 <h1 id="http-frameworks">HTTP Frameworks</h1>
@@ -78,7 +239,7 @@ Am Ende sprechen wir noch über Libraries für die Entwicklung von CLI Tools.</p
 <h2 id="go-chi-github-com-go-chi-chi-http-github-com-go-chi-chi">Go Chi (<a href="http://github.com/go-chi/chi">github.com/go-chi/chi</a>)</h2>
 
 <blockquote>
-<p><code>chi</code> is a lightweight, idiomatic and composable router for building Go HTTP services. It’s especially good at helping you write large REST API services that are kept maintainable as your project grows and changes.</p>
+<p><code>chi</code> is a lightweight, idiomatic and composable router for building Go HTTP services. It&rsquo;s especially good at helping you write large REST API services that are kept maintainable as your project grows and changes.</p>
 </blockquote>
 
 <p><strong>Positives</strong></p>
@@ -168,7 +329,7 @@ Am Ende sprechen wir noch über Libraries für die Entwicklung von CLI Tools.</p
 <h2 id="buffalo-github-com-gobuffalo-buffalo-https-github-com-gobuffalo-buffalo">Buffalo (<a href="https://github.com/gobuffalo/buffalo">github.com/gobuffalo/buffalo</a>)</h2>
 
 <blockquote>
-<p>Buffalo <strong>isn’t just a framework</strong>; it’s a holistic web development environment and project structure that <strong>lets developers get straight to the business</strong> of, well, building their business.</p>
+<p>Buffalo <strong>isn&rsquo;t just a framework</strong>; it&rsquo;s a holistic web development environment and project structure that <strong>lets developers get straight to the business</strong> of, well, building their business.</p>
 </blockquote>
 
 <p><strong>Features</strong></p>
@@ -208,7 +369,7 @@ Am Ende sprechen wir noch über Libraries für die Entwicklung von CLI Tools.</p
 <li>Git History wurde mehrfach gesquashed, so dass Contributors nicht mehr sichtbar sind</li>
 <li>Nutzt falsche oder gefakete Benchmarks, die wenig Aussagekraft haben (Autor von Iris ist Co-Autor des verklinkten Benchmarks)</li>
 <li>Maintainer Verhalten verstößt gegen den Golang Code of Conduct</li>
-<li>“Unbeatable free support for everyone”</li>
+<li>&ldquo;Unbeatable free support for everyone&rdquo;</li>
 </ul>
 
 <h1 id="http-libraries">HTTP Libraries</h1>
@@ -259,7 +420,7 @@ Am Ende sprechen wir noch über Libraries für die Entwicklung von CLI Tools.</p
 <li>websocket: implements the WebSocket protocol defined in RFC 6455.</li>
 </ul>
 
-<p>HTTP Multiplexer Implementierung werden häufig mit <code>mux</code> abgekürzt oder einfach “Router” genannt.</p>
+<p>HTTP Multiplexer Implementierung werden häufig mit <code>mux</code> abgekürzt oder einfach &ldquo;Router&rdquo; genannt.</p>
 
 <h2 id="weitere-projekte">Weitere Projekte</h2>
 
@@ -297,7 +458,7 @@ Am Ende sprechen wir noch über Libraries für die Entwicklung von CLI Tools.</p
 <a href="https://github.com/rakyll/statik">statik</a></p>
 </blockquote>
 
-<p>… eine weitere Möglichkeit:</p>
+<p>&hellip; eine weitere Möglichkeit:</p>
 
 <blockquote>
 <p>The simple and easy way to embed static files into Go binaries.
@@ -307,7 +468,7 @@ Am Ende sprechen wir noch über Libraries für die Entwicklung von CLI Tools.</p
 <p>Gültige (!)  Zertifikate zum lokalen Entwickeln:</p>
 
 <blockquote>
-<p>A simple zero-config tool to make locally trusted development certificates with any names you’d like.
+<p>A simple zero-config tool to make locally trusted development certificates with any names you&rsquo;d like.
 <a href="https://github.com/FiloSottile/mkcert">mkcert</a></p>
 </blockquote>
 
@@ -315,7 +476,7 @@ Am Ende sprechen wir noch über Libraries für die Entwicklung von CLI Tools.</p
 
 <h2 id="go-cui-github-com-jroimartin-gocui-github-com-jroimartin-gocui">go cui (<a href="github.com/jroimartin/gocui">github.com/jroimartin/gocui</a>)</h2>
 
-<p><img src="https://cloud.githubusercontent.com/assets/1223476/19418932/63645052-93ce-11e6-867c-da5e97e37237.png" alt="gocui demo" /></p>
+<p><figure><img src="https://cloud.githubusercontent.com/assets/1223476/19418932/63645052-93ce-11e6-867c-da5e97e37237.png" alt="gocui demo" class="lazyload"><figcaption class="image-caption">gocui demo</figcaption></figure></p>
 
 <blockquote>
 <p>Minimalist Go package aimed at creating Console User Interfaces.</p>
@@ -323,7 +484,7 @@ Am Ende sprechen wir noch über Libraries für die Entwicklung von CLI Tools.</p
 
 <h2 id="termui-github-com-gizak-termui-github-com-gizak-termui">termui (<a href="github.com/gizak/termui">github.com/gizak/termui</a>)</h2>
 
-<p><img src="https://github.com/gizak/termui/raw/master/_assets/demo.gif" alt="termui demo" /></p>
+<p><figure><img src="https://github.com/gizak/termui/raw/master/_assets/demo.gif" alt="termui demo" class="lazyload"><figcaption class="image-caption">termui demo</figcaption></figure></p>
 
 <blockquote>
 <p>termui is a cross-platform and fully-customizable terminal dashboard and widget library built on top of <a href="https://github.com/nsf/termbox-go">termbox-go</a>.</p>
@@ -331,7 +492,7 @@ Am Ende sprechen wir noch über Libraries für die Entwicklung von CLI Tools.</p
 
 <h2 id="promptui-github-com-manifoldco-promptui-https-github-com-manifoldco-promptui">promptui (<a href="https://github.com/manifoldco/promptui">github.com/manifoldco/promptui</a>)</h2>
 
-<p><img src="https://media.giphy.com/media/xUNda0Ngb5qsogLsBi/giphy.gif" alt="PromptUI Demo" /></p>
+<p><figure><img src="https://media.giphy.com/media/xUNda0Ngb5qsogLsBi/giphy.gif" alt="PromptUI Demo" class="lazyload"><figcaption class="image-caption">PromptUI Demo</figcaption></figure></p>
 
 <blockquote>
 <p>Interactive prompt for command-line applications.</p>
@@ -355,74 +516,32 @@ Am Ende sprechen wir noch über Libraries für die Entwicklung von CLI Tools.</p
 </ul>
 
 <p>oder per Email an <a href="mailto:feedback@codeandship.rocks">feedback (at) codeandship.rocks</a>.</p>
-]]></content:encoded>
-        <itunes:image href="https://codeandship.rocks/cover-2000.jpg" />
-        <itunes:duration>01:09:41</itunes:duration>
-        <itunes:keywords></itunes:keywords>
-    </item>
-    
-    <item>
-        <link>https://codeandship.rocks/podcast/entrytogo/</link>
-        <title>Einführung in Go</title>
-        <pubDate>Fri, 29 Mar 2019 14:14:58 +0100</pubDate>
-        <description></description>
 
-        <enclosure url="https://cdn.codeandship.rocks/podcast/cas_001.mp3" length="73696079" type="audio/mpeg" />
-        <guid>https://codeandship.rocks/podcast/entrytogo/</guid>
+    </div>
 
-        <itunes:author></itunes:author>
-        <itunes:summary>Herzlich Willkommen zu unserem Podcast!
-In der ersten Folge geht es um die Programmiersprache Go.
-Topics:
- Was spricht für Go? Unterschiede zu Java und anderen Programmiersprachen / Frameworks Go …</itunes:summary>
-        <content:encoded><![CDATA[<p><strong>Herzlich Willkommen zu unserem Podcast!</strong><br />
-In der ersten Folge geht es um die Programmiersprache Go.</p>
+    <div class="post-copyright">
+        <p class="copyright-item">
+            
+    </div>
 
-<p>Topics:</p>
+    <div class="post-tags">
+        
+        <section>
+            
+            <span><a class="btn" href="https://codeandship.rocks">Startseite</a></span>
+        </section>
+    </div>
 
-<ul>
-<li>Was spricht für Go?</li>
-<li>Unterschiede zu Java und anderen Programmiersprachen / Frameworks</li>
-<li>Go Features
-
-<ul>
-<li>Go Routines</li>
-</ul></li>
-<li>Woran muss man sich gewöhnen?
-
-<ul>
-<li><code>gofmt</code></li>
-<li><a href="https://blog.golang.org/using-go-modules">Dependency Management</a></li>
-</ul></li>
-<li>Error Handling</li>
-<li><a href="https://github.com/golang-standards/project-layout">Projektstruktur</a>
-
-<ul>
-<li>WTF Dial (<a href="https://medium.com/wtf-dial">Medium</a>, <a href="https://github.com/benbjohnson/wtf/tree/http">GitHub</a>)</li>
-</ul></li>
-<li>Standard <a href="https://github.com/golang/go/wiki/CodeTools">Go Tools</a></li>
-</ul>
-
-<p>Ideen für das erste eigene Go Projekt:</p>
-
-<ul>
-<li>CLI Tools</li>
-<li><a href="https://rosettacode.org/wiki/Category:Draft_Programming_Tasks">Rosetta Code Programming Tasks</a></li>
-</ul>
-
-<p>Weitere hilfreiche Links:</p>
-
-<ul>
-<li><a href="https://tour.golang.org/welcome/1">Tour of Go</a></li>
-<li><a href="https://github.com/golang/go/wiki">Go Wiki</a></li>
-</ul>
-
-<p>Gebt uns Feedback auf Twitter: <a href="https://twitter.com/codeandship">@codeandship</a>, Jonathan (<a href="https://twitter.com/jowiemers">@jowiemers</a>), Ingmar (<a href="https://twitter.com/_truefalse">@_truefalse</a>), oder per Email an <a href="mailto:feedback@codeandship.rocks">feedback (at) codeandship.rocks</a></p>
-]]></content:encoded>
-        <itunes:image href="https://codeandship.rocks/cover-2000.jpg" />
-        <itunes:duration>01:16:40</itunes:duration>
-        <itunes:keywords></itunes:keywords>
-    </item>
-    
-  </channel>
-</rss>
+</article>
+          </div>
+		   </main>
+      <footer class="footer">
+    <div class="copyright">
+        &copy; 
+        <span itemprop="copyrightYear">2019</span>  
+        <span class="author" itemprop="copyrightHolder"><a href="https://codeandship.rocks">Ingmar &amp;&amp; Jonathan</a> </span> 
+    </div>
+</footer>
+     </div>
+  </body>
+</html>

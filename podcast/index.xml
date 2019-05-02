@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0"
      xmlns:content="http://purl.org/rss/1.0/modules/content/"
      xmlns:wfw="http://wellformedweb.org/CommentAPI/"
@@ -13,7 +12,7 @@
     <atom:link href="https://codeandship.rocks/index.xml" rel="self" type="application/rss+xml" />
     <link>https://codeandship.rocks/</link>
     <description>Jonathan und Ingmar sprechen übers Programmieren und Ausliefern von Software Projekten. Außerdem tauschen die beiden Bremer sich über Tools, Framewoks und das Leben als Softwareentwickler aus.</description>
-    <lastBuildDate>2019-04-17 18:08:09 &#43;0200 CEST</lastBuildDate>
+    <lastBuildDate>2019-05-02 10:05:15 &#43;0200 CEST</lastBuildDate>
     <sy:updatePeriod>hourly</sy:updatePeriod>
     <sy:updateFrequency>1</sy:updateFrequency>
     <language>en</language>
@@ -31,6 +30,87 @@
     <itunes:block>no</itunes:block>
     <itunes:explicit>no</itunes:explicit>
     <itunes:image href="https://codeandship.rocks/cover-2000.jpg" />
+    
+    <item>
+        <link>https://codeandship.rocks/podcast/3/</link>
+        <title>Builds und Deployments</title>
+        <pubDate>Thu, 02 May 2019 10:05:15 +0200</pubDate>
+        <description></description>
+
+        <enclosure url="https://cdn.codeandship.rocks/podcast/cas_003.mp3" length="67378033" type="audio/mpeg" />
+        <guid>https://codeandship.rocks/podcast/3/</guid>
+
+        <itunes:author></itunes:author>
+        <itunes:summary> Gebt uns Feedback auf Twitter:
+ @codeandship Jonathan @jowiemers Ingmar @_truefalse  oder per Email an feedback (at) codeandship.rocks.
+Links für diese Folge  heise.de: Docker Hub gehackt Homebrew - …</itunes:summary>
+        <content:encoded><![CDATA[
+
+<p><strong>Gebt uns Feedback auf Twitter:</strong></p>
+
+<ul>
+<li><a href="https://twitter.com/codeandship">@codeandship</a></li>
+<li>Jonathan <a href="https://twitter.com/jowiemers">@jowiemers</a></li>
+<li>Ingmar <a href="https://twitter.com/_truefalse">@_truefalse</a></li>
+</ul>
+
+<p>oder per Email an <a href="mailto:feedback@codeandship.rocks">feedback (at) codeandship.rocks</a>.</p>
+
+<h2 id="links-für-diese-folge">Links für diese Folge</h2>
+
+<ul>
+<li><a href="https://www.heise.de/security/meldung/Docker-Hub-gehackt-190-000-Nutzerkonten-betroffen-4408810.html">heise.de: Docker Hub gehackt</a></li>
+<li><a href="https://brew.sh/">Homebrew - The missing package manager for macOS (or Linux)</a></li>
+<li><a href="http://www.cs.colby.edu/maxwell/courses/tutorials/maketutor/">Makefiles</a></li>
+<li><a href="https://goreleaser.com/">Goreleaser</a></li>
+<li><a href="https://github.com/mitranim/gow">github.com/mitranim/gow</a></li>
+<li><a href="https://github.com/microsoft/vscode-go">VSCode Go Plugin</a></li>
+<li><a href="https://www.jetbrains.com/go/">Goland</a></li>
+<li><a href="https://ops.tips/blog/dockerfile-golang/">Build Go inside Docker</a></li>
+<li><a href="https://hub.docker.com/_/golang">Golang Docker Image</a> (auch als <code>alpine</code> Variante verfügbar)</li>
+<li><a href="https://docs.docker.com/engine/reference/builder/#entrypoint">Docker Entrypoints</a></li>
+<li><a href="https://blog.jessfraz.com/post/docker-containers-on-the-desktop/">jessfraz: Docker Containers on the Desktop</a> (z.B. Spotify oder Skype als Container auf dem Desktop)</li>
+<li><a href="https://www.bleepingcomputer.com/news/security/escaping-containers-to-execute-commands-on-play-with-docker-servers/">Escaping Containers to Execute Commands on Play with Docker Servers</a></li>
+<li><a href="https://docs.docker.com/v17.12/docker-cloud/builds/image-scan/">Docker Security Scanning</a>
+
+<ul>
+<li><a href="https://imgur.com/a/flGmjxE">Scan Ergebnis</a> sieht man nur im eingeloggten Zustand, auch für andere Images.</li>
+</ul></li>
+<li><a href="https://github.com/wagoodman/dive">Docker Image Inspection Tool <code>dive</code></a></li>
+<li><a href="https://hub.docker.com/r/mdillon/postgis/">Postgis im Dockerhub</a></li>
+<li><a href="https://docs.docker.com/registry/">Docker Registry</a></li>
+<li><a href="https://about.gitlab.com/community/">GitLab Community Edition</a>
+
+<ul>
+<li><a href="https://docs.gitlab.com/ce/user/project/container_registry.html">Eingebaute Registry</a></li>
+</ul></li>
+<li><a href="https://docs.docker.com/engine/swarm/">Docker Swarm</a></li>
+<li><a href="https://docs.docker.com/compose/">Docker Compose</a></li>
+<li><a href="https://traefik.io/">Traefik</a> (<a href="https://docs.traefik.io/configuration/backends/docker/#labels-overriding-default-behavior">Docker Labels</a>)</li>
+<li><a href="https://nginx.org">NGINX</a></li>
+<li><a href="https://www.apache.org/">Apache</a></li>
+<li><a href="https://www.portainer.io/">Portainer</a></li>
+<li><a href="https://grafana.com/">Grafana</a></li>
+<li><a href="https://prometheus.io/">Prometheus</a></li>
+<li><a href="https://prometheus.io/docs/instrumenting/clientlibs/">Prometheus Client Libraries</a>
+
+<ul>
+<li>Go, Java, Scala, Python, Ruby</li>
+</ul></li>
+<li><a href="https://github.com/ndecker/fritzbox_exporter">Fritzbox Exporter</a></li>
+<li><a href="https://docs.docker.com/config/containers/logging/configure/">Docker Logging Konfiguration</a></li>
+<li><a href="https://github.com/gomods/athens">Athens - Go Modules Proxy</a></li>
+<li><a href="https://proxy.golang.org/">Offizieller Go Module Mirror, Index, und globale go.sum Datenbank</a></li>
+<li><a href="https://duckduckgo.com/bang?q=github">DuckDuckGo GitHub Bang</a> (Suchmaschine mit Integration der GitHub Suche)</li>
+<li><a href="https://magefile.org/">Magefiles</a></li>
+<li><a href="https://golang.org/doc/faq#Why_is_my_trivial_program_such_a_large_binary">Go binary filesizes</a></li>
+<li><a href="https://blog.filippo.io/shrink-your-go-binaries-with-this-one-weird-trick/">Shrink Your Go Binaries</a></li>
+</ul>
+]]></content:encoded>
+        <itunes:image href="https://codeandship.rocks/cover-2000.jpg" />
+        <itunes:duration>01:10:11</itunes:duration>
+        <itunes:keywords></itunes:keywords>
+    </item>
     
     <item>
         <link>https://codeandship.rocks/podcast/2/</link>

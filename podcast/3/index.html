@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noodp" />      
+    <link rel="prev" href="https://codeandship.rocks/podcast/2/" /> 
+    <link rel="canonical" href="https://codeandship.rocks/podcast/3/" />
+    <link rel='shortcut icon' type='image/x-icon' href='/favicon.ico' />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <title>
+          Builds und Deployments | Code and Ship 
+    </title>
+    <meta name="title" content="Builds und Deployments | Code and Ship">   
+  
+  <link rel="stylesheet" href="/font/iconfont.css">
+  <link rel="stylesheet" href="/css/main.min.css">
+
+ <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Builds und Deployments"/>
+<meta name="twitter:description" content="In dieser Folge sprechen wir über Buildprozesse, Pipelines, Deployments und Development Server Setups. Jonathan denkt über schlechte Entwickler-Witze nach und Ingmar guckt paranoid auf den Upstream seiner Fritzbox."/>
+ <script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Builds und Deployments",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https:\/\/codeandship.rocks\/podcast\/3\/"
+  },
+  
+  "genre": "podcast",
+  
+  "wordcount":  167 ,
+  "url": "https:\/\/codeandship.rocks\/podcast\/3\/",
+  "datePublished": "2019-05-02T10:05:15\x2b02:00",
+  "dateModified": "2019-05-02T10:05:15\x2b02:00",
+  
+  
+  
+  "description": "In dieser Folge sprechen wir über Buildprozesse, Pipelines, Deployments und Development Server Setups. Jonathan denkt über schlechte Entwickler-Witze nach und Ingmar guckt paranoid auf den Upstream seiner Fritzbox."
+}
+</script>
+</head>
+  
+  <body class="">
+    <div class="wrapper">
+        
+    	 <main class="main">
+          <div class="container">
+      		
+<div class="intro">
+    
+    
+    
+    <div class="avatar">
+        <a href="/"> <img src="/cover-no-text.jpg"> </a>
+    </div>
+    
+    
+    
+    <h2 class="description">
+        Jonathan und Ingmar sprechen übers Programmieren und Ausliefern von Software Projekten. Außerdem tauschen die beiden Bremer sich über Tools, Framewoks und das Leben als Softwareentwickler aus.
+    </h2>
+    
+    <div class="social-links">
+        
+<a href="https://github.com/codeandship" target="_blank" rel="me noopener noreffer" target="_blank"><i class="iconfont icon-github"></i></a>
+
+
+
+<a href="https://twitter.com/codeandship" target="_blank" rel="me noopener noreffer" target="_blank"><i class="iconfont icon-twitter"></i></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="https://open.spotify.com/show/68VGe4DFCUxvcJp44VDVL3?si=AUTTI_xRST-wmsENs2ysCg" rel="me noopener noreffer" target="_blank"><i class="iconfont icon-spotify"></i></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    <p>
+            <script>window.podcastData={"title":"Code and Ship","subtitle":"Ein Techpodcast aus Bremen von Ingmar und Jonathan","description":"Jonathan und Ingmar sprechen übers Programmieren und Ausliefern von Software Projekten. Außerdem tauschen die beiden Bremer sich über Tools, Framewoks und das Leben als Softwareentwickler aus.","cover":"https://codeandship.rocks/cover.jpg","feeds":[{"type":"audio","format":"mp3","url":"https://codeandship.rocks/podcast/index.xml","directory-url-itunes":"https://podcasts.apple.com/de/podcast/code-and-ship/id1458278980"}]}</script><script class="podlove-subscribe-button" src="https://cdn.podlove.org/subscribe-button/javascripts/app.js" data-language="de" data-size="small" data-json-data="podcastData" data-color="#06969b" data-format="rectangle" data-style="outline"></script><noscript><a href="https://codeandship.rocks/podcast/index.xml">Subscribe to feed</a></noscript>
+    </p>
+</div>
+<script src="https://cdn.podlove.org/web-player/embed.js"></script>
+<article class="post-warp">
+    <header class="post-header">
+        <h1 class="post-title">Builds und Deployments</h1>
+
+        <div class="post-meta">
+            Geschrieben von <a href="https://codeandship.rocks"
+                rel="author">Ingmar &amp;&amp; Jonathan</a>
+            mit ♥
+            <span class="post-time">
+                am <time
+                    datetime=02.05.2019>02.05.2019</time>
+            </span>
+            in
+            
+            <i class="iconfont icon-timer"></i>
+            1 min
+        </div>
+    </header>
+    <br/>
+    <div id="podcast-player"></div>
+    <script>
+        podlovePlayer('#podcast-player', {
+            show: {
+                title: 'Code and Ship',
+                subtitle: 'Ein Techpodcast aus Bremen von Ingmar und Jonathan',
+                
+                link: 'https:\/\/codeandship.rocks'
+            },
+            title: 'Builds und Deployments',
+            duration: '01:10:11', 
+            link: 'https:\/\/codeandship.rocks\/podcast\/3\/',
+            poster: 'https:\/\/codeandship.rocks\/cover.jpg',
+            audio: [{
+                url: 'https:\/\/cdn.codeandship.rocks\/podcast\/cas_003.mp3',
+                mimeType: 'audio/mp3',
+                size:  67378033 ,
+            title: 'Audio MP3'
+            }],
+            theme: {
+                main: '#06969B',
+                highlight: '#fff'
+            },
+            tabs: {
+                info: false
+            }
+        });
+    </script>
+    <div class="post-content">
+        
+
+        
+        
+        
+        
+        
+        
+
+        
+        
+        
+
+        
+
+<p><strong>Gebt uns Feedback auf Twitter:</strong></p>
+
+<ul>
+<li><a href="https://twitter.com/codeandship">@codeandship</a></li>
+<li>Jonathan <a href="https://twitter.com/jowiemers">@jowiemers</a></li>
+<li>Ingmar <a href="https://twitter.com/_truefalse">@_truefalse</a></li>
+</ul>
+
+<p>oder per Email an <a href="mailto:feedback@codeandship.rocks">feedback (at) codeandship.rocks</a>.</p>
+
+<h2 id="links-für-diese-folge">Links für diese Folge</h2>
+
+<ul>
+<li><a href="https://www.heise.de/security/meldung/Docker-Hub-gehackt-190-000-Nutzerkonten-betroffen-4408810.html">heise.de: Docker Hub gehackt</a></li>
+<li><a href="https://brew.sh/">Homebrew - The missing package manager for macOS (or Linux)</a></li>
+<li><a href="http://www.cs.colby.edu/maxwell/courses/tutorials/maketutor/">Makefiles</a></li>
+<li><a href="https://goreleaser.com/">Goreleaser</a></li>
+<li><a href="https://github.com/mitranim/gow">github.com/mitranim/gow</a></li>
+<li><a href="https://github.com/microsoft/vscode-go">VSCode Go Plugin</a></li>
+<li><a href="https://www.jetbrains.com/go/">Goland</a></li>
+<li><a href="https://ops.tips/blog/dockerfile-golang/">Build Go inside Docker</a></li>
+<li><a href="https://hub.docker.com/_/golang">Golang Docker Image</a> (auch als <code>alpine</code> Variante verfügbar)</li>
+<li><a href="https://docs.docker.com/engine/reference/builder/#entrypoint">Docker Entrypoints</a></li>
+<li><a href="https://blog.jessfraz.com/post/docker-containers-on-the-desktop/">jessfraz: Docker Containers on the Desktop</a> (z.B. Spotify oder Skype als Container auf dem Desktop)</li>
+<li><a href="https://www.bleepingcomputer.com/news/security/escaping-containers-to-execute-commands-on-play-with-docker-servers/">Escaping Containers to Execute Commands on Play with Docker Servers</a></li>
+<li><a href="https://docs.docker.com/v17.12/docker-cloud/builds/image-scan/">Docker Security Scanning</a>
+
+<ul>
+<li><a href="https://imgur.com/a/flGmjxE">Scan Ergebnis</a> sieht man nur im eingeloggten Zustand, auch für andere Images.</li>
+</ul></li>
+<li><a href="https://github.com/wagoodman/dive">Docker Image Inspection Tool <code>dive</code></a></li>
+<li><a href="https://hub.docker.com/r/mdillon/postgis/">Postgis im Dockerhub</a></li>
+<li><a href="https://docs.docker.com/registry/">Docker Registry</a></li>
+<li><a href="https://about.gitlab.com/community/">GitLab Community Edition</a>
+
+<ul>
+<li><a href="https://docs.gitlab.com/ce/user/project/container_registry.html">Eingebaute Registry</a></li>
+</ul></li>
+<li><a href="https://docs.docker.com/engine/swarm/">Docker Swarm</a></li>
+<li><a href="https://docs.docker.com/compose/">Docker Compose</a></li>
+<li><a href="https://traefik.io/">Traefik</a> (<a href="https://docs.traefik.io/configuration/backends/docker/#labels-overriding-default-behavior">Docker Labels</a>)</li>
+<li><a href="https://nginx.org">NGINX</a></li>
+<li><a href="https://www.apache.org/">Apache</a></li>
+<li><a href="https://www.portainer.io/">Portainer</a></li>
+<li><a href="https://grafana.com/">Grafana</a></li>
+<li><a href="https://prometheus.io/">Prometheus</a></li>
+<li><a href="https://prometheus.io/docs/instrumenting/clientlibs/">Prometheus Client Libraries</a>
+
+<ul>
+<li>Go, Java, Scala, Python, Ruby</li>
+</ul></li>
+<li><a href="https://github.com/ndecker/fritzbox_exporter">Fritzbox Exporter</a></li>
+<li><a href="https://docs.docker.com/config/containers/logging/configure/">Docker Logging Konfiguration</a></li>
+<li><a href="https://github.com/gomods/athens">Athens - Go Modules Proxy</a></li>
+<li><a href="https://proxy.golang.org/">Offizieller Go Module Mirror, Index, und globale go.sum Datenbank</a></li>
+<li><a href="https://duckduckgo.com/bang?q=github">DuckDuckGo GitHub Bang</a> (Suchmaschine mit Integration der GitHub Suche)</li>
+<li><a href="https://magefile.org/">Magefiles</a></li>
+<li><a href="https://golang.org/doc/faq#Why_is_my_trivial_program_such_a_large_binary">Go binary filesizes</a></li>
+<li><a href="https://blog.filippo.io/shrink-your-go-binaries-with-this-one-weird-trick/">Shrink Your Go Binaries</a></li>
+</ul>
+
+    </div>
+
+    <div class="post-copyright">
+        <p class="copyright-item">
+            
+    </div>
+
+    <div class="post-tags">
+        
+        <section>
+            
+            <span><a class="btn" href="https://codeandship.rocks">Startseite</a></span>
+        </section>
+    </div>
+
+</article>
+          </div>
+		   </main>
+      <footer class="footer">
+    <div class="copyright">
+        &copy; 
+        <span itemprop="copyrightYear">2019</span>  
+        <span class="author" itemprop="copyrightHolder"><a href="https://codeandship.rocks">Ingmar &amp;&amp; Jonathan</a> </span> 
+    </div>
+</footer>
+     </div>
+  </body>
+</html>

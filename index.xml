@@ -42,10 +42,10 @@
         <guid>https://cdn.codeandship.rocks/podcast/cas_003.mp3</guid>
 
         <itunes:author></itunes:author>
-        <itunes:summary> Gebt uns Feedback auf Twitter:
- @codeandship Jonathan @jowiemers Ingmar @_truefalse  oder per Email an feedback (at) codeandship.rocks.
-Links für diese Folge  heise.de: Docker Hub gehackt Homebrew - …</itunes:summary>
+        <itunes:summary> In dieser Folge sprechen wir über Buildprozesse, Pipelines, Deployments und Development Server Setups. Jonathan denkt über schlechte Entwickler-Witze nach und Ingmar guckt paranoid auf den Upstream …</itunes:summary>
         <content:encoded><![CDATA[
+
+<p>In dieser Folge sprechen wir über Buildprozesse, Pipelines, Deployments und Development Server Setups. Jonathan denkt über schlechte Entwickler-Witze nach und Ingmar guckt paranoid auf den Upstream seiner Fritzbox.</p>
 
 <p><strong>Gebt uns Feedback auf Twitter:</strong></p>
 

@@ -13,7 +13,7 @@
     <atom:link href="https://codeandship.rocks/index.xml" rel="self" type="application/rss+xml" />
     <link>https://codeandship.rocks</link>
     <description>Recent content in Code and Ship on Code and Ship</description>
-    <lastBuildDate>2019-05-02 10:05:15 &#43;0200 CEST</lastBuildDate>
+    <lastBuildDate>2019-06-02 06:05:15 &#43;0200 CEST</lastBuildDate>
     <sy:updatePeriod>hourly</sy:updatePeriod>
     <sy:updateFrequency>1</sy:updateFrequency>
     <language>en</language>
@@ -32,6 +32,50 @@
     <itunes:block>no</itunes:block>
     <itunes:explicit>no</itunes:explicit>
     <itunes:image href="https://via.placeholder.com/150" />
+    
+    <item>
+        <link>https://codeandship.rocks/podcast/4/</link>
+        <title>Testing in Go</title>
+        <pubDate>Sun, 02 Jun 2019 06:05:15 +0200</pubDate>
+        <description></description>
+
+        <enclosure url="https://cdn.codeandship.rocks/podcast/cas_004.mp3" length="55221714" type="audio/mpeg" />
+        <guid>https://cdn.codeandship.rocks/podcast/cas_004.mp3</guid>
+
+        <itunes:author></itunes:author>
+        <itunes:summary> In dieser Folge sprechen wir über Testing in Go und einige unterstützende Libraries. Ingmar löscht Code um sein Testcoverage zu verbessen und mag seltsame Ordnerstrukturen.
+Gebt uns Feedback: …</itunes:summary>
+        <content:encoded><![CDATA[
+
+<p>In dieser Folge sprechen wir über Testing in Go und einige unterstützende Libraries. Ingmar löscht Code um sein Testcoverage zu verbessen und mag seltsame Ordnerstrukturen.</p>
+
+<p><strong>Gebt uns Feedback:</strong></p>
+
+<ul>
+<li>Twitter <a href="https://twitter.com/codeandship">@codeandship</a></li>
+<li>Mastodon <a href="https://norden.social/users/codeandship">@codeandship@norden.social</a></li>
+<li>Jonathan <a href="https://twitter.com/jowiemers">@jowiemers</a></li>
+<li>Ingmar <a href="https://twitter.com/_truefalse">@_truefalse</a></li>
+</ul>
+
+<p>oder per Email an <a href="mailto:feedback@codeandship.rocks">feedback (at) codeandship.rocks</a>.</p>
+
+<h2 id="links-für-diese-folge">Links für diese Folge</h2>
+
+<ul>
+<li>Go Playground unterstütz jetzt <a href="https://play.golang.org/p/eqEo7mqdS9l">Third-party Imports</a> und <a href="https://play.golang.org/p/KLZR7NlVZNX">mehrere Dateien</a>.</li>
+<li><a href="https://www.docker.com/dockercon/2019-videos/">DockerCon Videos</a></li>
+<li><a href="https://martinfowler.com/bliki/GivenWhenThen.html">Martin Fowler - GivenWhenThen</a></li>
+<li><a href="https://github.com/cweill/gotests">cweill/gotests</a></li>
+<li><a href="https://golang.org/pkg/net/http/httptest/">Go Standard Library - net/http/httptest</a></li>
+<li><a href="https://github.com/golang/mock">gomock</a></li>
+<li><a href="https://github.com/stretchr/testify">Testify</a></li>
+</ul>
+]]>></content:encoded>
+        <itunes:image href="https://via.placeholder.com/150" />
+        <itunes:duration>00:38:10</itunes:duration>
+        <itunes:keywords></itunes:keywords>
+    </item>
     
     <item>
         <link>https://codeandship.rocks/podcast/3/</link>

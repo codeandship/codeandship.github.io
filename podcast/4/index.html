@@ -5,9 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="noodp" />      
-    <link rel="prev" href="https://codeandship.rocks/podcast/2/" /> 
-    <link rel="next" href="https://codeandship.rocks/podcast/4/" />
-    <link rel="canonical" href="https://codeandship.rocks/podcast/3/" />
+    <link rel="prev" href="https://codeandship.rocks/podcast/3/" /> 
+    <link rel="canonical" href="https://codeandship.rocks/podcast/4/" />
     <link rel='shortcut icon' type='image/x-icon' href='/favicon.ico' />
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -17,36 +16,36 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
     <title>
-          Builds und Deployments | Code and Ship 
+          Testing in Go | Code and Ship 
     </title>
-    <meta name="title" content="Builds und Deployments | Code and Ship">   
+    <meta name="title" content="Testing in Go | Code and Ship">   
   
   <link rel="stylesheet" href="/font/iconfont.css">
   <link rel="stylesheet" href="/css/main.min.css">
 
  <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Builds und Deployments"/>
-<meta name="twitter:description" content="In dieser Folge sprechen wir über Buildprozesse, Pipelines, Deployments und Development Server Setups. Jonathan denkt über schlechte Entwickler-Witze nach und Ingmar guckt paranoid auf den Upstream seiner Fritzbox."/>
+<meta name="twitter:title" content="Testing in Go"/>
+<meta name="twitter:description" content="In dieser Folge sprechen wir über Testing in Go und einige unterstützende Libraries. Ingmar löscht Code um sein Testcoverage zu verbessen und mag seltsame Ordnerstrukturen."/>
  <script type="application/ld+json">
 {
   "@context": "http://schema.org",
   "@type": "BlogPosting",
-  "headline": "Builds und Deployments",
+  "headline": "Testing in Go",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://codeandship.rocks/podcast/3/"
+    "@id": "https://codeandship.rocks/podcast/4/"
   },
   
   "genre": "podcast",
   
-  "wordcount": 195,
-  "url": "https://codeandship.rocks/podcast/3/",
-  "datePublished": "2019-05-02T10:05:15+02:00",
-  "dateModified": "2019-05-02T10:05:15+02:00",
+  "wordcount": 70,
+  "url": "https://codeandship.rocks/podcast/4/",
+  "datePublished": "2019-06-02T06:05:15+02:00",
+  "dateModified": "2019-06-02T06:05:15+02:00",
   
   
   
-  "description": "In dieser Folge sprechen wir über Buildprozesse, Pipelines, Deployments und Development Server Setups. Jonathan denkt über schlechte Entwickler-Witze nach und Ingmar guckt paranoid auf den Upstream seiner Fritzbox."
+  "description": "In dieser Folge sprechen wir über Testing in Go und einige unterstützende Libraries. Ingmar löscht Code um sein Testcoverage zu verbessen und mag seltsame Ordnerstrukturen."
 }
 </script>
 </head>
@@ -144,7 +143,7 @@
 <script src="https://cdn.podlove.org/web-player/embed.js"></script>
 <article class="post-warp">
     <header class="post-header">
-        <h1 class="post-title">Builds und Deployments</h1>
+        <h1 class="post-title">Testing in Go</h1>
 
         <div class="post-meta">
             Geschrieben von <a href="https://codeandship.rocks"
@@ -152,7 +151,7 @@
             mit ♥
             <span class="post-time">
                 am <time
-                    datetime=02.05.2019>02.05.2019</time>
+                    datetime=02.06.2019>02.06.2019</time>
             </span>
             in
             
@@ -170,14 +169,14 @@
                 
                 link: 'https:\/\/codeandship.rocks'
             },
-            title: 'Builds und Deployments',
-            duration: '01:10:11', 
-            link: 'https:\/\/codeandship.rocks\/podcast\/3\/',
+            title: 'Testing in Go',
+            duration: '00:38:10', 
+            link: 'https:\/\/codeandship.rocks\/podcast\/4\/',
             poster: 'https:\/\/codeandship.rocks\/cover.jpg',
             audio: [{
-                url: 'https:\/\/cdn.codeandship.rocks\/podcast\/cas_003.mp3',
+                url: 'https:\/\/cdn.codeandship.rocks\/podcast\/cas_004.mp3',
                 mimeType: 'audio/mp3',
-                size:  67378033 ,
+                size:  55221714 ,
             title: 'Audio MP3'
             }],
             theme: {
@@ -205,12 +204,13 @@
 
         
 
-<p>In dieser Folge sprechen wir über Buildprozesse, Pipelines, Deployments und Development Server Setups. Jonathan denkt über schlechte Entwickler-Witze nach und Ingmar guckt paranoid auf den Upstream seiner Fritzbox.</p>
+<p>In dieser Folge sprechen wir über Testing in Go und einige unterstützende Libraries. Ingmar löscht Code um sein Testcoverage zu verbessen und mag seltsame Ordnerstrukturen.</p>
 
-<p><strong>Gebt uns Feedback auf Twitter:</strong></p>
+<p><strong>Gebt uns Feedback:</strong></p>
 
 <ul>
-<li><a href="https://twitter.com/codeandship">@codeandship</a></li>
+<li>Twitter <a href="https://twitter.com/codeandship">@codeandship</a></li>
+<li>Mastodon <a href="https://norden.social/users/codeandship">@codeandship@norden.social</a></li>
 <li>Jonathan <a href="https://twitter.com/jowiemers">@jowiemers</a></li>
 <li>Ingmar <a href="https://twitter.com/_truefalse">@_truefalse</a></li>
 </ul>
@@ -220,52 +220,13 @@
 <h2 id="links-für-diese-folge">Links für diese Folge</h2>
 
 <ul>
-<li><a href="https://www.heise.de/security/meldung/Docker-Hub-gehackt-190-000-Nutzerkonten-betroffen-4408810.html">heise.de: Docker Hub gehackt</a></li>
-<li><a href="https://brew.sh/">Homebrew - The missing package manager for macOS (or Linux)</a></li>
-<li><a href="http://www.cs.colby.edu/maxwell/courses/tutorials/maketutor/">Makefiles</a></li>
-<li><a href="https://goreleaser.com/">Goreleaser</a></li>
-<li><a href="https://github.com/mitranim/gow">github.com/mitranim/gow</a></li>
-<li><a href="https://github.com/microsoft/vscode-go">VSCode Go Plugin</a></li>
-<li><a href="https://www.jetbrains.com/go/">Goland</a></li>
-<li><a href="https://ops.tips/blog/dockerfile-golang/">Build Go inside Docker</a></li>
-<li><a href="https://hub.docker.com/_/golang">Golang Docker Image</a> (auch als <code>alpine</code> Variante verfügbar)</li>
-<li><a href="https://docs.docker.com/engine/reference/builder/#entrypoint">Docker Entrypoints</a></li>
-<li><a href="https://blog.jessfraz.com/post/docker-containers-on-the-desktop/">jessfraz: Docker Containers on the Desktop</a> (z.B. Spotify oder Skype als Container auf dem Desktop)</li>
-<li><a href="https://www.bleepingcomputer.com/news/security/escaping-containers-to-execute-commands-on-play-with-docker-servers/">Escaping Containers to Execute Commands on Play with Docker Servers</a></li>
-<li><a href="https://docs.docker.com/v17.12/docker-cloud/builds/image-scan/">Docker Security Scanning</a>
-
-<ul>
-<li><a href="https://imgur.com/a/flGmjxE">Scan Ergebnis</a> sieht man nur im eingeloggten Zustand, auch für andere Images.</li>
-</ul></li>
-<li><a href="https://github.com/wagoodman/dive">Docker Image Inspection Tool <code>dive</code></a></li>
-<li><a href="https://hub.docker.com/r/mdillon/postgis/">Postgis im Dockerhub</a></li>
-<li><a href="https://docs.docker.com/registry/">Docker Registry</a></li>
-<li><a href="https://about.gitlab.com/community/">GitLab Community Edition</a>
-
-<ul>
-<li><a href="https://docs.gitlab.com/ce/user/project/container_registry.html">Eingebaute Registry</a></li>
-</ul></li>
-<li><a href="https://docs.docker.com/engine/swarm/">Docker Swarm</a></li>
-<li><a href="https://docs.docker.com/compose/">Docker Compose</a></li>
-<li><a href="https://traefik.io/">Traefik</a> (<a href="https://docs.traefik.io/configuration/backends/docker/#labels-overriding-default-behavior">Docker Labels</a>)</li>
-<li><a href="https://nginx.org">NGINX</a></li>
-<li><a href="https://www.apache.org/">Apache</a></li>
-<li><a href="https://www.portainer.io/">Portainer</a></li>
-<li><a href="https://grafana.com/">Grafana</a></li>
-<li><a href="https://prometheus.io/">Prometheus</a></li>
-<li><a href="https://prometheus.io/docs/instrumenting/clientlibs/">Prometheus Client Libraries</a>
-
-<ul>
-<li>Go, Java, Scala, Python, Ruby</li>
-</ul></li>
-<li><a href="https://github.com/ndecker/fritzbox_exporter">Fritzbox Exporter</a></li>
-<li><a href="https://docs.docker.com/config/containers/logging/configure/">Docker Logging Konfiguration</a></li>
-<li><a href="https://github.com/gomods/athens">Athens - Go Modules Proxy</a></li>
-<li><a href="https://proxy.golang.org/">Offizieller Go Module Mirror, Index, und globale go.sum Datenbank</a></li>
-<li><a href="https://duckduckgo.com/bang?q=github">DuckDuckGo GitHub Bang</a> (Suchmaschine mit Integration der GitHub Suche)</li>
-<li><a href="https://magefile.org/">Magefiles</a></li>
-<li><a href="https://golang.org/doc/faq#Why_is_my_trivial_program_such_a_large_binary">Go binary filesizes</a></li>
-<li><a href="https://blog.filippo.io/shrink-your-go-binaries-with-this-one-weird-trick/">Shrink Your Go Binaries</a></li>
+<li>Go Playground unterstütz jetzt <a href="https://play.golang.org/p/eqEo7mqdS9l">Third-party Imports</a> und <a href="https://play.golang.org/p/KLZR7NlVZNX">mehrere Dateien</a>.</li>
+<li><a href="https://www.docker.com/dockercon/2019-videos/">DockerCon Videos</a></li>
+<li><a href="https://martinfowler.com/bliki/GivenWhenThen.html">Martin Fowler - GivenWhenThen</a></li>
+<li><a href="https://github.com/cweill/gotests">cweill/gotests</a></li>
+<li><a href="https://golang.org/pkg/net/http/httptest/">Go Standard Library - net/http/httptest</a></li>
+<li><a href="https://github.com/golang/mock">gomock</a></li>
+<li><a href="https://github.com/stretchr/testify">Testify</a></li>
 </ul>
 
     </div>

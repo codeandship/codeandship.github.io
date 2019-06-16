@@ -68,6 +68,7 @@
 
 <ul>
 <li><a href="https://docs.graylog.org/en/3.0/pages/faq.html#i-dont-want-to-use-elasticsearch-as-my-backend-storage-system-can-i-use-another-database-like-mysql-oracle-etc">alternate backend storage system </a></li>
+</ul></li>
 <li><a href="https://prometheus.io/">Prometheus</a>
 
 <ul>
@@ -86,7 +87,6 @@
 <li><a href="https://sensu.io/">Sensu</a></li>
 <li><a href="https://mynetdata.io/">NetData: Get control of your Linux Servers</a></li>
 <li><a href="https://github.com/google/cadvisor">cAdvisor</a></li>
-</ul></li>
 </ul>
 ]]></content:encoded>
         <itunes:image href="https://codeandship.rocks/cover-2000.jpg" />

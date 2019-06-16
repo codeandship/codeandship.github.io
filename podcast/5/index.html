@@ -5,9 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="noodp" />      
-    <link rel="prev" href="https://codeandship.rocks/podcast/3/" /> 
-    <link rel="next" href="https://codeandship.rocks/podcast/5/" />
-    <link rel="canonical" href="https://codeandship.rocks/podcast/4/" />
+    <link rel="prev" href="https://codeandship.rocks/podcast/4/" /> 
+    <link rel="canonical" href="https://codeandship.rocks/podcast/5/" />
     <link rel='shortcut icon' type='image/x-icon' href='/favicon.ico' />
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -17,36 +16,36 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
     <title>
-          Testing in Go | Code and Ship 
+          Metriken und Monitoring | Code and Ship 
     </title>
-    <meta name="title" content="Testing in Go | Code and Ship">   
+    <meta name="title" content="Metriken und Monitoring | Code and Ship">   
   
   <link rel="stylesheet" href="/font/iconfont.css">
   <link rel="stylesheet" href="/css/main.min.css">
 
  <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Testing in Go"/>
-<meta name="twitter:description" content="In dieser Folge sprechen wir über Testing in Go und einige unterstützende Libraries. Ingmar löscht Code um sein Testcoverage zu verbessern und Jonathan mag seltsame Ordnerstrukturen."/>
+<meta name="twitter:title" content="Metriken und Monitoring"/>
+<meta name="twitter:description" content="Heute sprechen wir über Metriken, Logs, Traces sowie bekannte Tools und Patterns aus dem Monitoring Feld. Als Ergänzung zur Folge haben wir ein [kleines Repository](https://github.com/codeandship/metrics-example) angelegt, um Anfängern den Einstieg in das Sammeln von Metriken mit unseren Lieblingstools zu vereinfachen."/>
  <script type="application/ld+json">
 {
   "@context": "http://schema.org",
   "@type": "BlogPosting",
-  "headline": "Testing in Go",
+  "headline": "Metriken und Monitoring",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://codeandship.rocks/podcast/4/"
+    "@id": "https://codeandship.rocks/podcast/5/"
   },
   
   "genre": "podcast",
   
-  "wordcount": 71,
-  "url": "https://codeandship.rocks/podcast/4/",
-  "datePublished": "2019-06-02T06:05:15+02:00",
-  "dateModified": "2019-06-02T06:05:15+02:00",
+  "wordcount": 116,
+  "url": "https://codeandship.rocks/podcast/5/",
+  "datePublished": "2019-06-16T13:43:54+02:00",
+  "dateModified": "2019-06-16T13:43:54+02:00",
   
   
   
-  "description": "In dieser Folge sprechen wir über Testing in Go und einige unterstützende Libraries. Ingmar löscht Code um sein Testcoverage zu verbessern und Jonathan mag seltsame Ordnerstrukturen."
+  "description": "Heute sprechen wir über Metriken, Logs, Traces sowie bekannte Tools und Patterns aus dem Monitoring Feld. Als Ergänzung zur Folge haben wir ein [kleines Repository](https://github.com/codeandship/metrics-example) angelegt, um Anfängern den Einstieg in das Sammeln von Metriken mit unseren Lieblingstools zu vereinfachen."
 }
 </script>
 </head>
@@ -144,7 +143,7 @@
 <script src="https://cdn.podlove.org/web-player/embed.js"></script>
 <article class="post-warp">
     <header class="post-header">
-        <h1 class="post-title">Testing in Go</h1>
+        <h1 class="post-title">Metriken und Monitoring</h1>
 
         <div class="post-meta">
             Geschrieben von <a href="https://codeandship.rocks"
@@ -152,7 +151,7 @@
             mit ♥
             <span class="post-time">
                 am <time
-                    datetime=02.06.2019>02.06.2019</time>
+                    datetime=16.06.2019>16.06.2019</time>
             </span>
             in
             
@@ -170,14 +169,14 @@
                 
                 link: 'https:\/\/codeandship.rocks'
             },
-            title: 'Testing in Go',
-            duration: '00:38:10', 
-            link: 'https:\/\/codeandship.rocks\/podcast\/4\/',
+            title: 'Metriken und Monitoring',
+            duration: '00:52:56', 
+            link: 'https:\/\/codeandship.rocks\/podcast\/5\/',
             poster: 'https:\/\/codeandship.rocks\/cover.jpg',
             audio: [{
-                url: 'https:\/\/cdn.codeandship.rocks\/podcast\/cas_004.mp3',
+                url: 'https:\/\/cdn.codeandship.rocks\/podcast\/cas_005.mp3',
                 mimeType: 'audio/mp3',
-                size:  55221714 ,
+                size:  40233066 ,
             title: 'Audio MP3'
             }],
             theme: {
@@ -205,7 +204,7 @@
 
         
 
-<p>In dieser Folge sprechen wir über Testing in Go und einige unterstützende Libraries. Ingmar löscht Code um sein Testcoverage zu verbessern und Jonathan mag seltsame Ordnerstrukturen.</p>
+<p>Heute sprechen wir über Metriken, Logs, Traces sowie bekannte Tools und Patterns aus dem Monitoring Feld. Als Ergänzung zur Folge haben wir ein <a href="https://github.com/codeandship/metrics-example">kleines Repository</a> angelegt, um Anfängern den Einstieg in das Sammeln von Metriken mit unseren Lieblingstools zu vereinfachen.</p>
 
 <p><strong>Gebt uns Feedback:</strong></p>
 
@@ -221,13 +220,32 @@
 <h2 id="links-für-diese-folge">Links für diese Folge</h2>
 
 <ul>
-<li>Go Playground unterstütz jetzt <a href="https://play.golang.org/p/eqEo7mqdS9l">Third-party Imports</a> und <a href="https://play.golang.org/p/KLZR7NlVZNX">mehrere Dateien</a>.</li>
-<li><a href="https://www.docker.com/dockercon/2019-videos/">DockerCon Videos</a></li>
-<li><a href="https://martinfowler.com/bliki/GivenWhenThen.html">Martin Fowler - GivenWhenThen</a></li>
-<li><a href="https://github.com/cweill/gotests">cweill/gotests</a></li>
-<li><a href="https://golang.org/pkg/net/http/httptest/">Go Standard Library - net/http/httptest</a></li>
-<li><a href="https://github.com/golang/mock">gomock</a></li>
-<li><a href="https://github.com/stretchr/testify">Testify</a></li>
+<li><a href="https://twitter.com/adrianfcole">@adrianfcole</a> auf Twitter</li>
+<li><a href="https://www.jaegertracing.io/">Jaeger: open source, end-to-end distributed tracing</a></li>
+<li><a href="https://dave.cheney.net/2015/11/05/lets-talk-about-logging">Dave Cheney - Let’s talk about logging</a></li>
+<li><a href="https://www.graylog.org/products/open-source">graylog log management</a>
+
+<ul>
+<li><a href="https://docs.graylog.org/en/3.0/pages/faq.html#i-dont-want-to-use-elasticsearch-as-my-backend-storage-system-can-i-use-another-database-like-mysql-oracle-etc">alternate backend storage system </a></li>
+<li><a href="https://prometheus.io/">Prometheus</a>
+
+<ul>
+<li><a href="https://prometheus.io/docs/instrumenting/clientlibs/">SDKs</a></li>
+<li><a href="https://prometheus.io/docs/instrumenting/exporters/">Exporter</a></li>
+<li><a href="https://prometheus.io/docs/alerting/alertmanager/">Alertmanager</a></li>
+</ul></li>
+<li><a href="https://grafana.com/">Grafana</a>
+
+<ul>
+<li><a href="https://play.grafana.org/">Playground</a></li>
+<li><a href="https://github.com/hagen1778/grafana-import-export">Dashboards Import/Export Script</a></li>
+</ul></li>
+<li>Prometheus und Grafana zum Ausprobieren und Testen: <a href="https://github.com/codeandship/metrics-example">codeandship/metrics-example</a></li>
+<li><a href="https://www.elastic.co/de/elk-stack">ELK Stack: Elasticsearch, Logstash, Kibana</a></li>
+<li><a href="https://sensu.io/">Sensu</a></li>
+<li><a href="https://mynetdata.io/">NetData: Get control of your Linux Servers</a></li>
+<li><a href="https://github.com/google/cadvisor">cAdvisor</a></li>
+</ul></li>
 </ul>
 
     </div>

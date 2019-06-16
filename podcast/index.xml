@@ -13,7 +13,7 @@
     <atom:link href="https://codeandship.rocks/index.xml" rel="self" type="application/rss+xml" />
     <link>https://codeandship.rocks/</link>
     <description>Jonathan und Ingmar sprechen übers Programmieren und Ausliefern von Software Projekten. Außerdem tauschen die beiden Bremer sich über Tools, Framewoks und das Leben als Softwareentwickler aus.</description>
-    <lastBuildDate>2019-06-02 06:05:15 &#43;0200 CEST</lastBuildDate>
+    <lastBuildDate>2019-06-16 13:43:54 &#43;0200 CEST</lastBuildDate>
     <sy:updatePeriod>hourly</sy:updatePeriod>
     <sy:updateFrequency>1</sy:updateFrequency>
     <language>en</language>
@@ -31,6 +31,69 @@
     <itunes:block>no</itunes:block>
     <itunes:explicit>no</itunes:explicit>
     <itunes:image href="https://codeandship.rocks/cover-2000.jpg" />
+    
+    <item>
+        <link>https://codeandship.rocks/podcast/5/</link>
+        <title>Metriken und Monitoring</title>
+        <pubDate>Sun, 16 Jun 2019 13:43:54 +0200</pubDate>
+        <description></description>
+
+        <enclosure url="https://cdn.codeandship.rocks/podcast/cas_005.mp3" length="40233066" type="audio/mpeg" />
+        <guid>https://codeandship.rocks/podcast/5/</guid>
+
+        <itunes:author></itunes:author>
+        <itunes:summary> Heute sprechen wir über Metriken, Logs, Traces sowie bekannte Tools und Patterns aus dem Monitoring Feld. Als Ergänzung zur Folge haben wir ein kleines Repository angelegt, um Anfängern den Einstieg …</itunes:summary>
+        <content:encoded><![CDATA[
+
+<p>Heute sprechen wir über Metriken, Logs, Traces sowie bekannte Tools und Patterns aus dem Monitoring Feld. Als Ergänzung zur Folge haben wir ein <a href="https://github.com/codeandship/metrics-example">kleines Repository</a> angelegt, um Anfängern den Einstieg in das Sammeln von Metriken mit unseren Lieblingstools zu vereinfachen.</p>
+
+<p><strong>Gebt uns Feedback:</strong></p>
+
+<ul>
+<li>Twitter <a href="https://twitter.com/codeandship">@codeandship</a></li>
+<li>Mastodon <a href="https://norden.social/users/codeandship">@codeandship@norden.social</a></li>
+<li>Jonathan <a href="https://twitter.com/jowiemers">@jowiemers</a></li>
+<li>Ingmar <a href="https://twitter.com/_truefalse">@_truefalse</a></li>
+</ul>
+
+<p>oder per Email an <a href="mailto:feedback@codeandship.rocks">feedback (at) codeandship.rocks</a>.</p>
+
+<h2 id="links-für-diese-folge">Links für diese Folge</h2>
+
+<ul>
+<li><a href="https://twitter.com/adrianfcole">@adrianfcole</a> auf Twitter</li>
+<li><a href="https://www.jaegertracing.io/">Jaeger: open source, end-to-end distributed tracing</a></li>
+<li><a href="https://dave.cheney.net/2015/11/05/lets-talk-about-logging">Dave Cheney - Let’s talk about logging</a></li>
+<li><a href="https://www.graylog.org/products/open-source">graylog log management</a>
+
+<ul>
+<li><a href="https://docs.graylog.org/en/3.0/pages/faq.html#i-dont-want-to-use-elasticsearch-as-my-backend-storage-system-can-i-use-another-database-like-mysql-oracle-etc">alternate backend storage system </a></li>
+<li><a href="https://prometheus.io/">Prometheus</a>
+
+<ul>
+<li><a href="https://prometheus.io/docs/instrumenting/clientlibs/">SDKs</a></li>
+<li><a href="https://prometheus.io/docs/instrumenting/exporters/">Exporter</a></li>
+<li><a href="https://prometheus.io/docs/alerting/alertmanager/">Alertmanager</a></li>
+</ul></li>
+<li><a href="https://grafana.com/">Grafana</a>
+
+<ul>
+<li><a href="https://play.grafana.org/">Playground</a></li>
+<li><a href="https://github.com/hagen1778/grafana-import-export">Dashboards Import/Export Script</a></li>
+</ul></li>
+<li>Prometheus und Grafana zum Ausprobieren und Testen: <a href="https://github.com/codeandship/metrics-example">codeandship/metrics-example</a></li>
+<li><a href="https://www.elastic.co/de/elk-stack">ELK Stack: Elasticsearch, Logstash, Kibana</a></li>
+<li><a href="https://sensu.io/">Sensu</a></li>
+<li><a href="https://mynetdata.io/">NetData: Get control of your Linux Servers</a></li>
+<li><a href="https://github.com/google/cadvisor">cAdvisor</a></li>
+</ul></li>
+</ul>
+]]></content:encoded>
+        <itunes:image href="https://codeandship.rocks/cover-2000.jpg" />
+        <itunes:duration>00:52:56</itunes:duration>
+        <itunes:keywords></itunes:keywords>
+        <itunes:episode>5</itunes:episode>
+    </item>
     
     <item>
         <link>https://codeandship.rocks/podcast/4/</link>

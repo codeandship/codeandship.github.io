@@ -13,7 +13,7 @@
     <atom:link href="https://codeandship.rocks/index.xml" rel="self" type="application/rss+xml" />
     <link>https://codeandship.rocks</link>
     <description>Recent content in Code and Ship on Code and Ship</description>
-    <lastBuildDate>2019-06-16 13:43:54 &#43;0200 CEST</lastBuildDate>
+    <lastBuildDate>2019-07-09 18:54:23 &#43;0200 CEST</lastBuildDate>
     <sy:updatePeriod>hourly</sy:updatePeriod>
     <sy:updateFrequency>1</sy:updateFrequency>
     <language>en</language>
@@ -32,6 +32,57 @@
     <itunes:block>no</itunes:block>
     <itunes:explicit>no</itunes:explicit>
     <itunes:image href="https://via.placeholder.com/150" />
+    
+    <item>
+        <link>https://codeandship.rocks/podcast/6/</link>
+        <title>Der Deployment Typ</title>
+        <pubDate>Tue, 09 Jul 2019 18:54:23 +0200</pubDate>
+        <description></description>
+
+        <enclosure url="https://cdn.codeandship.rocks/podcast/cas_006.mp3" length="25446660" type="audio/mpeg" />
+        <guid>https://cdn.codeandship.rocks/podcast/cas_006.mp3</guid>
+
+        <itunes:author></itunes:author>
+        <itunes:summary> Softwareentwicklung ist nicht nur Code schreiben, sondern meistens auch Teamarbeit. In dieser Folgen reden wir über die sozialen Aspekte von Softwareentwicklung.
+ Software engineering is what happens …</itunes:summary>
+        <content:encoded><![CDATA[
+
+<p>Softwareentwicklung ist nicht nur Code schreiben, sondern meistens auch Teamarbeit. In dieser Folgen reden wir über die sozialen Aspekte von Softwareentwicklung.</p>
+
+<blockquote>
+<p>Software engineering is what happens to programming when you add time and other programmers.</p>
+</blockquote>
+
+<p>– Russ Cox, Go Entwickler</p>
+
+<p><strong>Gebt uns Feedback:</strong></p>
+
+<ul>
+<li>Twitter <a href="https://twitter.com/codeandship">@codeandship</a></li>
+<li>Mastodon <a href="https://norden.social/users/codeandship">@codeandship@norden.social</a></li>
+<li>Jonathan <a href="https://twitter.com/jowiemers">@jowiemers</a></li>
+<li>Ingmar <a href="https://twitter.com/_truefalse">@_truefalse</a></li>
+</ul>
+
+<p>oder per Email an <a href="mailto:feedback@codeandship.rocks">feedback (at) codeandship.rocks</a>.</p>
+
+<h2 id="links-für-diese-folge">Links für diese Folge</h2>
+
+<ul>
+<li><a href="https://github.com/google/wire">wire: Compile-time Dependency Injection for Go</a></li>
+<li><a href="https://de.wikipedia.org/wiki/Gesetz_von_Conway">Gesetz von Conway</a></li>
+<li><a href="https://cre.fm/cre028-extreme-programming">CRE 028 - Extreme Programming</a></li>
+<li><a href="https://about.gitlab.com/2015/04/08/the-remote-manifesto/">GitLab - The Remote Manifesto</a></li>
+<li><a href="https://www.youtube.com/watch?v=a-BOSpxYJ9M&t=900s">GOTO 2015 - Dave Thomas: Agile is Dead</a></li>
+<li><a href="https://www.youtube.com/watch?v=CZ3wIuvmHeM">Mastering Chaos - A Netflix Guide to Microservices</a></li>
+<li><a href="https://keepachangelog.com/de/1.0.0/">Keep a Changelog</a></li>
+<li><a href="https://chris.beams.io/posts/git-commit/">How to Write a Git Commit Message</a></li>
+</ul>
+]]>></content:encoded>
+        <itunes:image href="https://via.placeholder.com/150" />
+        <itunes:duration>00:34:40</itunes:duration>
+        <itunes:keywords></itunes:keywords>
+    </item>
     
     <item>
         <link>https://codeandship.rocks/podcast/5/</link>
@@ -69,6 +120,7 @@
 
 <ul>
 <li><a href="https://docs.graylog.org/en/3.0/pages/faq.html#i-dont-want-to-use-elasticsearch-as-my-backend-storage-system-can-i-use-another-database-like-mysql-oracle-etc">alternate backend storage system </a></li>
+</ul></li>
 <li><a href="https://prometheus.io/">Prometheus</a>
 
 <ul>
@@ -87,7 +139,6 @@
 <li><a href="https://sensu.io/">Sensu</a></li>
 <li><a href="https://mynetdata.io/">NetData: Get control of your Linux Servers</a></li>
 <li><a href="https://github.com/google/cadvisor">cAdvisor</a></li>
-</ul></li>
 </ul>
 ]]>></content:encoded>
         <itunes:image href="https://via.placeholder.com/150" />

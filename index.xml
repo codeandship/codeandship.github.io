@@ -13,7 +13,7 @@
     <atom:link href="https://codeandship.rocks/index.xml" rel="self" type="application/rss+xml" />
     <link>https://codeandship.rocks</link>
     <description>Recent content in Code and Ship on Code and Ship</description>
-    <lastBuildDate>2019-08-04 20:09:48 &#43;0200 CEST</lastBuildDate>
+    <lastBuildDate>2019-09-11 18:14:27 &#43;0200 CEST</lastBuildDate>
     <sy:updatePeriod>hourly</sy:updatePeriod>
     <sy:updateFrequency>1</sy:updateFrequency>
     <language>en</language>
@@ -32,6 +32,74 @@
     <itunes:block>no</itunes:block>
     <itunes:explicit>no</itunes:explicit>
     <itunes:image href="https://via.placeholder.com/150" />
+    
+    <item>
+        <link>https://codeandship.rocks/podcast/8/</link>
+        <title>Go Libraries (alles außer HTTP Edition)</title>
+        <pubDate>Wed, 11 Sep 2019 18:14:27 +0200</pubDate>
+        <description></description>
+
+        <enclosure url="https://cdn.codeandship.rocks/podcast/cas_008.mp3" length="49531098" type="audio/mpeg" />
+        <guid>https://cdn.codeandship.rocks/podcast/cas_008.mp3</guid>
+
+        <itunes:author></itunes:author>
+        <itunes:summary> In dieser Folge stellen wir einige Go Bibliotheken vor, die nichts mit Http-Kram zu tun haben. Ingmar hat sogar noch einen Bonus!
+Gebt uns Feedback:
+ Twitter @codeandship Mastodon …</itunes:summary>
+        <content:encoded><![CDATA[
+
+<p>In dieser Folge stellen wir einige Go Bibliotheken vor, die nichts mit Http-Kram zu tun haben. Ingmar hat sogar noch einen Bonus!</p>
+
+<p><strong>Gebt uns Feedback:</strong></p>
+
+<ul>
+<li>Twitter <a href="https://twitter.com/codeandship">@codeandship</a></li>
+<li>Mastodon <a href="https://norden.social/users/codeandship">@codeandship@norden.social</a></li>
+<li>Jonathan <a href="https://twitter.com/jowiemers">@jowiemers</a></li>
+<li>Ingmar <a href="https://twitter.com/_truefalse">@_truefalse</a></li>
+</ul>
+
+<p>oder per Email an <a href="mailto:feedback@codeandship.rocks">feedback (at) codeandship.rocks</a>.</p>
+
+<h2 id="news">News</h2>
+
+<ul>
+<li><a href="https://www.youtube.com/channel/UCx9QVEApa5BKLw9r8cnOFEA/videos?sort=dd&view=0&flow=list">GopherCon Videos</a></li>
+<li><a href="https://blog.golang.org/go1.13">Go 1.13.0</a>
+
+<ul>
+<li><a href="https://golang.org/pkg/errors/">Package errors</a></li>
+</ul></li>
+</ul>
+
+<p>Top 3 Nicht-HTTP-Libraries</p>
+
+<h2 id="ingmar">Ingmar</h2>
+
+<ul>
+<li><a href="github.com/etcd-io/bbolt">bbolt</a></li>
+<li><a href="github.com/peterbourgon/ff">ff</a></li>
+<li><a href="github.com/stretchr/testify">testify</a></li>
+</ul>
+
+<h3 id="bonus">Bonus</h3>
+
+<ul>
+<li><a href="github.com/golang/protobuf">protobuf</a></li>
+</ul>
+
+<h2 id="jonathan">Jonathan</h2>
+
+<ul>
+<li><a href="github.com/mdlayher/waveform">waveform</a></li>
+<li><a href="https://github.com/hajimehoshi/ebiten">ebiten</a></li>
+<li><a href="github.com/anthonynsimon/bild">bild</a></li>
+</ul>
+]]>></content:encoded>
+        <itunes:image href="https://via.placeholder.com/150" />
+        <itunes:duration>00:51:03</itunes:duration>
+        <itunes:keywords></itunes:keywords>
+    </item>
     
     <item>
         <link>https://codeandship.rocks/podcast/7/</link>

@@ -5,9 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="noodp" />      
-    <link rel="prev" href="https://codeandship.rocks/podcast/7/" /> 
-    <link rel="next" href="https://codeandship.rocks/podcast/9/" />
-    <link rel="canonical" href="https://codeandship.rocks/podcast/8/" />
+    <link rel="prev" href="https://codeandship.rocks/podcast/8/" /> 
+    <link rel="canonical" href="https://codeandship.rocks/podcast/9/" />
     <link rel='shortcut icon' type='image/x-icon' href='/favicon.ico' />
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -17,36 +16,36 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
     <title>
-          Go Libraries (alles außer HTTP Edition) | Code and Ship 
+          Developer Tools (Teil 1) | Code and Ship 
     </title>
-    <meta name="title" content="Go Libraries (alles außer HTTP Edition) | Code and Ship">   
+    <meta name="title" content="Developer Tools (Teil 1) | Code and Ship">   
   
   <link rel="stylesheet" href="/font/iconfont.css">
   <link rel="stylesheet" href="/css/main.min.css">
 
  <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Go Libraries (alles außer HTTP Edition)"/>
-<meta name="twitter:description" content="In dieser Folge stellen wir einige Go Bibliotheken vor, die nichts mit Http-Kram zu tun haben. Ingmar hat sogar noch einen Bonus!"/>
+<meta name="twitter:title" content="Developer Tools (Teil 1)"/>
+<meta name="twitter:description" content="Was ist eigentlich WSL und warum gibt es schon eine zweite Version? Diese und mehr Fragen klähren wir in der neunten Episode!"/>
  <script type="application/ld+json">
 {
   "@context": "http://schema.org",
   "@type": "BlogPosting",
-  "headline": "Go Libraries (alles außer HTTP Edition)",
+  "headline": "Developer Tools (Teil 1)",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://codeandship.rocks/podcast/8/"
+    "@id": "https://codeandship.rocks/podcast/9/"
   },
   
   "genre": "podcast",
   
-  "wordcount": 60,
-  "url": "https://codeandship.rocks/podcast/8/",
-  "datePublished": "2019-09-11T18:14:27+02:00",
-  "dateModified": "2019-09-11T18:14:27+02:00",
+  "wordcount": 109,
+  "url": "https://codeandship.rocks/podcast/9/",
+  "datePublished": "2019-10-07T19:18:44+02:00",
+  "dateModified": "2019-10-07T19:18:44+02:00",
   
   
   
-  "description": "In dieser Folge stellen wir einige Go Bibliotheken vor, die nichts mit Http-Kram zu tun haben. Ingmar hat sogar noch einen Bonus!"
+  "description": "Was ist eigentlich WSL und warum gibt es schon eine zweite Version? Diese und mehr Fragen klähren wir in der neunten Episode!"
 }
 </script>
 </head>
@@ -144,7 +143,7 @@
 <script src="https://cdn.podlove.org/web-player/embed.js"></script>
 <article class="post-warp">
     <header class="post-header">
-        <h1 class="post-title">Go Libraries (alles außer HTTP Edition)</h1>
+        <h1 class="post-title">Developer Tools (Teil 1)</h1>
 
         <div class="post-meta">
             Geschrieben von <a href="https://codeandship.rocks"
@@ -152,7 +151,7 @@
             mit ♥
             <span class="post-time">
                 am <time
-                    datetime=11.09.2019>11.09.2019</time>
+                    datetime=07.10.2019>07.10.2019</time>
             </span>
             in
             
@@ -170,14 +169,14 @@
                 
                 link: 'https:\/\/codeandship.rocks'
             },
-            title: 'Go Libraries (alles außer HTTP Edition)',
-            duration: '00:51:03', 
-            link: 'https:\/\/codeandship.rocks\/podcast\/8\/',
+            title: 'Developer Tools (Teil 1)',
+            duration: '00:34:52', 
+            link: 'https:\/\/codeandship.rocks\/podcast\/9\/',
             poster: 'https:\/\/codeandship.rocks\/cover.jpg',
             audio: [{
-                url: 'https:\/\/cdn.codeandship.rocks\/podcast\/cas_008.mp3',
+                url: 'https:\/\/cdn.codeandship.rocks\/podcast\/cas_009.mp3',
                 mimeType: 'audio/mp3',
-                size:  49531098 ,
+                size:  32010831 ,
             title: 'Audio MP3'
             }],
             theme: {
@@ -205,7 +204,7 @@
 
         
 
-<p>In dieser Folge stellen wir einige Go Bibliotheken vor, die nichts mit Http-Kram zu tun haben. Ingmar hat sogar noch einen Bonus!</p>
+<p>Was ist eigentlich WSL und warum gibt es schon eine zweite Version? Diese und mehr Fragen klähren wir in der neunten Episode!</p>
 
 <p><strong>Gebt uns Feedback:</strong></p>
 
@@ -218,39 +217,20 @@
 
 <p>oder per Email an <a href="mailto:feedback@codeandship.rocks">feedback (at) codeandship.rocks</a>.</p>
 
-<h2 id="news">News</h2>
+<h2 id="wsl-2">WSL 2</h2>
 
 <ul>
-<li><a href="https://www.youtube.com/channel/UCx9QVEApa5BKLw9r8cnOFEA/videos?sort=dd&amp;view=0&amp;flow=list">GopherCon Videos</a></li>
-<li><a href="https://blog.golang.org/go1.13">Go 1.13.0</a>
-
-<ul>
-<li><a href="https://golang.org/pkg/errors/">Package errors</a></li>
-</ul></li>
-</ul>
-
-<p>Top 3 Nicht-HTTP-Libraries</p>
-
-<h2 id="ingmar">Ingmar</h2>
-
-<ul>
-<li><a href="github.com/etcd-io/bbolt">bbolt</a></li>
-<li><a href="github.com/peterbourgon/ff">ff</a></li>
-<li><a href="github.com/stretchr/testify">testify</a></li>
-</ul>
-
-<h3 id="bonus">Bonus</h3>
-
-<ul>
-<li><a href="github.com/golang/protobuf">protobuf</a></li>
-</ul>
-
-<h2 id="jonathan">Jonathan</h2>
-
-<ul>
-<li><a href="github.com/mdlayher/waveform">waveform</a></li>
-<li><a href="https://github.com/hajimehoshi/ebiten">ebiten</a></li>
-<li><a href="github.com/anthonynsimon/bild">bild</a></li>
+<li><a href="https://chariotsolutions.com/blog/post/running-linux-on-windows-with-wsl-2-and-a-native-kernel/">Running Linux on Windows with WSL 2 and a Native Kernel</a></li>
+<li><a href="https://www.youtube.com/watch?v=A0eqZujVfYU">Developing on Windows with WSL2 (Subsystem for Linux), VS Code, Docker, and the Terminal</a></li>
+<li><a href="https://docs.microsoft.com/de-de/windows/wsl/wsl2-install">Installationsanweisungen für WSL 2</a></li>
+<li><a href="https://www.microsoft.com/de-de/search/shop/apps?q=linux">Linux im Windows Store</a></li>
+<li><a href="https://docs.docker.com/docker-for-windows/wsl-tech-preview/">Docker for WSL2 Preview</a></li>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack">VSCode Remote Development</a></li>
+<li><a href="https://code.visualstudio.com/docs/remote/containers">VSCode Development Container</a></li>
+<li><a href="https://youtu.be/jKB_nIoC1gQ">Video Tutorial: Remote Development mit VSCode</a></li>
+<li><a href="https://blog.jessfraz.com/post/docker-containers-on-the-desktop/">blog.jessfraz.com: Docker Containers on the Desktop</a></li>
+<li><a href="https://github.com/adolfintel/Windows10-Privacy">Windows Telemetrie abschalten</a></li>
+<li><a href="https://www.eclipse.org/che/">Eclipse Che - The Kubernetes-Native IDE for Developer Teams</a></li>
 </ul>
 
     </div>

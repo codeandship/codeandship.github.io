@@ -13,7 +13,7 @@
     <atom:link href="https://codeandship.rocks/index.xml" rel="self" type="application/rss+xml" />
     <link>https://codeandship.rocks</link>
     <description>Recent content in Code and Ship on Code and Ship</description>
-    <lastBuildDate>2019-09-11 18:14:27 &#43;0200 CEST</lastBuildDate>
+    <lastBuildDate>2019-10-07 19:18:44 &#43;0200 CEST</lastBuildDate>
     <sy:updatePeriod>hourly</sy:updatePeriod>
     <sy:updateFrequency>1</sy:updateFrequency>
     <language>en</language>
@@ -32,6 +32,55 @@
     <itunes:block>no</itunes:block>
     <itunes:explicit>no</itunes:explicit>
     <itunes:image href="https://via.placeholder.com/150" />
+    
+    <item>
+        <link>https://codeandship.rocks/podcast/9/</link>
+        <title>Developer Tools (Teil 1)</title>
+        <pubDate>Mon, 07 Oct 2019 19:18:44 +0200</pubDate>
+        <description></description>
+
+        <enclosure url="https://cdn.codeandship.rocks/podcast/cas_009.mp3" length="32010831" type="audio/mpeg" />
+        <guid>https://cdn.codeandship.rocks/podcast/cas_009.mp3</guid>
+
+        <itunes:author></itunes:author>
+        <itunes:summary> Was ist eigentlich WSL und warum gibt es schon eine zweite Version? Diese und mehr Fragen klähren wir in der neunten Episode!
+Gebt uns Feedback:
+ Twitter @codeandship Mastodon …</itunes:summary>
+        <content:encoded><![CDATA[
+
+<p>Was ist eigentlich WSL und warum gibt es schon eine zweite Version? Diese und mehr Fragen klähren wir in der neunten Episode!</p>
+
+<p><strong>Gebt uns Feedback:</strong></p>
+
+<ul>
+<li>Twitter <a href="https://twitter.com/codeandship">@codeandship</a></li>
+<li>Mastodon <a href="https://norden.social/users/codeandship">@codeandship@norden.social</a></li>
+<li>Jonathan <a href="https://twitter.com/jowiemers">@jowiemers</a></li>
+<li>Ingmar <a href="https://twitter.com/_truefalse">@_truefalse</a></li>
+</ul>
+
+<p>oder per Email an <a href="mailto:feedback@codeandship.rocks">feedback (at) codeandship.rocks</a>.</p>
+
+<h2 id="wsl-2">WSL 2</h2>
+
+<ul>
+<li><a href="https://chariotsolutions.com/blog/post/running-linux-on-windows-with-wsl-2-and-a-native-kernel/">Running Linux on Windows with WSL 2 and a Native Kernel</a></li>
+<li><a href="https://www.youtube.com/watch?v=A0eqZujVfYU">Developing on Windows with WSL2 (Subsystem for Linux), VS Code, Docker, and the Terminal</a></li>
+<li><a href="https://docs.microsoft.com/de-de/windows/wsl/wsl2-install">Installationsanweisungen für WSL 2</a></li>
+<li><a href="https://www.microsoft.com/de-de/search/shop/apps?q=linux">Linux im Windows Store</a></li>
+<li><a href="https://docs.docker.com/docker-for-windows/wsl-tech-preview/">Docker for WSL2 Preview</a></li>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack">VSCode Remote Development</a></li>
+<li><a href="https://code.visualstudio.com/docs/remote/containers">VSCode Development Container</a></li>
+<li><a href="https://youtu.be/jKB_nIoC1gQ">Video Tutorial: Remote Development mit VSCode</a></li>
+<li><a href="https://blog.jessfraz.com/post/docker-containers-on-the-desktop/">blog.jessfraz.com: Docker Containers on the Desktop</a></li>
+<li><a href="https://github.com/adolfintel/Windows10-Privacy">Windows Telemetrie abschalten</a></li>
+<li><a href="https://www.eclipse.org/che/">Eclipse Che - The Kubernetes-Native IDE for Developer Teams</a></li>
+</ul>
+]]>></content:encoded>
+        <itunes:image href="https://via.placeholder.com/150" />
+        <itunes:duration>00:34:52</itunes:duration>
+        <itunes:keywords></itunes:keywords>
+    </item>
     
     <item>
         <link>https://codeandship.rocks/podcast/8/</link>

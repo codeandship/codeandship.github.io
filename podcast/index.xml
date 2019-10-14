@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0"
      xmlns:content="http://purl.org/rss/1.0/modules/content/"
      xmlns:wfw="http://wellformedweb.org/CommentAPI/"
@@ -13,7 +12,7 @@
     <atom:link href="https://codeandship.rocks/index.xml" rel="self" type="application/rss+xml" />
     <link>https://codeandship.rocks/</link>
     <description>Jonathan und Ingmar sprechen übers Programmieren und Ausliefern von Software Projekten. Außerdem tauschen die beiden Bremer sich über Tools, Framewoks und das Leben als Softwareentwickler aus.</description>
-    <lastBuildDate>2019-10-07 19:18:44 &#43;0200 CEST</lastBuildDate>
+    <lastBuildDate>2019-10-14 19:33:27 &#43;0200 CEST</lastBuildDate>
     <sy:updatePeriod>hourly</sy:updatePeriod>
     <sy:updateFrequency>1</sy:updateFrequency>
     <language>en</language>
@@ -31,6 +30,75 @@
     <itunes:block>no</itunes:block>
     <itunes:explicit>no</itunes:explicit>
     <itunes:image href="https://codeandship.rocks/cover-2000.jpg" />
+    
+    <item>
+        <link>https://codeandship.rocks/podcast/10/</link>
+        <title>Developer Tools (Teil 2)</title>
+        <pubDate>Mon, 14 Oct 2019 19:33:27 +0200</pubDate>
+        <description></description>
+
+        <enclosure url="https://cdn.codeandship.rocks/podcast/cas_010.mp3" length="53801156" type="audio/mpeg" />
+        <guid>https://codeandship.rocks/podcast/10/</guid>
+
+        <itunes:author></itunes:author>
+        <itunes:summary> Die Fortsetzung der 9. Folge: wir sprechen über diverse weitere Tools die man als Entwickler so braucht, unter anderem IDEs, Shells und nette kleine Command-line Tools.
+Gebt uns Feedback:
+ Twitter …</itunes:summary>
+        <content:encoded><![CDATA[
+
+<p>Die Fortsetzung der 9. Folge: wir sprechen über diverse weitere Tools die man als Entwickler so braucht, unter anderem IDEs, Shells und nette kleine Command-line Tools.</p>
+
+<p><strong>Gebt uns Feedback:</strong></p>
+
+<ul>
+<li>Twitter <a href="https://twitter.com/codeandship">@codeandship</a></li>
+<li>Mastodon <a href="https://norden.social/users/codeandship">@codeandship@norden.social</a></li>
+<li>Jonathan <a href="https://twitter.com/jowiemers">@jowiemers</a></li>
+<li>Ingmar <a href="https://twitter.com/_truefalse">@_truefalse</a></li>
+</ul>
+
+<p>oder per Email an <a href="mailto:feedback@codeandship.rocks">feedback (at) codeandship.rocks</a>.</p>
+
+<h1 id="links-für-diese-folge">Links für diese Folge</h1>
+
+<ul>
+<li><a href="https://brew.sh/">Homebrew</a> (<a href="https://github.com/Homebrew/homebrew-bundle">homebrew-bundle</a> für schnelles Einrichten bei Neuinstallation)</li>
+<li><a href="https://chocolatey.org">chocolatey</a></li>
+<li><a href="https://code.visualstudio.com/">Visual Studio Code</a></li>
+<li><a href="https://github.com/golang/tools/blob/master/gopls/doc/user.md">gopls</a></li>
+<li><a href="https://www.jetbrains.com/go/">JetrBrains Goland</a></li>
+<li><a href="https://www.jetbrains.com/idea">JetBrains IntelliJ IDEA</a></li>
+<li><a href="https://www.sublimetext.com">Sublime Text</a></li>
+<li><a href="https://atom.io">Atom</a></li>
+<li><a href="https://www.barebones.com/products/bbedit/">BBEdit</a></li>
+<li><a href="https://www.panic.com/coda/">Coda von Panic</a></li>
+<li><a href="https://www.iterm2.com/">iTerm</a></li>
+<li><a href="https://hyper.is">Hyper</a></li>
+<li><a href="https://github.com/microsoft/terminal">Windows Terminal</a></li>
+<li>zsh / <a href="https://ohmyz.sh/">ohmyz.sh</a></li>
+<li><a href="https://github.com/nvbn/thefuck">thefuck</a></li>
+<li><a href="https://github.com/wting/autojump">autojump</a></li>
+</ul>
+
+<p>Autostart Ordner in macOS</p>
+
+<pre><code class="language-text"> ~/Library/LaunchAgents
+ /Library/LaunchAgents
+</code></pre>
+
+<p>SSH Config für macOS</p>
+
+<pre><code class="language-text">Host *
+  AddKeysToAgent yes
+  UseKeychain yes
+  IdentityFile ~/.ssh/id_rsa
+</code></pre>
+]]></content:encoded>
+        <itunes:image href="https://codeandship.rocks/cover-2000.jpg" />
+        <itunes:duration>00:55:33</itunes:duration>
+        <itunes:keywords></itunes:keywords>
+        <itunes:episode>10</itunes:episode>
+    </item>
     
     <item>
         <link>https://codeandship.rocks/podcast/9/</link>

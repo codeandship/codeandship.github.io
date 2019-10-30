@@ -12,7 +12,7 @@
     <atom:link href="https://codeandship.rocks/index.xml" rel="self" type="application/rss+xml" />
     <link>https://codeandship.rocks</link>
     <description>Recent content in Code and Ship on Code and Ship</description>
-    <lastBuildDate>2019-10-14 19:33:27 &#43;0200 CEST</lastBuildDate>
+    <lastBuildDate>2019-10-28 10:33:27 &#43;0200 &#43;0200</lastBuildDate>
     <sy:updatePeriod>hourly</sy:updatePeriod>
     <sy:updateFrequency>1</sy:updateFrequency>
     <language>en</language>
@@ -35,7 +35,7 @@
     <item>
         <link>https://codeandship.rocks/podcast/</link>
         <title>Podcasts</title>
-        <pubDate>Mon, 14 Oct 2019 19:33:27 +0200</pubDate>
+        <pubDate>Mon, 28 Oct 2019 10:33:27 +0200</pubDate>
         <description></description>
 
         <enclosure url="" length="" type="audio/mpeg" />

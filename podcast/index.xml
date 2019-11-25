@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0"
      xmlns:content="http://purl.org/rss/1.0/modules/content/"
      xmlns:wfw="http://wellformedweb.org/CommentAPI/"
@@ -12,7 +13,7 @@
     <atom:link href="https://codeandship.rocks/index.xml" rel="self" type="application/rss+xml" />
     <link>https://codeandship.rocks/</link>
     <description>Jonathan und Ingmar sprechen übers Programmieren und Ausliefern von Software Projekten. Außerdem tauschen die beiden Bremer sich über Tools, Framewoks und das Leben als Softwareentwickler aus.</description>
-    <lastBuildDate>2019-10-28 10:33:27 &#43;0200 &#43;0200</lastBuildDate>
+    <lastBuildDate>2019-11-17 18:00:00 &#43;0100 CET</lastBuildDate>
     <sy:updatePeriod>hourly</sy:updatePeriod>
     <sy:updateFrequency>1</sy:updateFrequency>
     <language>en</language>
@@ -30,6 +31,53 @@
     <itunes:block>no</itunes:block>
     <itunes:explicit>no</itunes:explicit>
     <itunes:image href="https://codeandship.rocks/cover-2000.jpg" />
+    
+    <item>
+        <link>https://codeandship.rocks/podcast/12/</link>
+        <title>Traefik - The Cloud Native Edge Router</title>
+        <pubDate>Sun, 17 Nov 2019 18:00:00 +0100</pubDate>
+        <description></description>
+
+        <enclosure url="https://cdn.codeandship.rocks/podcast/cas_012.mp3" length="44656" type="audio/mpeg" />
+        <guid>https://codeandship.rocks/podcast/12/</guid>
+
+        <itunes:author></itunes:author>
+        <itunes:summary> Traefik ist ein in Go geschriebener Reverseproxy mit vielen Features wie automatischen SSL-Zertifikaten und Docker Integration. Eine kleine Einführung.
+Gebt uns Feedback:
+ Twitter @codeandship …</itunes:summary>
+        <content:encoded><![CDATA[
+
+<p>Traefik ist ein in Go geschriebener Reverseproxy mit vielen Features wie automatischen SSL-Zertifikaten und Docker Integration. Eine kleine Einführung.</p>
+
+<p><strong>Gebt uns Feedback:</strong></p>
+
+<ul>
+<li>Twitter <a href="https://twitter.com/codeandship">@codeandship</a></li>
+<li>Instagram <a href="https://www.instagram.com/codeandship/">@codeandship</a></li>
+<li>Mastodon <a href="https://norden.social/users/codeandship">@codeandship@norden.social</a></li>
+<li>Jonathan <a href="https://twitter.com/jowiemers">@jowiemers</a></li>
+<li>Ingmar <a href="https://twitter.com/_truefalse">@_truefalse</a></li>
+</ul>
+
+<p>oder per Email an <a href="mailto:feedback@codeandship.rocks">feedback (at) codeandship.rocks</a>.</p>
+
+<h1 id="links-für-diese-folge">Links für diese Folge</h1>
+
+<ul>
+<li><a href="https://docs.traefik.io/">Traefik Docs</a>
+
+<ul>
+<li><a href="https://docs.traefik.io/providers/docker/#endpoint">docker socket</a></li>
+</ul></li>
+<li><a href="https://github.com/containous/traefik/issues/5426#issuecomment-533598163">Traefik Issue: “2.0 is released, is cluster HA ready?”</a></li>
+<li><a href="https://github.com/codeandship/traefik-playground">Ingmars Traefik Playground</a></li>
+</ul>
+]]></content:encoded>
+        <itunes:image href="https://codeandship.rocks/cover-2000.jpg" />
+        <itunes:duration>00:39:49</itunes:duration>
+        <itunes:keywords></itunes:keywords>
+        <itunes:episode>12</itunes:episode>
+    </item>
     
     <item>
         <link>https://codeandship.rocks/podcast/11/</link>
@@ -70,7 +118,7 @@ Gebt uns Feedback:
         <itunes:image href="https://codeandship.rocks/cover-2000.jpg" />
         <itunes:duration>00:55:42</itunes:duration>
         <itunes:keywords></itunes:keywords>
-        <itunes:episode>10</itunes:episode>
+        <itunes:episode>11</itunes:episode>
     </item>
     
     <item>

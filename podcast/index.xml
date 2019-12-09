@@ -12,7 +12,7 @@
     <atom:link href="https://codeandship.rocks/index.xml" rel="self" type="application/rss+xml" />
     <link>https://codeandship.rocks/</link>
     <description>Jonathan und Ingmar sprechen übers Programmieren und Ausliefern von Software Projekten. Außerdem tauschen die beiden Bremer sich über Tools, Framewoks und das Leben als Softwareentwickler aus.</description>
-    <lastBuildDate>2019-10-28 10:33:27 &#43;0200 &#43;0200</lastBuildDate>
+    <lastBuildDate>2019-12-09 19:23:33 &#43;0100 CET</lastBuildDate>
     <sy:updatePeriod>hourly</sy:updatePeriod>
     <sy:updateFrequency>1</sy:updateFrequency>
     <language>en</language>
@@ -30,6 +30,104 @@
     <itunes:block>no</itunes:block>
     <itunes:explicit>no</itunes:explicit>
     <itunes:image href="https://codeandship.rocks/cover-2000.jpg" />
+    
+    <item>
+        <link>https://codeandship.rocks/podcast/13/</link>
+        <title>Software Design Prinzipien</title>
+        <pubDate>Mon, 09 Dec 2019 19:23:33 +0100</pubDate>
+        <description></description>
+
+        <enclosure url="https://cdn.codeandship.rocks/podcast/cas_013.mp3" length="38383323" type="audio/mpeg" />
+        <guid>https://codeandship.rocks/podcast/13/</guid>
+
+        <itunes:author></itunes:author>
+        <itunes:summary> Die Schicksalsfolge #13! Ach nee, Moment … falsche Podcast. KISS, DRY, YAGNI um sowas gehts hier heute, verschiedene Software Design Prinzipien.
+Gebt uns Feedback:
+ Twitter @codeandship Instagram …</itunes:summary>
+        <content:encoded><![CDATA[
+
+<p>Die Schicksalsfolge #13! Ach nee, Moment … falsche Podcast. KISS, DRY, YAGNI um sowas gehts hier heute, verschiedene Software Design Prinzipien.</p>
+
+<p><strong>Gebt uns Feedback:</strong></p>
+
+<ul>
+<li>Twitter <a href="https://twitter.com/codeandship">@codeandship</a></li>
+<li>Instagram <a href="https://www.instagram.com/codeandship/">@codeandship</a></li>
+<li>Mastodon <a href="https://norden.social/users/codeandship">@codeandship@norden.social</a></li>
+<li>Jonathan <a href="https://twitter.com/jowiemers">@jowiemers</a></li>
+<li>Ingmar <a href="https://twitter.com/_truefalse">@_truefalse</a></li>
+</ul>
+
+<p>oder per Email an <a href="mailto:feedback@codeandship.rocks">feedback (at) codeandship.rocks</a>.</p>
+
+<h1 id="links-für-diese-folge">Links für diese Folge</h1>
+
+<ul>
+<li><a href="https://twitter.com/unclebobmartin/status/1192392951294500864">Tweet von @unclebobmartin</a></li>
+<li><a href="https://en.wikipedia.org/wiki/KISS_principle">KISS</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Don%27t_repeat_yourself">DRY / WET</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Worse_is_better">Worse is better</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Unix_philosophy">Unix philosophy</a></li>
+<li><a href="https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it">YAGNI</a></li>
+<li><a href="https://en.wikipedia.org/wiki/SOLID">SOLID</a></li>
+<li><a href="https://de.wikipedia.org/wiki/5-Why-Methode">5-Why Methode</a></li>
+<li><a href="https://www.theregister.co.uk/2016/03/23/npm_left_pad_chaos/">NPM leftpad</a></li>
+<li><a href="http://rosettacode.org/wiki/Category:Programming_Tasks">Rosettacode.org</a></li>
+<li><a href="https://codegolf.stackexchange.com/?tab=hot">Code Golf</a></li>
+</ul>
+]]></content:encoded>
+        <itunes:image href="https://codeandship.rocks/cover-2000.jpg" />
+        <itunes:duration>00:39:38</itunes:duration>
+        <itunes:keywords></itunes:keywords>
+        <itunes:episode>13</itunes:episode>
+    </item>
+    
+    <item>
+        <link>https://codeandship.rocks/podcast/12/</link>
+        <title>Traefik - The Cloud Native Edge Router</title>
+        <pubDate>Sun, 17 Nov 2019 18:00:00 +0100</pubDate>
+        <description></description>
+
+        <enclosure url="https://cdn.codeandship.rocks/podcast/cas_012.mp3" length="45727570" type="audio/mpeg" />
+        <guid>https://codeandship.rocks/podcast/12/</guid>
+
+        <itunes:author></itunes:author>
+        <itunes:summary> Traefik ist ein in Go geschriebener Reverseproxy mit vielen Features wie automatischen SSL-Zertifikaten und Docker Integration. Eine kleine Einführung.
+Gebt uns Feedback:
+ Twitter @codeandship …</itunes:summary>
+        <content:encoded><![CDATA[
+
+<p>Traefik ist ein in Go geschriebener Reverseproxy mit vielen Features wie automatischen SSL-Zertifikaten und Docker Integration. Eine kleine Einführung.</p>
+
+<p><strong>Gebt uns Feedback:</strong></p>
+
+<ul>
+<li>Twitter <a href="https://twitter.com/codeandship">@codeandship</a></li>
+<li>Instagram <a href="https://www.instagram.com/codeandship/">@codeandship</a></li>
+<li>Mastodon <a href="https://norden.social/users/codeandship">@codeandship@norden.social</a></li>
+<li>Jonathan <a href="https://twitter.com/jowiemers">@jowiemers</a></li>
+<li>Ingmar <a href="https://twitter.com/_truefalse">@_truefalse</a></li>
+</ul>
+
+<p>oder per Email an <a href="mailto:feedback@codeandship.rocks">feedback (at) codeandship.rocks</a>.</p>
+
+<h1 id="links-für-diese-folge">Links für diese Folge</h1>
+
+<ul>
+<li><a href="https://docs.traefik.io/">Traefik Docs</a>
+
+<ul>
+<li><a href="https://docs.traefik.io/providers/docker/#endpoint">docker socket</a></li>
+</ul></li>
+<li><a href="https://github.com/containous/traefik/issues/5426#issuecomment-533598163">Traefik Issue: “2.0 is released, is cluster HA ready?”</a></li>
+<li><a href="https://github.com/codeandship/traefik-playground">Ingmars Traefik Playground</a></li>
+</ul>
+]]></content:encoded>
+        <itunes:image href="https://codeandship.rocks/cover-2000.jpg" />
+        <itunes:duration>00:39:49</itunes:duration>
+        <itunes:keywords></itunes:keywords>
+        <itunes:episode>12</itunes:episode>
+    </item>
     
     <item>
         <link>https://codeandship.rocks/podcast/11/</link>
@@ -70,7 +168,7 @@ Gebt uns Feedback:
         <itunes:image href="https://codeandship.rocks/cover-2000.jpg" />
         <itunes:duration>00:55:42</itunes:duration>
         <itunes:keywords></itunes:keywords>
-        <itunes:episode>10</itunes:episode>
+        <itunes:episode>11</itunes:episode>
     </item>
     
     <item>

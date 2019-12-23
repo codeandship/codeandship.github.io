@@ -13,7 +13,7 @@
     <atom:link href="https://codeandship.rocks/index.xml" rel="self" type="application/rss+xml" />
     <link>https://codeandship.rocks</link>
     <description>Recent content in Code and Ship on Code and Ship</description>
-    <lastBuildDate>2019-12-09 19:23:33 &#43;0100 CET</lastBuildDate>
+    <lastBuildDate>2019-12-23 19:23:33 &#43;0100 CET</lastBuildDate>
     <sy:updatePeriod>hourly</sy:updatePeriod>
     <sy:updateFrequency>1</sy:updateFrequency>
     <language>en</language>
@@ -32,6 +32,50 @@
     <itunes:block>no</itunes:block>
     <itunes:explicit>no</itunes:explicit>
     <itunes:image href="https://via.placeholder.com/150" />
+    
+    <item>
+        <link>https://codeandship.rocks/podcast/14/</link>
+        <title>Concurrency in Go</title>
+        <pubDate>Mon, 23 Dec 2019 19:23:33 +0100</pubDate>
+        <description></description>
+
+        <enclosure url="https://cdn.codeandship.rocks/podcast/cas_014.mp3" length="55232045" type="audio/mpeg" />
+        <guid>https://cdn.codeandship.rocks/podcast/cas_014.mp3</guid>
+
+        <itunes:author></itunes:author>
+        <itunes:summary> Was für ein Chaos! Heute sprechen wir über Concurrency Pattern in Go Gebt uns Feedback:
+ Twitter @codeandship Instagram @codeandship Mastodon @codeandship@norden.social Jonathan @jowiemers Ingmar …</itunes:summary>
+        <content:encoded><![CDATA[
+
+<p>Was für ein Chaos! Heute sprechen wir über Concurrency Pattern in Go
+<strong>Gebt uns Feedback:</strong></p>
+
+<ul>
+<li>Twitter <a href="https://twitter.com/codeandship">@codeandship</a></li>
+<li>Instagram <a href="https://www.instagram.com/codeandship/">@codeandship</a></li>
+<li>Mastodon <a href="https://norden.social/users/codeandship">@codeandship@norden.social</a></li>
+<li>Jonathan <a href="https://twitter.com/jowiemers">@jowiemers</a></li>
+<li>Ingmar <a href="https://twitter.com/_truefalse">@_truefalse</a></li>
+</ul>
+
+<p>oder per Email an <a href="mailto:feedback@codeandship.rocks">feedback (at) codeandship.rocks</a>.</p>
+
+<h1 id="links-für-diese-folge">Links für diese Folge</h1>
+
+<ul>
+<li><a href="https://github.com/codeandship/go-worker-example">Go Worker Example</a></li>
+<li><a href="https://go101.org/article/channel-closing.html">How to Gracefully Close Channels - Go 101 (an online book for Go programming language + Golang knowledge base)</a></li>
+<li><a href="https://dave.cheney.net/2014/03/19/channel-axioms">Channel Axioms | Dave Cheney</a></li>
+<li><a href="https://blog.golang.org/pipelines">Go Concurrency Patterns: Pipelines and cancellation - The Go Blog</a></li>
+<li><a href="https://blog.gopheracademy.com/advent-2019/directional-channels/">Directional Channels in Go</a></li>
+<li><a href="https://github.com/prometheus/client_golang/blob/master/examples/simple/main.go">Einfaches Prometheus Beispiel</a></li>
+<li><a href="https://play.golang.org/p/WVM_I0-nJqi">sync.WaitGroup Playground</a></li>
+</ul>
+]]>></content:encoded>
+        <itunes:image href="https://via.placeholder.com/150" />
+        <itunes:duration>00:47:30</itunes:duration>
+        <itunes:keywords></itunes:keywords>
+    </item>
     
     <item>
         <link>https://codeandship.rocks/podcast/13/</link>
@@ -1074,23 +1118,6 @@ In der ersten Folge geht es um die Programmiersprache Go.</p>
 ]]>></content:encoded>
         <itunes:image href="https://via.placeholder.com/150" />
         <itunes:duration>01:16:40</itunes:duration>
-        <itunes:keywords></itunes:keywords>
-    </item>
-    
-    <item>
-        <link>https://codeandship.rocks/posts/0001_codeandship/</link>
-        <title>Einführung in Go</title>
-        <pubDate>Fri, 29 Mar 2019 12:33:05 +0100</pubDate>
-        <description></description>
-
-        <enclosure url="" length="" type="audio/mpeg" />
-        <guid></guid>
-
-        <itunes:author></itunes:author>
-        <itunes:summary></itunes:summary>
-        <content:encoded><![CDATA[]]>></content:encoded>
-        <itunes:image href="https://via.placeholder.com/150" />
-        <itunes:duration></itunes:duration>
         <itunes:keywords></itunes:keywords>
     </item>
     

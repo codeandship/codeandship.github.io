@@ -13,7 +13,7 @@
     <atom:link href="https://codeandship.rocks/index.xml" rel="self" type="application/rss+xml" />
     <link>https://codeandship.rocks/</link>
     <description>Jonathan und Ingmar sprechen übers Programmieren und Ausliefern von Software Projekten. Außerdem tauschen die beiden Bremer sich über Tools, Framewoks und das Leben als Softwareentwickler aus.</description>
-    <lastBuildDate>2019-12-23 19:23:33 &#43;0100 CET</lastBuildDate>
+    <lastBuildDate>2020-01-19 16:46:24 &#43;0100 CET</lastBuildDate>
     <sy:updatePeriod>hourly</sy:updatePeriod>
     <sy:updateFrequency>1</sy:updateFrequency>
     <language>en</language>
@@ -31,6 +31,49 @@
     <itunes:block>no</itunes:block>
     <itunes:explicit>no</itunes:explicit>
     <itunes:image href="https://codeandship.rocks/cover-2000.jpg" />
+    
+    <item>
+        <link>https://codeandship.rocks/podcast/15/</link>
+        <title>Work-Life Balance</title>
+        <pubDate>Sun, 19 Jan 2020 16:46:24 +0100</pubDate>
+        <description></description>
+
+        <enclosure url="https://cdn.codeandship.rocks/podcast/cas_015.mp3" length="55983247" type="audio/mpeg" />
+        <guid>https://codeandship.rocks/podcast/15/</guid>
+
+        <itunes:author></itunes:author>
+        <itunes:summary> In dieser Folge sprechen wir über unsere Work-Life Balance Erfahrungen als Softwareentwickler im Büro, im Homeoffice und als Remote-Mitarbeiter.
+Gebt uns Feedback:
+ Twitter @codeandship Instagram …</itunes:summary>
+        <content:encoded><![CDATA[
+
+<p>In dieser Folge sprechen wir über unsere Work-Life Balance Erfahrungen als Softwareentwickler im Büro, im Homeoffice und als Remote-Mitarbeiter.</p>
+
+<p><strong>Gebt uns Feedback:</strong></p>
+
+<ul>
+<li>Twitter <a href="https://twitter.com/codeandship">@codeandship</a></li>
+<li>Instagram <a href="https://www.instagram.com/codeandship/">@codeandship</a></li>
+<li>Mastodon <a href="https://norden.social/users/codeandship">@codeandship@norden.social</a></li>
+<li>Jonathan <a href="https://twitter.com/jowiemers">@jowiemers</a></li>
+<li>Ingmar <a href="https://twitter.com/_truefalse">@_truefalse</a></li>
+</ul>
+
+<p>oder per Email an <a href="mailto:feedback@codeandship.rocks">feedback (at) codeandship.rocks</a>.</p>
+
+<h1 id="links-für-diese-folge">Links für diese Folge</h1>
+
+<ul>
+<li><a href="https://apps.apple.com/de/app/automatische-stempeluhr/id1069297398">Automatische StempelUhr (iOS)</a></li>
+<li><a href="https://timingapp.com">Automatische Zeiterfassung - Timing (macOS)</a></li>
+<li><a href="https://setapp.com">Setapp (macOS)</a></li>
+</ul>
+]]></content:encoded>
+        <itunes:image href="https://codeandship.rocks/cover-2000.jpg" />
+        <itunes:duration>00:43:26</itunes:duration>
+        <itunes:keywords></itunes:keywords>
+        <itunes:episode>14</itunes:episode>
+    </item>
     
     <item>
         <link>https://codeandship.rocks/podcast/14/</link>

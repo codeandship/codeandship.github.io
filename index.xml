@@ -13,7 +13,7 @@
     <atom:link href="https://codeandship.rocks/index.xml" rel="self" type="application/rss+xml" />
     <link>https://codeandship.rocks</link>
     <description>Recent content in Code and Ship on Code and Ship</description>
-    <lastBuildDate>2019-12-23 19:23:33 &#43;0100 CET</lastBuildDate>
+    <lastBuildDate>2020-01-19 16:46:24 &#43;0100 CET</lastBuildDate>
     <sy:updatePeriod>hourly</sy:updatePeriod>
     <sy:updateFrequency>1</sy:updateFrequency>
     <language>en</language>
@@ -32,6 +32,48 @@
     <itunes:block>no</itunes:block>
     <itunes:explicit>no</itunes:explicit>
     <itunes:image href="https://via.placeholder.com/150" />
+    
+    <item>
+        <link>https://codeandship.rocks/podcast/15/</link>
+        <title>Work-Life Balance</title>
+        <pubDate>Sun, 19 Jan 2020 16:46:24 +0100</pubDate>
+        <description></description>
+
+        <enclosure url="https://cdn.codeandship.rocks/podcast/cas_015.mp3" length="55983247" type="audio/mpeg" />
+        <guid>https://cdn.codeandship.rocks/podcast/cas_015.mp3</guid>
+
+        <itunes:author></itunes:author>
+        <itunes:summary> In dieser Folge sprechen wir über unsere Work-Life Balance Erfahrungen als Softwareentwickler im Büro, im Homeoffice und als Remote-Mitarbeiter.
+Gebt uns Feedback:
+ Twitter @codeandship Instagram …</itunes:summary>
+        <content:encoded><![CDATA[
+
+<p>In dieser Folge sprechen wir über unsere Work-Life Balance Erfahrungen als Softwareentwickler im Büro, im Homeoffice und als Remote-Mitarbeiter.</p>
+
+<p><strong>Gebt uns Feedback:</strong></p>
+
+<ul>
+<li>Twitter <a href="https://twitter.com/codeandship">@codeandship</a></li>
+<li>Instagram <a href="https://www.instagram.com/codeandship/">@codeandship</a></li>
+<li>Mastodon <a href="https://norden.social/users/codeandship">@codeandship@norden.social</a></li>
+<li>Jonathan <a href="https://twitter.com/jowiemers">@jowiemers</a></li>
+<li>Ingmar <a href="https://twitter.com/_truefalse">@_truefalse</a></li>
+</ul>
+
+<p>oder per Email an <a href="mailto:feedback@codeandship.rocks">feedback (at) codeandship.rocks</a>.</p>
+
+<h1 id="links-für-diese-folge">Links für diese Folge</h1>
+
+<ul>
+<li><a href="https://apps.apple.com/de/app/automatische-stempeluhr/id1069297398">Automatische StempelUhr (iOS)</a></li>
+<li><a href="https://timingapp.com">Automatische Zeiterfassung - Timing (macOS)</a></li>
+<li><a href="https://setapp.com">Setapp (macOS)</a></li>
+</ul>
+]]>></content:encoded>
+        <itunes:image href="https://via.placeholder.com/150" />
+        <itunes:duration>00:43:26</itunes:duration>
+        <itunes:keywords></itunes:keywords>
+    </item>
     
     <item>
         <link>https://codeandship.rocks/podcast/14/</link>
@@ -1055,69 +1097,6 @@ Am Ende sprechen wir noch über Libraries für die Entwicklung von CLI Tools.</p
 ]]>></content:encoded>
         <itunes:image href="https://via.placeholder.com/150" />
         <itunes:duration></itunes:duration>
-        <itunes:keywords></itunes:keywords>
-    </item>
-    
-    <item>
-        <link>https://codeandship.rocks/podcast/entrytogo/</link>
-        <title>Einführung in Go</title>
-        <pubDate>Fri, 29 Mar 2019 14:14:58 +0100</pubDate>
-        <description></description>
-
-        <enclosure url="https://cdn.codeandship.rocks/podcast/cas_001.mp3" length="73696079" type="audio/mpeg" />
-        <guid>https://cdn.codeandship.rocks/podcast/cas_001.mp3</guid>
-
-        <itunes:author></itunes:author>
-        <itunes:summary>Herzlich Willkommen zu unserem Podcast!
-In der ersten Folge geht es um die Programmiersprache Go.
-Topics:
- Was spricht für Go? Unterschiede zu Java und anderen Programmiersprachen / Frameworks Go …</itunes:summary>
-        <content:encoded><![CDATA[<p><strong>Herzlich Willkommen zu unserem Podcast!</strong><br />
-In der ersten Folge geht es um die Programmiersprache Go.</p>
-
-<p>Topics:</p>
-
-<ul>
-<li>Was spricht für Go?</li>
-<li>Unterschiede zu Java und anderen Programmiersprachen / Frameworks</li>
-<li>Go Features
-
-<ul>
-<li>Go Routines</li>
-</ul></li>
-<li>Woran muss man sich gewöhnen?
-
-<ul>
-<li><code>gofmt</code></li>
-<li><a href="https://blog.golang.org/using-go-modules">Dependency Management</a></li>
-</ul></li>
-<li>Error Handling</li>
-<li><a href="https://github.com/golang-standards/project-layout">Projektstruktur</a>
-
-<ul>
-<li>WTF Dial (<a href="https://medium.com/wtf-dial">Medium</a>, <a href="https://github.com/benbjohnson/wtf/tree/http">GitHub</a>)</li>
-</ul></li>
-<li>Standard <a href="https://github.com/golang/go/wiki/CodeTools">Go Tools</a></li>
-</ul>
-
-<p>Ideen für das erste eigene Go Projekt:</p>
-
-<ul>
-<li>CLI Tools</li>
-<li><a href="https://rosettacode.org/wiki/Category:Draft_Programming_Tasks">Rosetta Code Programming Tasks</a></li>
-</ul>
-
-<p>Weitere hilfreiche Links:</p>
-
-<ul>
-<li><a href="https://tour.golang.org/welcome/1">Tour of Go</a></li>
-<li><a href="https://github.com/golang/go/wiki">Go Wiki</a></li>
-</ul>
-
-<p>Gebt uns Feedback auf Twitter: <a href="https://twitter.com/codeandship">@codeandship</a>, Jonathan (<a href="https://twitter.com/jowiemers">@jowiemers</a>), Ingmar (<a href="https://twitter.com/_truefalse">@_truefalse</a>), oder per Email an <a href="mailto:feedback@codeandship.rocks">feedback (at) codeandship.rocks</a></p>
-]]>></content:encoded>
-        <itunes:image href="https://via.placeholder.com/150" />
-        <itunes:duration>01:16:40</itunes:duration>
         <itunes:keywords></itunes:keywords>
     </item>
     

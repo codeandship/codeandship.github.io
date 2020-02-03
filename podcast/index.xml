@@ -29,7 +29,7 @@
     </itunes:owner>
     <itunes:block>no</itunes:block>
     <itunes:explicit>no</itunes:explicit>
-    <itunes:image href="https://codeandship.rocks/cover-2000.jpg" />
+    <itunes:image href="https://codeandship.rocks/cover-feed.jpg" />
     
     <item>
         <link>https://codeandship.rocks/podcast/16/</link>
@@ -113,7 +113,7 @@ Jonathan benutzt jetzt nur noch JetBrains Mono und Ingmar probiert sich …</itu
 </tbody>
 </table>
 ]]></content:encoded>
-        <itunes:image href="https://codeandship.rocks/cover-2000.jpg" />
+        <itunes:image href="https://codeandship.rocks/cover-feed.jpg" />
         <itunes:duration>00:40:38</itunes:duration>
         <itunes:keywords></itunes:keywords>
         <itunes:episode>16</itunes:episode>
@@ -156,7 +156,7 @@ Gebt uns Feedback:
 <li><a href="https://setapp.com">Setapp (macOS)</a></li>
 </ul>
 ]]></content:encoded>
-        <itunes:image href="https://codeandship.rocks/cover-2000.jpg" />
+        <itunes:image href="https://codeandship.rocks/cover-feed.jpg" />
         <itunes:duration>00:43:26</itunes:duration>
         <itunes:keywords></itunes:keywords>
         <itunes:episode>14</itunes:episode>
@@ -201,7 +201,7 @@ Gebt uns Feedback:
 <li><a href="https://play.golang.org/p/WVM_I0-nJqi">sync.WaitGroup Playground</a></li>
 </ul>
 ]]></content:encoded>
-        <itunes:image href="https://codeandship.rocks/cover-2000.jpg" />
+        <itunes:image href="https://codeandship.rocks/cover-feed.jpg" />
         <itunes:duration>00:47:30</itunes:duration>
         <itunes:keywords></itunes:keywords>
         <itunes:episode>14</itunes:episode>
@@ -252,7 +252,7 @@ Gebt uns Feedback:
 <li><a href="https://codegolf.stackexchange.com/?tab=hot">Code Golf</a></li>
 </ul>
 ]]></content:encoded>
-        <itunes:image href="https://codeandship.rocks/cover-2000.jpg" />
+        <itunes:image href="https://codeandship.rocks/cover-feed.jpg" />
         <itunes:duration>00:39:38</itunes:duration>
         <itunes:keywords></itunes:keywords>
         <itunes:episode>13</itunes:episode>
@@ -299,7 +299,7 @@ Gebt uns Feedback:
 <li><a href="https://github.com/codeandship/traefik-playground">Ingmars Traefik Playground</a></li>
 </ul>
 ]]></content:encoded>
-        <itunes:image href="https://codeandship.rocks/cover-2000.jpg" />
+        <itunes:image href="https://codeandship.rocks/cover-feed.jpg" />
         <itunes:duration>00:39:49</itunes:duration>
         <itunes:keywords></itunes:keywords>
         <itunes:episode>12</itunes:episode>
@@ -341,7 +341,7 @@ Gebt uns Feedback:
 <li><a href="https://youtu.be/x9wn633vl_c">Spiderman gezeichnet in 10m, 1m, 10s</a></li>
 </ul>
 ]]></content:encoded>
-        <itunes:image href="https://codeandship.rocks/cover-2000.jpg" />
+        <itunes:image href="https://codeandship.rocks/cover-feed.jpg" />
         <itunes:duration>00:55:42</itunes:duration>
         <itunes:keywords></itunes:keywords>
         <itunes:episode>11</itunes:episode>
@@ -410,7 +410,7 @@ Gebt uns Feedback:
   IdentityFile ~/.ssh/id_rsa
 </code></pre>
 ]]></content:encoded>
-        <itunes:image href="https://codeandship.rocks/cover-2000.jpg" />
+        <itunes:image href="https://codeandship.rocks/cover-feed.jpg" />
         <itunes:duration>00:55:33</itunes:duration>
         <itunes:keywords></itunes:keywords>
         <itunes:episode>10</itunes:episode>
@@ -460,7 +460,7 @@ Gebt uns Feedback:
 <li><a href="https://www.eclipse.org/che/">Eclipse Che - The Kubernetes-Native IDE for Developer Teams</a></li>
 </ul>
 ]]></content:encoded>
-        <itunes:image href="https://codeandship.rocks/cover-2000.jpg" />
+        <itunes:image href="https://codeandship.rocks/cover-feed.jpg" />
         <itunes:duration>00:34:52</itunes:duration>
         <itunes:keywords></itunes:keywords>
         <itunes:episode>9</itunes:episode>
@@ -529,7 +529,7 @@ Gebt uns Feedback:
 <li><a href="github.com/anthonynsimon/bild">bild</a></li>
 </ul>
 ]]></content:encoded>
-        <itunes:image href="https://codeandship.rocks/cover-2000.jpg" />
+        <itunes:image href="https://codeandship.rocks/cover-feed.jpg" />
         <itunes:duration>00:51:03</itunes:duration>
         <itunes:keywords></itunes:keywords>
         <itunes:episode>8</itunes:episode>
@@ -582,7 +582,7 @@ Gebt uns Feedback:
 </ul></li>
 </ul>
 ]]></content:encoded>
-        <itunes:image href="https://codeandship.rocks/cover-2000.jpg" />
+        <itunes:image href="https://codeandship.rocks/cover-feed.jpg" />
         <itunes:duration>00:35:16</itunes:duration>
         <itunes:keywords></itunes:keywords>
         <itunes:episode>7</itunes:episode>
@@ -634,7 +634,7 @@ Gebt uns Feedback:
 <li><a href="https://chris.beams.io/posts/git-commit/">How to Write a Git Commit Message</a></li>
 </ul>
 ]]></content:encoded>
-        <itunes:image href="https://codeandship.rocks/cover-2000.jpg" />
+        <itunes:image href="https://codeandship.rocks/cover-feed.jpg" />
         <itunes:duration>00:34:40</itunes:duration>
         <itunes:keywords></itunes:keywords>
         <itunes:episode>6</itunes:episode>
@@ -697,7 +697,7 @@ Gebt uns Feedback:
 <li><a href="https://github.com/google/cadvisor">cAdvisor</a></li>
 </ul>
 ]]></content:encoded>
-        <itunes:image href="https://codeandship.rocks/cover-2000.jpg" />
+        <itunes:image href="https://codeandship.rocks/cover-feed.jpg" />
         <itunes:duration>00:52:56</itunes:duration>
         <itunes:keywords></itunes:keywords>
         <itunes:episode>5</itunes:episode>
@@ -742,7 +742,7 @@ Gebt uns …</itunes:summary>
 <li><a href="https://github.com/stretchr/testify">Testify</a></li>
 </ul>
 ]]></content:encoded>
-        <itunes:image href="https://codeandship.rocks/cover-2000.jpg" />
+        <itunes:image href="https://codeandship.rocks/cover-feed.jpg" />
         <itunes:duration>00:38:10</itunes:duration>
         <itunes:keywords></itunes:keywords>
         <itunes:episode>4</itunes:episode>
@@ -824,7 +824,7 @@ Gebt uns …</itunes:summary>
 <li><a href="https://blog.filippo.io/shrink-your-go-binaries-with-this-one-weird-trick/">Shrink Your Go Binaries</a></li>
 </ul>
 ]]></content:encoded>
-        <itunes:image href="https://codeandship.rocks/cover-2000.jpg" />
+        <itunes:image href="https://codeandship.rocks/cover-feed.jpg" />
         <itunes:duration>01:10:11</itunes:duration>
         <itunes:keywords></itunes:keywords>
         <itunes:episode>3</itunes:episode>
@@ -1154,7 +1154,7 @@ Am Ende sprechen wir noch über Libraries für die Entwicklung von CLI Tools.</p
 
 <p>oder per Email an <a href="mailto:feedback@codeandship.rocks">feedback (at) codeandship.rocks</a>.</p>
 ]]></content:encoded>
-        <itunes:image href="https://codeandship.rocks/cover-2000.jpg" />
+        <itunes:image href="https://codeandship.rocks/cover-feed.jpg" />
         <itunes:duration>01:09:41</itunes:duration>
         <itunes:keywords></itunes:keywords>
         <itunes:episode>2</itunes:episode>
@@ -1218,7 +1218,7 @@ In der ersten Folge geht es um die Programmiersprache Go.</p>
 
 <p>Gebt uns Feedback auf Twitter: <a href="https://twitter.com/codeandship">@codeandship</a>, Jonathan (<a href="https://twitter.com/jowiemers">@jowiemers</a>), Ingmar (<a href="https://twitter.com/_truefalse">@_truefalse</a>), oder per Email an <a href="mailto:feedback@codeandship.rocks">feedback (at) codeandship.rocks</a></p>
 ]]></content:encoded>
-        <itunes:image href="https://codeandship.rocks/cover-2000.jpg" />
+        <itunes:image href="https://codeandship.rocks/cover-feed.jpg" />
         <itunes:duration>01:16:40</itunes:duration>
         <itunes:keywords></itunes:keywords>
         <itunes:episode>1</itunes:episode>

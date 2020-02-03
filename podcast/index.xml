@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0"
      xmlns:content="http://purl.org/rss/1.0/modules/content/"
      xmlns:wfw="http://wellformedweb.org/CommentAPI/"
@@ -13,7 +12,7 @@
     <atom:link href="https://codeandship.rocks/index.xml" rel="self" type="application/rss+xml" />
     <link>https://codeandship.rocks/</link>
     <description>Jonathan und Ingmar sprechen übers Programmieren und Ausliefern von Software Projekten. Außerdem tauschen die beiden Bremer sich über Tools, Framewoks und das Leben als Softwareentwickler aus.</description>
-    <lastBuildDate>2020-01-19 16:46:24 &#43;0100 CET</lastBuildDate>
+    <lastBuildDate>2020-02-03 21:10:31 &#43;0100 CET</lastBuildDate>
     <sy:updatePeriod>hourly</sy:updatePeriod>
     <sy:updateFrequency>1</sy:updateFrequency>
     <language>en</language>
@@ -31,6 +30,94 @@
     <itunes:block>no</itunes:block>
     <itunes:explicit>no</itunes:explicit>
     <itunes:image href="https://codeandship.rocks/cover-2000.jpg" />
+    
+    <item>
+        <link>https://codeandship.rocks/podcast/16/</link>
+        <title>HTTP Loadtesting</title>
+        <pubDate>Mon, 03 Feb 2020 21:10:31 +0100</pubDate>
+        <description></description>
+
+        <enclosure url="https://cdn.codeandship.rocks/podcast/cas_016.mp3" length="39467717" type="audio/mpeg" />
+        <guid>https://codeandship.rocks/podcast/16/</guid>
+
+        <itunes:author></itunes:author>
+        <itunes:summary> In dieser Folge sprechen wir über HTTP-Loadtesting: wofür man es braucht, was man beachten sollte und welche Tools es gibt.
+Jonathan benutzt jetzt nur noch JetBrains Mono und Ingmar probiert sich …</itunes:summary>
+        <content:encoded><![CDATA[
+
+<p>In dieser Folge sprechen wir über HTTP-Loadtesting: wofür man es braucht, was man beachten sollte und welche Tools es gibt.</p>
+
+<p>Jonathan benutzt jetzt nur noch JetBrains Mono und Ingmar probiert sich durch das Mate Regal.</p>
+
+<p><strong>Gebt uns Feedback:</strong></p>
+
+<ul>
+<li>Twitter <a href="https://twitter.com/codeandship">@codeandship</a></li>
+<li>Instagram <a href="https://www.instagram.com/codeandship/">@codeandship</a></li>
+<li>Mastodon <a href="https://norden.social/users/codeandship">@codeandship@norden.social</a></li>
+<li>Jonathan <a href="https://twitter.com/jowiemers">@jowiemers</a></li>
+<li>Ingmar <a href="https://twitter.com/_truefalse">@_truefalse</a></li>
+</ul>
+
+<p>oder per Email an <a href="mailto:feedback@codeandship.rocks">feedback (at) codeandship.rocks</a>.</p>
+
+<h1 id="links-für-diese-folge">Links für diese Folge</h1>
+
+<ul>
+<li><a href="https://limoliste.de">Limoliste</a></li>
+<li><a href="https://www.golem.de/news/twitter-elon-musk-veroeffentlicht-neuen-dance-song-2001-146385.html">Don‘t Doubt Your Vibe</a></li>
+<li><a href="https://www.jetbrains.com/lp/mono/">JetBrains Mono</a>
+
+<ul>
+<li><a href="https://de.wikipedia.org/wiki/Ligatur_(Typografie)">Ligatur (Typografie)</a></li>
+<li><a href="https://practicaltypography.com/ligatures-in-programming-fonts-hell-no.html">Ligatures in programming fonts | Butterick’s Practical Typography</a></li>
+</ul></li>
+<li><a href="https://www.digitalocean.com/community/tutorials/an-introduction-to-load-testing">An Introduction to Load Testing</a><br /></li>
+<li><a href="https://github.com/tsenart/vegeta">Vegeta</a><br /></li>
+<li><a href="https://locust.io/">Locust</a></li>
+<li><a href="https://twitter.com/hmemcpy/status/1222209975205998593">Open Source Stars (Meme)</a></li>
+</ul>
+
+<h2 id="mate-test">Mate Test</h2>
+
+<p><a href="https://limoliste.de/club-mate/club-mate">Club Mate</a> - der Klassiker, 0,5 l Glasflasche</p>
+
+<table>
+<thead>
+<tr>
+<th>Key</th>
+<th>Value</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>Geschmack</td>
+<td>★★☆☆☆</td>
+</tr>
+
+<tr>
+<td>Erfrischung</td>
+<td>★★★★☆</td>
+</tr>
+
+<tr>
+<td>Effekt</td>
+<td>★★★★☆</td>
+</tr>
+
+<tr>
+<td>Preis</td>
+<td>★★★★★</td>
+</tr>
+</tbody>
+</table>
+]]></content:encoded>
+        <itunes:image href="https://codeandship.rocks/cover-2000.jpg" />
+        <itunes:duration>00:40:38</itunes:duration>
+        <itunes:keywords></itunes:keywords>
+        <itunes:episode>16</itunes:episode>
+    </item>
     
     <item>
         <link>https://codeandship.rocks/podcast/15/</link>

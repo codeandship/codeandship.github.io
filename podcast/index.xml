@@ -12,7 +12,7 @@
     <atom:link href="https://codeandship.rocks/index.xml" rel="self" type="application/rss+xml" />
     <link>https://codeandship.rocks/</link>
     <description>Jonathan und Ingmar sprechen übers Programmieren und Ausliefern von Software Projekten. Außerdem tauschen die beiden Bremer sich über Tools, Framewoks und das Leben als Softwareentwickler aus.</description>
-    <lastBuildDate>2020-02-18 21:40:44 &#43;0100 CET</lastBuildDate>
+    <lastBuildDate>2020-03-02 18:57:50 &#43;0100 CET</lastBuildDate>
     <sy:updatePeriod>hourly</sy:updatePeriod>
     <sy:updateFrequency>1</sy:updateFrequency>
     <language>en</language>
@@ -30,6 +30,87 @@
     <itunes:block>no</itunes:block>
     <itunes:explicit>no</itunes:explicit>
     <itunes:image href="https://codeandship.rocks/cover-feed.jpg" />
+    
+    <item>
+        <link>https://codeandship.rocks/podcast/18/</link>
+        <title>Der Error Fürst</title>
+        <pubDate>Mon, 02 Mar 2020 18:57:50 +0100</pubDate>
+        <description></description>
+
+        <enclosure url="https://cdn.codeandship.rocks/podcast/cas_018.mp3" length="41517401" type="audio/mpeg" />
+        <guid>https://codeandship.rocks/podcast/18/</guid>
+
+        <itunes:author></itunes:author>
+        <itunes:summary> Diesel Folge ist voll mit Fehlern, denn es geht um Errors in Go und was man dagegen machen kann.
+Gebt uns Feedback:
+ Twitter @codeandship Instagram @codeandship Mastodon @codeandship@norden.social …</itunes:summary>
+        <content:encoded><![CDATA[
+
+<p>Diesel Folge ist voll mit Fehlern, denn es geht um Errors in Go und was man dagegen machen kann.</p>
+
+<p><strong>Gebt uns Feedback:</strong></p>
+
+<ul>
+<li>Twitter <a href="https://twitter.com/codeandship">@codeandship</a></li>
+<li>Instagram <a href="https://www.instagram.com/codeandship/">@codeandship</a></li>
+<li>Mastodon <a href="https://norden.social/users/codeandship">@codeandship@norden.social</a></li>
+<li>Jonathan <a href="https://twitter.com/jowiemers">@jowiemers</a></li>
+<li>Ingmar <a href="https://twitter.com/_truefalse">@_truefalse</a></li>
+</ul>
+
+<p>oder per Email an <a href="mailto:feedback@codeandship.rocks">feedback (at) codeandship.rocks</a>.</p>
+
+<h1 id="links-für-diese-folge">Links für diese Folge</h1>
+
+<ul>
+<li><a href="https://blog.golang.org/errors-are-values">Errors are values</a> - The Go Blog</li>
+<li><a href="https://github.com/pkg/errors">pkg/errors: Simple error handling primitives</a></li>
+<li><a href="https://github.com/hashicorp/go-multierror">hashicorp/go-multierror: A Go (golang) package for representing a list of errors as a single error.</a></li>
+<li><a href="https://github.com/friendsofgo/errors">friendsofgo/errors: Simple error handling primitives</a></li>
+<li><a href="https://blog.golang.org/go1.13-errors">Working with Errors in Go 1.13</a> - The Go Blog</li>
+<li><a href="https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Global_Objects/Error">Error</a> - JavaScript | MDN</li>
+</ul>
+
+<h2 id="mate-test">Mate Test</h2>
+
+<p><a href="https://limoliste.de/mio-mio/mate-banana">Mio Mate Banane</a> - 0,5 l Glasflasche</p>
+
+<table>
+<thead>
+<tr>
+<th>Key</th>
+<th>Value</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>Geschmack</td>
+<td>★★★★★</td>
+</tr>
+
+<tr>
+<td>Erfrischung</td>
+<td>★★★☆☆</td>
+</tr>
+
+<tr>
+<td>Effekt</td>
+<td>★★★★☆</td>
+</tr>
+
+<tr>
+<td>Preis</td>
+<td>★★★★★</td>
+</tr>
+</tbody>
+</table>
+]]></content:encoded>
+        <itunes:image href="https://codeandship.rocks/cover-feed.jpg" />
+        <itunes:duration>00:42:45</itunes:duration>
+        <itunes:keywords></itunes:keywords>
+        <itunes:episode>18</itunes:episode>
+    </item>
     
     <item>
         <link>https://codeandship.rocks/podcast/17/</link>

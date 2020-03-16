@@ -12,7 +12,7 @@
     <atom:link href="https://codeandship.rocks/index.xml" rel="self" type="application/rss+xml" />
     <link>https://codeandship.rocks/</link>
     <description>Jonathan und Ingmar sprechen übers Programmieren und Ausliefern von Software Projekten. Außerdem tauschen die beiden Bremer sich über Tools, Framewoks und das Leben als Softwareentwickler aus.</description>
-    <lastBuildDate>2020-03-02 18:57:50 &#43;0100 CET</lastBuildDate>
+    <lastBuildDate>2020-03-16 18:00:00 &#43;0100 CET</lastBuildDate>
     <sy:updatePeriod>hourly</sy:updatePeriod>
     <sy:updateFrequency>1</sy:updateFrequency>
     <language>en</language>
@@ -30,6 +30,34 @@
     <itunes:block>no</itunes:block>
     <itunes:explicit>no</itunes:explicit>
     <itunes:image href="https://codeandship.rocks/cover-feed.jpg" />
+    
+    <item>
+        <link>https://codeandship.rocks/podcast/19/</link>
+        <title>10x Engineer</title>
+        <pubDate>Mon, 16 Mar 2020 18:00:00 +0100</pubDate>
+        <description></description>
+
+        <enclosure url="https://cdn.codeandship.rocks/podcast/cas_019.mp3" length="48351684" type="audio/mpeg" />
+        <guid>https://codeandship.rocks/podcast/19/</guid>
+
+        <itunes:author></itunes:author>
+        <itunes:summary>Der 10x Engineer, typische Software-Entwickler Eigenschaften, Montage und Motivation, Diversität im Team, Stereotypen und Vorurteile.
+ 10x Engineer Tweet von Shekhar Kirani Cassidy Williams: “Life as …</itunes:summary>
+        <content:encoded><![CDATA[<p>Der 10x Engineer, typische Software-Entwickler Eigenschaften, Montage und Motivation, Diversität im Team, Stereotypen und Vorurteile.</p>
+
+<ul>
+<li><a href="https://twitter.com/skirani/status/1149302828420067328">10x Engineer Tweet von Shekhar Kirani</a></li>
+<li><a href="https://twitter.com/cassidoo/status/1150170262228201472">Cassidy Williams: “Life as a 10x engineer”</a></li>
+<li><a href="https://knowyourmeme.com/memes/10x-engineer">10x Engineer | Know Your Meme</a></li>
+<li><a href="https://www.webdesignerdepot.com/2010/05/7-personality-types-of-developers-today/">7 Personality Types of Developers Today | Webdesigner Depot</a></li>
+<li><a href="http://tiffzhang.com/startup/">Startup Generator</a></li>
+</ul>
+]]></content:encoded>
+        <itunes:image href="https://codeandship.rocks/cover-feed.jpg" />
+        <itunes:duration>00:49:35</itunes:duration>
+        <itunes:keywords></itunes:keywords>
+        <itunes:episode>19</itunes:episode>
+    </item>
     
     <item>
         <link>https://codeandship.rocks/podcast/18/</link>

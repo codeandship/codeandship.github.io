@@ -213,136 +213,96 @@
         
         
 
-        
-
-<p>Diesmal geht es um HTTP Libraries und Frameworks für Go. Jonathan fürchtet um seine Stellung als &ldquo;Herr der Dinge&rdquo;, denn bei Frameworks muss man sich manchmal in die Welt der Codegenerierung begeben. Hilfe, Kontrollverlust! Außerdem geht es darum, wie man gute Libraries erkennt und warum man eine spezielle lieber meiden sollte.
+        <p>Diesmal geht es um HTTP Libraries und Frameworks für Go. Jonathan fürchtet um seine Stellung als &ldquo;Herr der Dinge&rdquo;, denn bei Frameworks muss man sich manchmal in die Welt der Codegenerierung begeben. Hilfe, Kontrollverlust! Außerdem geht es darum, wie man gute Libraries erkennt und warum man eine spezielle lieber meiden sollte.
 Am Ende sprechen wir noch über Libraries für die Entwicklung von CLI Tools.</p>
-
 <h1 id="http-frameworks">HTTP Frameworks</h1>
-
-<h2 id="negroni-github-com-urfave-negroni-http-github-com-urfave-negroni">Negroni (<a href="http://github.com/urfave/negroni">github.com/urfave/negroni</a>)</h2>
-
+<h2 id="negroni-githubcomurfavenegronihttpgithubcomurfavenegroni">Negroni (<a href="http://github.com/urfave/negroni">github.com/urfave/negroni</a>)</h2>
 <blockquote>
 <p>Negroni is an idiomatic approach to web middleware in Go. It is tiny, non-intrusive, and encourages use of <code>net/http</code> Handlers.</p>
 </blockquote>
-
 <p>Kein Framework!</p>
-
 <p><strong>Vorteil</strong></p>
-
 <ul>
 <li>Nah an der Standard Library</li>
 </ul>
-
 <p><strong>Nachteil</strong></p>
-
 <ul>
 <li>Kein automatischen Binding/Rendering
-
 <ul>
 <li>Requests werden nicht automatisch in Structs gemarshalt</li>
 <li>Responses werden nicht automatisch zu JSON umgewandelt.</li>
-</ul></li>
 </ul>
-
-<h2 id="go-chi-github-com-go-chi-chi-http-github-com-go-chi-chi">Go Chi (<a href="http://github.com/go-chi/chi">github.com/go-chi/chi</a>)</h2>
-
+</li>
+</ul>
+<h2 id="go-chi-githubcomgochichihttpgithubcomgochichi">Go Chi (<a href="http://github.com/go-chi/chi">github.com/go-chi/chi</a>)</h2>
 <blockquote>
-<p><code>chi</code> is a lightweight, idiomatic and composable router for building Go HTTP services. It&rsquo;s especially good at helping you write large REST API services that are kept maintainable as your project grows and changes.</p>
+<p><code>chi</code> is a lightweight, idiomatic and composable router for building Go HTTP services. It's especially good at helping you write large REST API services that are kept maintainable as your project grows and changes.</p>
 </blockquote>
-
 <p><strong>Positives</strong></p>
-
 <ul>
 <li>Nah an der Standard Library</li>
 </ul>
-
 <p><strong>Nachteil</strong></p>
-
 <ul>
 <li>Kein automatischen Binding/Rendering
-
 <ul>
 <li>Requests werden nicht automatisch in Structs gemarshalt</li>
 <li>Responses werden nicht automatisch zu JSON umgewandelt.</li>
-</ul></li>
+</ul>
+</li>
 <li>Man muss leere Interface Methoden implementieren um ein Struct überhaupt rendern oder binden zu können</li>
 </ul>
-
-<h2 id="gin-gonic-gin-gonic-com-http-gin-gonic-com">Gin-Gonic (<a href="http://gin-gonic.com/">gin-gonic.com</a>)</h2>
-
+<h2 id="gingonic-gingoniccomhttpgingoniccom">Gin-Gonic (<a href="http://gin-gonic.com/">gin-gonic.com</a>)</h2>
 <blockquote>
 <p>Gin is a web framework written in Go (Golang). It features a martini-like API with much better performance, up to 40 times faster thanks to <a href="https://github.com/julienschmidt/httprouter">httprouter</a>. If you need performance and good productivity, you will love Gin.</p>
 </blockquote>
-
 <p>Vergleichbar mit Express für Node oder Ktor für Kotlin. Sehr gut um schnell REST APIs zu entwickeln. Größere APIs sind auch kein Problem.</p>
-
 <p><strong>Positives</strong></p>
-
 <ul>
 <li>Einfache API</li>
 <li>Aufgeräumte Doku</li>
 <li>Erweiterbar trotz eigener Handler Implementierung (<code>gin.WrapF</code>)</li>
 <li>Sehr einfaches Rendering (JSON, HTML)</li>
 </ul>
-
 <p><strong>Nachteil</strong></p>
-
 <ul>
 <li>Manche Middlewares sind nicht so optimal (CORS)</li>
 </ul>
-
-<h2 id="goa-github-com-goadesign-http-github-com-goadesign">Goa (<a href="http://github.com/goadesign/">github.com/goadesign</a>)</h2>
-
+<h2 id="goa-githubcomgoadesignhttpgithubcomgoadesign">Goa (<a href="http://github.com/goadesign/">github.com/goadesign</a>)</h2>
 <blockquote>
 <p>goa is a framework for building micro-services and REST APIs in Go using a unique design-first approach.</p>
 </blockquote>
-
 <p>Erstellt mittels Code-Generation Boilerplate-Code, programmiert wird nur noch die Logik, der Rest wird generiert.</p>
-
 <p><strong>Nennenswert</strong></p>
-
 <ul>
 <li>Unterstützt OAuth2</li>
 </ul>
-
-<h2 id="revel-revel-github-io-http-revel-github-io">Revel (<a href="http://revel.github.io/">revel.github.io</a>)</h2>
-
+<h2 id="revel-revelgithubiohttprevelgithubio">Revel (<a href="http://revel.github.io/">revel.github.io</a>)</h2>
 <blockquote>
 <p>A high productivity, full-stack web framework for the <a href="http://www.golang.org/">Go language</a>.</p>
 </blockquote>
-
 <p>Bietet wesentlich mehr Möglichkeiten als die bisher genannten. Dennoch geht es vergleichsweise low-levelig zu (vgl. Spring, Rails, SailsJs usw.).</p>
-
 <p>Ist ein klassisches MVC mit template-engine, request validation usw.</p>
-
 <p><strong>Vorteile</strong></p>
-
 <ul>
 <li>Hot Code Reloading</li>
 <li>MVC mit Template-Engine</li>
 <li>Request Validation</li>
 </ul>
-
 <p><strong>Nachteile</strong></p>
-
 <ul>
 <li>Keine einfache, eingebaute Möglichkeit Datenbanken anzubinden
-
 <ul>
 <li>Es werden <a href="https://github.com/jinzhu/gorm">gorm</a> oder andere externe Libraries empfohlen</li>
-</ul></li>
+</ul>
+</li>
 <li>Für Authentication werden ebenfalls externe Libraries empfohlen</li>
 </ul>
-
-<h2 id="buffalo-github-com-gobuffalo-buffalo-https-github-com-gobuffalo-buffalo">Buffalo (<a href="https://github.com/gobuffalo/buffalo">github.com/gobuffalo/buffalo</a>)</h2>
-
+<h2 id="buffalo-githubcomgobuffalobuffalohttpsgithubcomgobuffalobuffalo">Buffalo (<a href="https://github.com/gobuffalo/buffalo">github.com/gobuffalo/buffalo</a>)</h2>
 <blockquote>
-<p>Buffalo <strong>isn&rsquo;t just a framework</strong>; it&rsquo;s a holistic web development environment and project structure that <strong>lets developers get straight to the business</strong> of, well, building their business.</p>
+<p>Buffalo <strong>isn't just a framework</strong>; it's a holistic web development environment and project structure that <strong>lets developers get straight to the business</strong> of, well, building their business.</p>
 </blockquote>
-
 <p><strong>Features</strong></p>
-
 <ul>
 <li>Templating</li>
 <li>Routing</li>
@@ -350,28 +310,20 @@ Am Ende sprechen wir noch über Libraries für die Entwicklung von CLI Tools.</p
 <li>Models/ORM (optional)</li>
 <li>Sessions, Cookies, WebSockets uvm.</li>
 </ul>
-
 <p><strong>Pluspunkte</strong></p>
-
 <ul>
 <li>Gute Doku</li>
 <li>Viele Tutorials und Beispiele</li>
 </ul>
-
-<h2 id="iris-github-com-kataras-iris-nope">Iris (<a href="#nope">github.com/kataras/iris</a>)</h2>
-
+<h2 id="iris-githubcomkatarasirisnope">Iris (<a href="#nope">github.com/kataras/iris</a>)</h2>
 <p><em>Eine Nicht-Empfehlung</em></p>
-
 <p><strong>Features</strong></p>
-
 <ul>
 <li>Sehr umfangreiche Funktionen</li>
 <li>Form-Validation</li>
 <li>Controller, ähnlich wie in anderen großen Web Frameworks</li>
 </ul>
-
 <p><strong>Bedenklich</strong></p>
-
 <ul>
 <li><a href="https://www.reddit.com/r/golang/comments/b481q7/a_warning_about_githubcomkatarasiris">Thread bei /r/golang</a></li>
 <li>Ziemlich merkwürdige Vergangenheit</li>
@@ -380,46 +332,32 @@ Am Ende sprechen wir noch über Libraries für die Entwicklung von CLI Tools.</p
 <li>Maintainer Verhalten verstößt gegen den Golang Code of Conduct</li>
 <li>&ldquo;Unbeatable free support for everyone&rdquo;</li>
 </ul>
-
 <h1 id="http-libraries">HTTP Libraries</h1>
-
-<h2 id="swag-github-com-swaggo-swag-http-github-com-swaggo-swag">Swag (<a href="http://github.com/swaggo/swag">github.com/swaggo/swag</a>)</h2>
-
+<h2 id="swag-githubcomswaggoswaghttpgithubcomswaggoswag">Swag (<a href="http://github.com/swaggo/swag">github.com/swaggo/swag</a>)</h2>
 <blockquote>
 <p>Swag converts Go annotations to Swagger Documentation 2.0.</p>
 </blockquote>
-
 <p>Generiert eine <code>swagger.json</code> anhand von Kommentaren im Code.</p>
-
 <p><strong>Positives</strong></p>
-
 <ul>
 <li>HTTP Framework/Library unabhängig</li>
 <li>Wenn man die API einmal geblickt hat ist es sehr einfach zu benutzten.</li>
 <li>Bietet auch Code-Generation features (haben wir nicht getestet)</li>
 </ul>
-
 <p><strong>Nachteil</strong></p>
-
 <ul>
 <li>Doku nur in der README und auf <a href="https://godoc.org/github.com/swaggo/swag">godoc.org</a></li>
 <li>Einige Features mehr oder weniger nicht dokumentiert</li>
 </ul>
-
-<h2 id="go-swagger-github-com-go-swagger-go-swagger-https-github-com-go-swagger-go-swagger">go-swagger (<a href="https://github.com/go-swagger/go-swagger">github.com/go-swagger/go-swagger</a>)</h2>
-
+<h2 id="goswagger-githubcomgoswaggergoswaggerhttpsgithubcomgoswaggergoswagger">go-swagger (<a href="https://github.com/go-swagger/go-swagger">github.com/go-swagger/go-swagger</a>)</h2>
 <blockquote>
 <p>This package contains a golang implementation of Swagger 2.0 (aka <a href="https://github.com/OAI/OpenAPI-Specification/blob/master/versions/2.0.md">OpenAPI 2.0</a>): it knows how to serialize and deserialize swagger specifications.</p>
 </blockquote>
-
-<h2 id="gorilla-webtoolkit-gorillatoolkit-org-http-www-gorillatoolkit-org">Gorilla Webtoolkit (<a href="http://www.gorillatoolkit.org/">gorillatoolkit.org</a>)</h2>
-
+<h2 id="gorilla-webtoolkit-gorillatoolkitorghttpwwwgorillatoolkitorg">Gorilla Webtoolkit (<a href="http://www.gorillatoolkit.org/">gorillatoolkit.org</a>)</h2>
 <blockquote>
 <p>Gorilla is a web toolkit for the <a href="http://golang.org/">Go programming language</a>.</p>
 </blockquote>
-
 <p>Alles was man sonst noch so braucht, vor allem:</p>
-
 <ul>
 <li>context: stores global request variables.</li>
 <li>mux: is a powerful URL router and dispatcher.</li>
@@ -428,102 +366,70 @@ Am Ende sprechen wir noch über Libraries für die Entwicklung von CLI Tools.</p
 <li>sessions: saves cookie and filesystem sessions and allows custom session backends.</li>
 <li>websocket: implements the WebSocket protocol defined in RFC 6455.</li>
 </ul>
-
 <p>HTTP Multiplexer Implementierung werden häufig mit <code>mux</code> abgekürzt oder einfach &ldquo;Router&rdquo; genannt.</p>
-
 <h2 id="weitere-projekte">Weitere Projekte</h2>
-
 <p>Ein weiteres HTTP Framework:</p>
-
 <blockquote>
-<p>High performance, minimalist Go web framework<br />
+<p>High performance, minimalist Go web framework<br>
 <a href="https://github.com/labstack/echo">labstack/echo</a></p>
 </blockquote>
-
 <p>Eine weitere HTTP Multiplexer Implementierung:</p>
-
 <blockquote>
 <p>A high performance HTTP request router
 <a href="https://github.com/julienschmidt/httprouter">HttpRouter</a></p>
 </blockquote>
-
 <p>Noch ein <code>mux</code>:</p>
-
 <blockquote>
 <p><a href="https://github.com/goji/goji">Goji</a> is a minimalistic and flexible HTTP request multiplexer</p>
 </blockquote>
-
 <p>Datenbank Library für MySQL, PostgreSQL, Sqlite3:</p>
-
 <blockquote>
 <p>The fantastic ORM library for Golang, aims to be developer friendly
 <a href="https://github.com/jinzhu/gorm">gorm</a></p>
 </blockquote>
-
 <p>Dateien, zum Bespiel HTML Templates, in Go Binaries einbauen:</p>
-
 <blockquote>
 <p>Embed files into a Go executable
 <a href="https://github.com/rakyll/statik">statik</a></p>
 </blockquote>
-
 <p>&hellip; eine weitere Möglichkeit:</p>
-
 <blockquote>
 <p>The simple and easy way to embed static files into Go binaries.
 <a href="https://github.com/gobuffalo/packr">packr</a></p>
 </blockquote>
-
 <p>Gültige (!)  Zertifikate zum lokalen Entwickeln:</p>
-
 <blockquote>
-<p>A simple zero-config tool to make locally trusted development certificates with any names you&rsquo;d like.
+<p>A simple zero-config tool to make locally trusted development certificates with any names you'd like.
 <a href="https://github.com/FiloSottile/mkcert">mkcert</a></p>
 </blockquote>
-
-<h1 id="libraries-für-cli-software">Libraries für CLI Software</h1>
-
-<h2 id="go-cui-github-com-jroimartin-gocui-github-com-jroimartin-gocui">go cui (<a href="github.com/jroimartin/gocui">github.com/jroimartin/gocui</a>)</h2>
-
-<p><figure><img src="https://cloud.githubusercontent.com/assets/1223476/19418932/63645052-93ce-11e6-867c-da5e97e37237.png" alt="gocui demo" class="lazyload"><figcaption class="image-caption">gocui demo</figcaption></figure></p>
-
+<h1 id="libraries-fr-cli-software">Libraries für CLI Software</h1>
+<h2 id="go-cui-githubcomjroimartingocuigithubcomjroimartingocui">go cui (<a href="github.com/jroimartin/gocui">github.com/jroimartin/gocui</a>)</h2>
+<p><img src="https://cloud.githubusercontent.com/assets/1223476/19418932/63645052-93ce-11e6-867c-da5e97e37237.png" alt="gocui demo"></p>
 <blockquote>
 <p>Minimalist Go package aimed at creating Console User Interfaces.</p>
 </blockquote>
-
-<h2 id="termui-github-com-gizak-termui-github-com-gizak-termui">termui (<a href="github.com/gizak/termui">github.com/gizak/termui</a>)</h2>
-
-<p><figure><img src="https://github.com/gizak/termui/raw/master/_assets/demo.gif" alt="termui demo" class="lazyload"><figcaption class="image-caption">termui demo</figcaption></figure></p>
-
+<h2 id="termui-githubcomgizaktermuigithubcomgizaktermui">termui (<a href="github.com/gizak/termui">github.com/gizak/termui</a>)</h2>
+<p><img src="https://github.com/gizak/termui/raw/master/_assets/demo.gif" alt="termui demo"></p>
 <blockquote>
 <p>termui is a cross-platform and fully-customizable terminal dashboard and widget library built on top of <a href="https://github.com/nsf/termbox-go">termbox-go</a>.</p>
 </blockquote>
-
-<h2 id="promptui-github-com-manifoldco-promptui-https-github-com-manifoldco-promptui">promptui (<a href="https://github.com/manifoldco/promptui">github.com/manifoldco/promptui</a>)</h2>
-
-<p><figure><img src="https://media.giphy.com/media/xUNda0Ngb5qsogLsBi/giphy.gif" alt="PromptUI Demo" class="lazyload"><figcaption class="image-caption">PromptUI Demo</figcaption></figure></p>
-
+<h2 id="promptui-githubcommanifoldcopromptuihttpsgithubcommanifoldcopromptui">promptui (<a href="https://github.com/manifoldco/promptui">github.com/manifoldco/promptui</a>)</h2>
+<p><img src="https://media.giphy.com/media/xUNda0Ngb5qsogLsBi/giphy.gif" alt="PromptUI Demo"></p>
 <blockquote>
 <p>Interactive prompt for command-line applications.</p>
 </blockquote>
-
 <h2 id="weitere">Weitere</h2>
-
 <ul>
 <li>Filewatcher für schnelles Entwickeln: <a href="https://github.com/mitranim/gow">gow</a></li>
 <li>Frotschrittsbalken: <a href="https://github.com/gosuri/uiprogress">uiprogress</a></li>
 </ul>
-
-<h2 id="vielen-dank-fürs-zuhören">Vielen Dank fürs Zuhören!</h2>
-
+<h2 id="vielen-dank-frs-zuhren">Vielen Dank fürs Zuhören!</h2>
 <p><strong>Gebt uns Feedback auf Twitter:</strong></p>
-
 <ul>
 <li><a href="https://twitter.com/codeandship">@codeandship</a></li>
 <li>Jonathan <a href="https://twitter.com/jowiemers">@jowiemers</a></li>
 <li>Ingmar <a href="https://twitter.com/_truefalse">@_truefalse</a></li>
 </ul>
-
 <p>oder per Email an <a href="mailto:feedback@codeandship.rocks">feedback (at) codeandship.rocks</a>.</p>
 
     </div>

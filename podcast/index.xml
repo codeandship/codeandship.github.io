@@ -12,7 +12,7 @@
     <atom:link href="https://codeandship.rocks/index.xml" rel="self" type="application/rss+xml" />
     <link>https://codeandship.rocks/</link>
     <description>Jonathan und Ingmar sprechen übers Programmieren und Ausliefern von Software Projekten. Außerdem tauschen die beiden Bremer sich über Tools, Framewoks und das Leben als Softwareentwickler aus.</description>
-    <lastBuildDate>2020-03-16 18:00:00 &#43;0100 CET</lastBuildDate>
+    <lastBuildDate>2020-03-30 15:07:36 &#43;0200 CEST</lastBuildDate>
     <sy:updatePeriod>hourly</sy:updatePeriod>
     <sy:updateFrequency>1</sy:updateFrequency>
     <language>en</language>
@@ -32,6 +32,41 @@
     <itunes:image href="https://codeandship.rocks/cover-feed.jpg" />
     
     <item>
+        <link>https://codeandship.rocks/podcast/20/</link>
+        <title>Rendering im Web</title>
+        <pubDate>Mon, 30 Mar 2020 15:07:36 +0200</pubDate>
+        <description></description>
+
+        <enclosure url="https://cdn.codeandship.rocks/podcast/cas_020.mp3" length="29744037" type="audio/mpeg" />
+        <guid>https://codeandship.rocks/podcast/20/</guid>
+
+        <itunes:author></itunes:author>
+        <itunes:summary>Das Rendering im Web hat sich in den letzten Jahren drastisch verändert. Wir versuchen ein bisschen klarheit in das Chaos zu bringen… ob wir das schaffen?
+Gebt uns Feedback:
+ Twitter @codeandship …</itunes:summary>
+        <content:encoded><![CDATA[<p>Das Rendering im Web hat sich in den letzten Jahren drastisch verändert. Wir versuchen ein bisschen klarheit in das Chaos zu bringen… ob wir das schaffen?</p>
+<p><strong>Gebt uns Feedback:</strong></p>
+<ul>
+<li>Twitter <a href="https://twitter.com/codeandship">@codeandship</a></li>
+<li>Instagram <a href="https://www.instagram.com/codeandship/">@codeandship</a></li>
+<li>Mastodon <a href="https://norden.social/users/codeandship">@codeandship@norden.social</a></li>
+<li>Jonathan <a href="https://twitter.com/jowiemers">@jowiemers</a></li>
+<li>Ingmar <a href="https://twitter.com/_truefalse">@_truefalse</a></li>
+</ul>
+<p>oder per Email an <a href="mailto:feedback@codeandship.rocks">feedback (at) codeandship.rocks</a>.</p>
+<h1 id="links-fr-diese-folge">Links für diese Folge</h1>
+<ul>
+<li><a href="https://t3n.de/news/krisenmodus-sollten-websites-1266878/">Darum sollten Websites mit wichtigen Informationen statisch sein</a></li>
+<li><a href="https://www.gatsbyjs.org/features/jamstack/gatsby-vs-nextjs-vs-nuxtjs">Comparison of Gatsby vs Next.js vs Nuxt.js</a></li>
+</ul>
+]]></content:encoded>
+        <itunes:image href="https://codeandship.rocks/cover-feed.jpg" />
+        <itunes:duration>00:26:26</itunes:duration>
+        <itunes:keywords></itunes:keywords>
+        <itunes:episode>20</itunes:episode>
+    </item>
+    
+    <item>
         <link>https://codeandship.rocks/podcast/19/</link>
         <title>10x Engineer</title>
         <pubDate>Mon, 16 Mar 2020 18:00:00 +0100</pubDate>
@@ -44,7 +79,6 @@
         <itunes:summary>Der 10x Engineer, typische Software-Entwickler Eigenschaften, Montage und Motivation, Diversität im Team, Stereotypen und Vorurteile.
  10x Engineer Tweet von Shekhar Kirani Cassidy Williams: “Life as …</itunes:summary>
         <content:encoded><![CDATA[<p>Der 10x Engineer, typische Software-Entwickler Eigenschaften, Montage und Motivation, Diversität im Team, Stereotypen und Vorurteile.</p>
-
 <ul>
 <li><a href="https://twitter.com/skirani/status/1149302828420067328">10x Engineer Tweet von Shekhar Kirani</a></li>
 <li><a href="https://twitter.com/cassidoo/status/1150170262228201472">Cassidy Williams: “Life as a 10x engineer”</a></li>
@@ -69,15 +103,11 @@
         <guid>https://codeandship.rocks/podcast/18/</guid>
 
         <itunes:author></itunes:author>
-        <itunes:summary> Diesel Folge ist voll mit Fehlern, denn es geht um Errors in Go und was man dagegen machen kann.
+        <itunes:summary>Diesel Folge ist voll mit Fehlern, denn es geht um Errors in Go und was man dagegen machen kann.
 Gebt uns Feedback:
  Twitter @codeandship Instagram @codeandship Mastodon @codeandship@norden.social …</itunes:summary>
-        <content:encoded><![CDATA[
-
-<p>Diesel Folge ist voll mit Fehlern, denn es geht um Errors in Go und was man dagegen machen kann.</p>
-
+        <content:encoded><![CDATA[<p>Diesel Folge ist voll mit Fehlern, denn es geht um Errors in Go und was man dagegen machen kann.</p>
 <p><strong>Gebt uns Feedback:</strong></p>
-
 <ul>
 <li>Twitter <a href="https://twitter.com/codeandship">@codeandship</a></li>
 <li>Instagram <a href="https://www.instagram.com/codeandship/">@codeandship</a></li>
@@ -85,11 +115,8 @@ Gebt uns Feedback:
 <li>Jonathan <a href="https://twitter.com/jowiemers">@jowiemers</a></li>
 <li>Ingmar <a href="https://twitter.com/_truefalse">@_truefalse</a></li>
 </ul>
-
 <p>oder per Email an <a href="mailto:feedback@codeandship.rocks">feedback (at) codeandship.rocks</a>.</p>
-
-<h1 id="links-für-diese-folge">Links für diese Folge</h1>
-
+<h1 id="links-fr-diese-folge">Links für diese Folge</h1>
 <ul>
 <li><a href="https://blog.golang.org/errors-are-values">Errors are values</a> - The Go Blog</li>
 <li><a href="https://github.com/pkg/errors">pkg/errors: Simple error handling primitives</a></li>
@@ -98,11 +125,8 @@ Gebt uns Feedback:
 <li><a href="https://blog.golang.org/go1.13-errors">Working with Errors in Go 1.13</a> - The Go Blog</li>
 <li><a href="https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Global_Objects/Error">Error</a> - JavaScript | MDN</li>
 </ul>
-
 <h2 id="mate-test">Mate Test</h2>
-
 <p><a href="https://limoliste.de/mio-mio/mate-banana">Mio Mate Banane</a> - 0,5 l Glasflasche</p>
-
 <table>
 <thead>
 <tr>
@@ -110,23 +134,19 @@ Gebt uns Feedback:
 <th>Value</th>
 </tr>
 </thead>
-
 <tbody>
 <tr>
 <td>Geschmack</td>
 <td>★★★★★</td>
 </tr>
-
 <tr>
 <td>Erfrischung</td>
 <td>★★★☆☆</td>
 </tr>
-
 <tr>
 <td>Effekt</td>
 <td>★★★★☆</td>
 </tr>
-
 <tr>
 <td>Preis</td>
 <td>★★★★★</td>
@@ -150,16 +170,11 @@ Gebt uns Feedback:
         <guid>https://codeandship.rocks/podcast/17/</guid>
 
         <itunes:author></itunes:author>
-        <itunes:summary> “Gofmt’s style is no one’s favorite, yet gofmt is everyone’s favorite.” – Rob Pike
+        <itunes:summary>“Gofmt&#39;s style is no one&#39;s favorite, yet gofmt is everyone&#39;s favorite.” – Rob Pike
 Mit Tools wie “gofmt”, “go vet”, “staticcheck” oder “detekt” gegen das Chaos im Code! Heute sprechen wir über Code …</itunes:summary>
-        <content:encoded><![CDATA[
-
-<p>“<a href="https://www.youtube.com/watch?v=PAAkCSZUG1c&t=8m43s">Gofmt’s style is no one’s favorite, yet gofmt is everyone’s favorite.</a>” – Rob Pike</p>
-
+        <content:encoded><![CDATA[<p>“<a href="https://www.youtube.com/watch?v=PAAkCSZUG1c&t=8m43s">Gofmt's style is no one's favorite, yet gofmt is everyone's favorite.</a>” – Rob Pike</p>
 <p>Mit Tools wie “gofmt”, “go vet”, “staticcheck” oder “detekt” gegen das Chaos im Code! Heute sprechen wir über Code Formatierung, Styles und über statische Code Analyzer.</p>
-
 <p><strong>Gebt uns Feedback:</strong></p>
-
 <ul>
 <li>Twitter <a href="https://twitter.com/codeandship">@codeandship</a></li>
 <li>Instagram <a href="https://www.instagram.com/codeandship/">@codeandship</a></li>
@@ -167,11 +182,8 @@ Mit Tools wie “gofmt”, “go vet”, “staticcheck” oder “detekt” geg
 <li>Jonathan <a href="https://twitter.com/jowiemers">@jowiemers</a></li>
 <li>Ingmar <a href="https://twitter.com/_truefalse">@_truefalse</a></li>
 </ul>
-
 <p>oder per Email an <a href="mailto:feedback@codeandship.rocks">feedback (at) codeandship.rocks</a>.</p>
-
-<h1 id="links-für-diese-folge">Links für diese Folge</h1>
-
+<h1 id="links-fr-diese-folge">Links für diese Folge</h1>
 <ul>
 <li><a href="https://en.wikipedia.org/wiki/Indentation_style#Brace_placement_in_compound_statements">Indentation style</a> - Wikipedia</li>
 <li><a href="https://go-proverbs.github.io/">Go Proverbs</a></li>
@@ -180,9 +192,7 @@ Mit Tools wie “gofmt”, “go vet”, “staticcheck” oder “detekt” geg
 <li><a href="https://github.com/golangci/golangci-lint">golangci/golangci-lint: Linters Runner for Go</a></li>
 <li><a href="https://arturbosch.github.io/detekt/">detekt | A static code analyzer for Kotlin</a></li>
 </ul>
-
 <h1 id="mate-test">Mate Test</h1>
-
 <p><code>503 Service Unavailable</code></p>
 ]]></content:encoded>
         <itunes:image href="https://codeandship.rocks/cover-feed.jpg" />
@@ -201,16 +211,11 @@ Mit Tools wie “gofmt”, “go vet”, “staticcheck” oder “detekt” geg
         <guid>https://codeandship.rocks/podcast/16/</guid>
 
         <itunes:author></itunes:author>
-        <itunes:summary> In dieser Folge sprechen wir über HTTP-Loadtesting: wofür man es braucht, was man beachten sollte und welche Tools es gibt.
+        <itunes:summary>In dieser Folge sprechen wir über HTTP-Loadtesting: wofür man es braucht, was man beachten sollte und welche Tools es gibt.
 Jonathan benutzt jetzt nur noch JetBrains Mono und Ingmar probiert sich …</itunes:summary>
-        <content:encoded><![CDATA[
-
-<p>In dieser Folge sprechen wir über HTTP-Loadtesting: wofür man es braucht, was man beachten sollte und welche Tools es gibt.</p>
-
+        <content:encoded><![CDATA[<p>In dieser Folge sprechen wir über HTTP-Loadtesting: wofür man es braucht, was man beachten sollte und welche Tools es gibt.</p>
 <p>Jonathan benutzt jetzt nur noch JetBrains Mono und Ingmar probiert sich durch das Mate Regal.</p>
-
 <p><strong>Gebt uns Feedback:</strong></p>
-
 <ul>
 <li>Twitter <a href="https://twitter.com/codeandship">@codeandship</a></li>
 <li>Instagram <a href="https://www.instagram.com/codeandship/">@codeandship</a></li>
@@ -218,30 +223,24 @@ Jonathan benutzt jetzt nur noch JetBrains Mono und Ingmar probiert sich …</itu
 <li>Jonathan <a href="https://twitter.com/jowiemers">@jowiemers</a></li>
 <li>Ingmar <a href="https://twitter.com/_truefalse">@_truefalse</a></li>
 </ul>
-
 <p>oder per Email an <a href="mailto:feedback@codeandship.rocks">feedback (at) codeandship.rocks</a>.</p>
-
-<h1 id="links-für-diese-folge">Links für diese Folge</h1>
-
+<h1 id="links-fr-diese-folge">Links für diese Folge</h1>
 <ul>
 <li><a href="https://limoliste.de">Limoliste</a></li>
 <li><a href="https://www.golem.de/news/twitter-elon-musk-veroeffentlicht-neuen-dance-song-2001-146385.html">Don‘t Doubt Your Vibe</a></li>
 <li><a href="https://www.jetbrains.com/lp/mono/">JetBrains Mono</a>
-
 <ul>
 <li><a href="https://de.wikipedia.org/wiki/Ligatur_(Typografie)">Ligatur (Typografie)</a></li>
 <li><a href="https://practicaltypography.com/ligatures-in-programming-fonts-hell-no.html">Ligatures in programming fonts | Butterick’s Practical Typography</a></li>
-</ul></li>
-<li><a href="https://www.digitalocean.com/community/tutorials/an-introduction-to-load-testing">An Introduction to Load Testing</a><br /></li>
-<li><a href="https://github.com/tsenart/vegeta">Vegeta</a><br /></li>
+</ul>
+</li>
+<li><a href="https://www.digitalocean.com/community/tutorials/an-introduction-to-load-testing">An Introduction to Load Testing</a></li>
+<li><a href="https://github.com/tsenart/vegeta">Vegeta</a></li>
 <li><a href="https://locust.io/">Locust</a></li>
 <li><a href="https://twitter.com/hmemcpy/status/1222209975205998593">Open Source Stars (Meme)</a></li>
 </ul>
-
 <h2 id="mate-test">Mate Test</h2>
-
 <p><a href="https://limoliste.de/club-mate/club-mate">Club Mate</a> - der Klassiker, 0,5 l Glasflasche</p>
-
 <table>
 <thead>
 <tr>
@@ -249,23 +248,19 @@ Jonathan benutzt jetzt nur noch JetBrains Mono und Ingmar probiert sich …</itu
 <th>Value</th>
 </tr>
 </thead>
-
 <tbody>
 <tr>
 <td>Geschmack</td>
 <td>★★☆☆☆</td>
 </tr>
-
 <tr>
 <td>Erfrischung</td>
 <td>★★★★☆</td>
 </tr>
-
 <tr>
 <td>Effekt</td>
 <td>★★★★☆</td>
 </tr>
-
 <tr>
 <td>Preis</td>
 <td>★★★★★</td>
@@ -289,15 +284,11 @@ Jonathan benutzt jetzt nur noch JetBrains Mono und Ingmar probiert sich …</itu
         <guid>https://codeandship.rocks/podcast/15/</guid>
 
         <itunes:author></itunes:author>
-        <itunes:summary> In dieser Folge sprechen wir über unsere Work-Life Balance Erfahrungen als Softwareentwickler im Büro, im Homeoffice und als Remote-Mitarbeiter.
+        <itunes:summary>In dieser Folge sprechen wir über unsere Work-Life Balance Erfahrungen als Softwareentwickler im Büro, im Homeoffice und als Remote-Mitarbeiter.
 Gebt uns Feedback:
  Twitter @codeandship Instagram …</itunes:summary>
-        <content:encoded><![CDATA[
-
-<p>In dieser Folge sprechen wir über unsere Work-Life Balance Erfahrungen als Softwareentwickler im Büro, im Homeoffice und als Remote-Mitarbeiter.</p>
-
+        <content:encoded><![CDATA[<p>In dieser Folge sprechen wir über unsere Work-Life Balance Erfahrungen als Softwareentwickler im Büro, im Homeoffice und als Remote-Mitarbeiter.</p>
 <p><strong>Gebt uns Feedback:</strong></p>
-
 <ul>
 <li>Twitter <a href="https://twitter.com/codeandship">@codeandship</a></li>
 <li>Instagram <a href="https://www.instagram.com/codeandship/">@codeandship</a></li>
@@ -305,11 +296,8 @@ Gebt uns Feedback:
 <li>Jonathan <a href="https://twitter.com/jowiemers">@jowiemers</a></li>
 <li>Ingmar <a href="https://twitter.com/_truefalse">@_truefalse</a></li>
 </ul>
-
 <p>oder per Email an <a href="mailto:feedback@codeandship.rocks">feedback (at) codeandship.rocks</a>.</p>
-
-<h1 id="links-für-diese-folge">Links für diese Folge</h1>
-
+<h1 id="links-fr-diese-folge">Links für diese Folge</h1>
 <ul>
 <li><a href="https://apps.apple.com/de/app/automatische-stempeluhr/id1069297398">Automatische StempelUhr (iOS)</a></li>
 <li><a href="https://timingapp.com">Automatische Zeiterfassung - Timing (macOS)</a></li>
@@ -332,13 +320,10 @@ Gebt uns Feedback:
         <guid>https://codeandship.rocks/podcast/14/</guid>
 
         <itunes:author></itunes:author>
-        <itunes:summary> Was für ein Chaos! Heute sprechen wir über Concurrency Pattern in Go Gebt uns Feedback:
+        <itunes:summary>Was für ein Chaos! Heute sprechen wir über Concurrency Pattern in Go Gebt uns Feedback:
  Twitter @codeandship Instagram @codeandship Mastodon @codeandship@norden.social Jonathan @jowiemers Ingmar …</itunes:summary>
-        <content:encoded><![CDATA[
-
-<p>Was für ein Chaos! Heute sprechen wir über Concurrency Pattern in Go
+        <content:encoded><![CDATA[<p>Was für ein Chaos! Heute sprechen wir über Concurrency Pattern in Go
 <strong>Gebt uns Feedback:</strong></p>
-
 <ul>
 <li>Twitter <a href="https://twitter.com/codeandship">@codeandship</a></li>
 <li>Instagram <a href="https://www.instagram.com/codeandship/">@codeandship</a></li>
@@ -346,11 +331,8 @@ Gebt uns Feedback:
 <li>Jonathan <a href="https://twitter.com/jowiemers">@jowiemers</a></li>
 <li>Ingmar <a href="https://twitter.com/_truefalse">@_truefalse</a></li>
 </ul>
-
 <p>oder per Email an <a href="mailto:feedback@codeandship.rocks">feedback (at) codeandship.rocks</a>.</p>
-
-<h1 id="links-für-diese-folge">Links für diese Folge</h1>
-
+<h1 id="links-fr-diese-folge">Links für diese Folge</h1>
 <ul>
 <li><a href="https://github.com/codeandship/go-worker-example">Go Worker Example</a></li>
 <li><a href="https://go101.org/article/channel-closing.html">How to Gracefully Close Channels - Go 101 (an online book for Go programming language + Golang knowledge base)</a></li>
@@ -377,15 +359,11 @@ Gebt uns Feedback:
         <guid>https://codeandship.rocks/podcast/13/</guid>
 
         <itunes:author></itunes:author>
-        <itunes:summary> Die Schicksalsfolge #13! Ach nee, Moment … falscher Podcast. KISS, DRY, YAGNI um sowas gehts hier heute, verschiedene Software Design Prinzipien.
+        <itunes:summary>Die Schicksalsfolge #13! Ach nee, Moment … falscher Podcast. KISS, DRY, YAGNI um sowas gehts hier heute, verschiedene Software Design Prinzipien.
 Gebt uns Feedback:
  Twitter @codeandship Instagram …</itunes:summary>
-        <content:encoded><![CDATA[
-
-<p>Die Schicksalsfolge #13! Ach nee, Moment … falscher Podcast. KISS, DRY, YAGNI um sowas gehts hier heute, verschiedene Software Design Prinzipien.</p>
-
+        <content:encoded><![CDATA[<p>Die Schicksalsfolge #13! Ach nee, Moment … falscher Podcast. KISS, DRY, YAGNI um sowas gehts hier heute, verschiedene Software Design Prinzipien.</p>
 <p><strong>Gebt uns Feedback:</strong></p>
-
 <ul>
 <li>Twitter <a href="https://twitter.com/codeandship">@codeandship</a></li>
 <li>Instagram <a href="https://www.instagram.com/codeandship/">@codeandship</a></li>
@@ -393,11 +371,8 @@ Gebt uns Feedback:
 <li>Jonathan <a href="https://twitter.com/jowiemers">@jowiemers</a></li>
 <li>Ingmar <a href="https://twitter.com/_truefalse">@_truefalse</a></li>
 </ul>
-
 <p>oder per Email an <a href="mailto:feedback@codeandship.rocks">feedback (at) codeandship.rocks</a>.</p>
-
-<h1 id="links-für-diese-folge">Links für diese Folge</h1>
-
+<h1 id="links-fr-diese-folge">Links für diese Folge</h1>
 <ul>
 <li><a href="https://twitter.com/unclebobmartin/status/1192392951294500864">Tweet von @unclebobmartin</a></li>
 <li><a href="https://en.wikipedia.org/wiki/KISS_principle">KISS</a></li>
@@ -428,15 +403,11 @@ Gebt uns Feedback:
         <guid>https://codeandship.rocks/podcast/12/</guid>
 
         <itunes:author></itunes:author>
-        <itunes:summary> Traefik ist ein in Go geschriebener Reverseproxy mit vielen Features wie automatischen SSL-Zertifikaten und Docker Integration. Eine kleine Einführung.
+        <itunes:summary>Traefik ist ein in Go geschriebener Reverseproxy mit vielen Features wie automatischen SSL-Zertifikaten und Docker Integration. Eine kleine Einführung.
 Gebt uns Feedback:
  Twitter @codeandship …</itunes:summary>
-        <content:encoded><![CDATA[
-
-<p>Traefik ist ein in Go geschriebener Reverseproxy mit vielen Features wie automatischen SSL-Zertifikaten und Docker Integration. Eine kleine Einführung.</p>
-
+        <content:encoded><![CDATA[<p>Traefik ist ein in Go geschriebener Reverseproxy mit vielen Features wie automatischen SSL-Zertifikaten und Docker Integration. Eine kleine Einführung.</p>
 <p><strong>Gebt uns Feedback:</strong></p>
-
 <ul>
 <li>Twitter <a href="https://twitter.com/codeandship">@codeandship</a></li>
 <li>Instagram <a href="https://www.instagram.com/codeandship/">@codeandship</a></li>
@@ -444,18 +415,15 @@ Gebt uns Feedback:
 <li>Jonathan <a href="https://twitter.com/jowiemers">@jowiemers</a></li>
 <li>Ingmar <a href="https://twitter.com/_truefalse">@_truefalse</a></li>
 </ul>
-
 <p>oder per Email an <a href="mailto:feedback@codeandship.rocks">feedback (at) codeandship.rocks</a>.</p>
-
-<h1 id="links-für-diese-folge">Links für diese Folge</h1>
-
+<h1 id="links-fr-diese-folge">Links für diese Folge</h1>
 <ul>
 <li><a href="https://docs.traefik.io/">Traefik Docs</a>
-
 <ul>
 <li><a href="https://docs.traefik.io/providers/docker/#endpoint">docker socket</a></li>
-</ul></li>
-<li><a href="https://github.com/containous/traefik/issues/5426#issuecomment-533598163">Traefik Issue: “2.0 is released, is cluster HA ready?”</a></li>
+</ul>
+</li>
+<li><a href="https://github.com/containous/traefik/issues/5426#issuecomment-533598163">Traefik Issue: “2.0 is released, is cluster HA ready?"</a></li>
 <li><a href="https://github.com/codeandship/traefik-playground">Ingmars Traefik Playground</a></li>
 </ul>
 ]]></content:encoded>
@@ -475,26 +443,19 @@ Gebt uns Feedback:
         <guid>https://codeandship.rocks/podcast/11/</guid>
 
         <itunes:author></itunes:author>
-        <itunes:summary> Heute sprechen wir über einige Mythen in der Softwareentwicklung. Dabei ergründen wir warum diese zumeist falsch sind.
+        <itunes:summary>Heute sprechen wir über einige Mythen in der Softwareentwicklung. Dabei ergründen wir warum diese zumeist falsch sind.
 Gebt uns Feedback:
  Twitter @codeandship Mastodon @codeandship@norden.social …</itunes:summary>
-        <content:encoded><![CDATA[
-
-<p>Heute sprechen wir über einige Mythen in der Softwareentwicklung. Dabei ergründen wir warum diese zumeist falsch sind.</p>
-
+        <content:encoded><![CDATA[<p>Heute sprechen wir über einige Mythen in der Softwareentwicklung. Dabei ergründen wir warum diese zumeist falsch sind.</p>
 <p><strong>Gebt uns Feedback:</strong></p>
-
 <ul>
 <li>Twitter <a href="https://twitter.com/codeandship">@codeandship</a></li>
 <li>Mastodon <a href="https://norden.social/users/codeandship">@codeandship@norden.social</a></li>
 <li>Jonathan <a href="https://twitter.com/jowiemers">@jowiemers</a></li>
 <li>Ingmar <a href="https://twitter.com/_truefalse">@_truefalse</a></li>
 </ul>
-
 <p>oder per Email an <a href="mailto:feedback@codeandship.rocks">feedback (at) codeandship.rocks</a>.</p>
-
-<h1 id="links-für-diese-folge">Links für diese Folge</h1>
-
+<h1 id="links-fr-diese-folge">Links für diese Folge</h1>
 <ul>
 <li><a href="http://www.projectcartoon.com/cartoon/1278">Was der Kunde wollte</a></li>
 <li><a href="https://www.google.com/search?q=horse+drawing+meme&tbm=isch">Meme: Pferdezeichnung</a> (schön angefangen, hastig beendet)</li>
@@ -517,26 +478,19 @@ Gebt uns Feedback:
         <guid>https://codeandship.rocks/podcast/10/</guid>
 
         <itunes:author></itunes:author>
-        <itunes:summary> Die Fortsetzung der 9. Folge: wir sprechen über diverse weitere Tools die man als Entwickler so braucht, unter anderem IDEs, Shells und nette kleine Command-line Tools.
+        <itunes:summary>Die Fortsetzung der 9. Folge: wir sprechen über diverse weitere Tools die man als Entwickler so braucht, unter anderem IDEs, Shells und nette kleine Command-line Tools.
 Gebt uns Feedback:
  Twitter …</itunes:summary>
-        <content:encoded><![CDATA[
-
-<p>Die Fortsetzung der 9. Folge: wir sprechen über diverse weitere Tools die man als Entwickler so braucht, unter anderem IDEs, Shells und nette kleine Command-line Tools.</p>
-
+        <content:encoded><![CDATA[<p>Die Fortsetzung der 9. Folge: wir sprechen über diverse weitere Tools die man als Entwickler so braucht, unter anderem IDEs, Shells und nette kleine Command-line Tools.</p>
 <p><strong>Gebt uns Feedback:</strong></p>
-
 <ul>
 <li>Twitter <a href="https://twitter.com/codeandship">@codeandship</a></li>
 <li>Mastodon <a href="https://norden.social/users/codeandship">@codeandship@norden.social</a></li>
 <li>Jonathan <a href="https://twitter.com/jowiemers">@jowiemers</a></li>
 <li>Ingmar <a href="https://twitter.com/_truefalse">@_truefalse</a></li>
 </ul>
-
 <p>oder per Email an <a href="mailto:feedback@codeandship.rocks">feedback (at) codeandship.rocks</a>.</p>
-
-<h1 id="links-für-diese-folge">Links für diese Folge</h1>
-
+<h1 id="links-fr-diese-folge">Links für diese Folge</h1>
 <ul>
 <li><a href="https://brew.sh/">Homebrew</a> (<a href="https://github.com/Homebrew/homebrew-bundle">homebrew-bundle</a> für schnelles Einrichten bei Neuinstallation)</li>
 <li><a href="https://chocolatey.org">chocolatey</a></li>
@@ -555,21 +509,15 @@ Gebt uns Feedback:
 <li><a href="https://github.com/nvbn/thefuck">thefuck</a></li>
 <li><a href="https://github.com/wting/autojump">autojump</a></li>
 </ul>
-
 <p>Autostart Ordner in macOS</p>
-
-<pre><code class="language-text"> ~/Library/LaunchAgents
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text"> ~/Library/LaunchAgents
  /Library/LaunchAgents
-</code></pre>
-
-<p>SSH Config für macOS</p>
-
-<pre><code class="language-text">Host *
+</code></pre></div><p>SSH Config für macOS</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">Host *
   AddKeysToAgent yes
   UseKeychain yes
   IdentityFile ~/.ssh/id_rsa
-</code></pre>
-]]></content:encoded>
+</code></pre></div>]]></content:encoded>
         <itunes:image href="https://codeandship.rocks/cover-feed.jpg" />
         <itunes:duration>00:55:33</itunes:duration>
         <itunes:keywords></itunes:keywords>
@@ -586,26 +534,19 @@ Gebt uns Feedback:
         <guid>https://codeandship.rocks/podcast/9/</guid>
 
         <itunes:author></itunes:author>
-        <itunes:summary> Was ist eigentlich WSL und warum gibt es schon eine zweite Version? Diese und mehr Fragen klären wir in der neunten Episode!
+        <itunes:summary>Was ist eigentlich WSL und warum gibt es schon eine zweite Version? Diese und mehr Fragen klären wir in der neunten Episode!
 Gebt uns Feedback:
  Twitter @codeandship Mastodon …</itunes:summary>
-        <content:encoded><![CDATA[
-
-<p>Was ist eigentlich WSL und warum gibt es schon eine zweite Version? Diese und mehr Fragen klären wir in der neunten Episode!</p>
-
+        <content:encoded><![CDATA[<p>Was ist eigentlich WSL und warum gibt es schon eine zweite Version? Diese und mehr Fragen klären wir in der neunten Episode!</p>
 <p><strong>Gebt uns Feedback:</strong></p>
-
 <ul>
 <li>Twitter <a href="https://twitter.com/codeandship">@codeandship</a></li>
 <li>Mastodon <a href="https://norden.social/users/codeandship">@codeandship@norden.social</a></li>
 <li>Jonathan <a href="https://twitter.com/jowiemers">@jowiemers</a></li>
 <li>Ingmar <a href="https://twitter.com/_truefalse">@_truefalse</a></li>
 </ul>
-
 <p>oder per Email an <a href="mailto:feedback@codeandship.rocks">feedback (at) codeandship.rocks</a>.</p>
-
 <h2 id="wsl-2">WSL 2</h2>
-
 <ul>
 <li><a href="https://chariotsolutions.com/blog/post/running-linux-on-windows-with-wsl-2-and-a-native-kernel/">Running Linux on Windows with WSL 2 and a Native Kernel</a></li>
 <li><a href="https://www.youtube.com/watch?v=A0eqZujVfYU">Developing on Windows with WSL2 (Subsystem for Linux), VS Code, Docker, and the Terminal</a></li>
@@ -636,53 +577,39 @@ Gebt uns Feedback:
         <guid>https://codeandship.rocks/podcast/8/</guid>
 
         <itunes:author></itunes:author>
-        <itunes:summary> In dieser Folge stellen wir einige Go Bibliotheken vor, die nichts mit Http-Kram zu tun haben. Ingmar hat sogar noch einen Bonus!
+        <itunes:summary>In dieser Folge stellen wir einige Go Bibliotheken vor, die nichts mit Http-Kram zu tun haben. Ingmar hat sogar noch einen Bonus!
 Gebt uns Feedback:
  Twitter @codeandship Mastodon …</itunes:summary>
-        <content:encoded><![CDATA[
-
-<p>In dieser Folge stellen wir einige Go Bibliotheken vor, die nichts mit Http-Kram zu tun haben. Ingmar hat sogar noch einen Bonus!</p>
-
+        <content:encoded><![CDATA[<p>In dieser Folge stellen wir einige Go Bibliotheken vor, die nichts mit Http-Kram zu tun haben. Ingmar hat sogar noch einen Bonus!</p>
 <p><strong>Gebt uns Feedback:</strong></p>
-
 <ul>
 <li>Twitter <a href="https://twitter.com/codeandship">@codeandship</a></li>
 <li>Mastodon <a href="https://norden.social/users/codeandship">@codeandship@norden.social</a></li>
 <li>Jonathan <a href="https://twitter.com/jowiemers">@jowiemers</a></li>
 <li>Ingmar <a href="https://twitter.com/_truefalse">@_truefalse</a></li>
 </ul>
-
 <p>oder per Email an <a href="mailto:feedback@codeandship.rocks">feedback (at) codeandship.rocks</a>.</p>
-
 <h2 id="news">News</h2>
-
 <ul>
 <li><a href="https://www.youtube.com/channel/UCx9QVEApa5BKLw9r8cnOFEA/videos?sort=dd&view=0&flow=list">GopherCon Videos</a></li>
 <li><a href="https://blog.golang.org/go1.13">Go 1.13.0</a>
-
 <ul>
 <li><a href="https://golang.org/pkg/errors/">Package errors</a></li>
-</ul></li>
 </ul>
-
+</li>
+</ul>
 <p>Top 3 Nicht-HTTP-Libraries</p>
-
 <h2 id="ingmar">Ingmar</h2>
-
 <ul>
 <li><a href="github.com/etcd-io/bbolt">bbolt</a></li>
 <li><a href="github.com/peterbourgon/ff">ff</a></li>
 <li><a href="github.com/stretchr/testify">testify</a></li>
 </ul>
-
 <h3 id="bonus">Bonus</h3>
-
 <ul>
 <li><a href="github.com/golang/protobuf">protobuf</a></li>
 </ul>
-
 <h2 id="jonathan">Jonathan</h2>
-
 <ul>
 <li><a href="github.com/mdlayher/waveform">waveform</a></li>
 <li><a href="https://github.com/hajimehoshi/ebiten">ebiten</a></li>
@@ -705,26 +632,19 @@ Gebt uns Feedback:
         <guid>https://codeandship.rocks/podcast/7/</guid>
 
         <itunes:author></itunes:author>
-        <itunes:summary> Dieses mal witmen wir uns mit Rust einer neuen Programmiersprache und nebenbei gibts noch das neuste aus der Go-Welt.
+        <itunes:summary>Dieses mal witmen wir uns mit Rust einer neuen Programmiersprache und nebenbei gibts noch das neuste aus der Go-Welt.
 Gebt uns Feedback:
  Twitter @codeandship Mastodon @codeandship@norden.social …</itunes:summary>
-        <content:encoded><![CDATA[
-
-<p>Dieses mal witmen wir uns mit Rust einer neuen Programmiersprache und nebenbei gibts noch das neuste aus der Go-Welt.</p>
-
+        <content:encoded><![CDATA[<p>Dieses mal witmen wir uns mit Rust einer neuen Programmiersprache und nebenbei gibts noch das neuste aus der Go-Welt.</p>
 <p><strong>Gebt uns Feedback:</strong></p>
-
 <ul>
 <li>Twitter <a href="https://twitter.com/codeandship">@codeandship</a></li>
 <li>Mastodon <a href="https://norden.social/users/codeandship">@codeandship@norden.social</a></li>
 <li>Jonathan <a href="https://twitter.com/jowiemers">@jowiemers</a></li>
 <li>Ingmar <a href="https://twitter.com/_truefalse">@_truefalse</a></li>
 </ul>
-
 <p>oder per Email an <a href="mailto:feedback@codeandship.rocks">feedback (at) codeandship.rocks</a>.</p>
-
-<h2 id="links-für-diese-folge">Links für diese Folge</h2>
-
+<h2 id="links-fr-diese-folge">Links für diese Folge</h2>
 <ul>
 <li><a href="https://www.rust-lang.org/">Rust-lang.org</a></li>
 <li><a href="https://play.rust-lang.org/">Rust Online-Playground</a></li>
@@ -732,14 +652,14 @@ Gebt uns Feedback:
 <li><a href="https://crates.io">crates.io</a></li>
 <li><a href="https://www.seventeencups.net/posts/writing-an-audio-plugin-in-rust/">VST Development</a></li>
 <li>Gopher Con
-
 <ul>
 <li><a href="https://www.youtube.com/channel/UCxm3-iHEMy7IkU0_gwDVGAQ">EU</a></li>
 <li><a href="https://www.youtube.com/channel/UCazkIMpjghmT8fugD1WF_DQ/videos">Singapore</a></li>
 <li><a href="https://www.youtube.com/channel/UCV_ox3kVvV5HrUz4JOuZpdQ/videos">Israel</a></li>
 <li><a href="https://www.youtube.com/channel/UCx9QVEApa5BKLw9r8cnOFEA">San Diego</a></li>
-<li><a href="https://www.youtube.com/watch?v=8TLiGHJTlig&amp;t=1s">How I write Go HTTP services after seven years</a></li>
-</ul></li>
+<li><a href="https://www.youtube.com/watch?v=8TLiGHJTlig&t=1s">How I write Go HTTP services after seven years</a></li>
+</ul>
+</li>
 </ul>
 ]]></content:encoded>
         <itunes:image href="https://codeandship.rocks/cover-feed.jpg" />
@@ -758,31 +678,22 @@ Gebt uns Feedback:
         <guid>https://codeandship.rocks/podcast/6/</guid>
 
         <itunes:author></itunes:author>
-        <itunes:summary> Softwareentwicklung ist nicht nur Code schreiben, sondern meistens auch Teamarbeit. In dieser Folgen reden wir über die sozialen Aspekte von Softwareentwicklung.
+        <itunes:summary>Softwareentwicklung ist nicht nur Code schreiben, sondern meistens auch Teamarbeit. In dieser Folgen reden wir über die sozialen Aspekte von Softwareentwicklung.
  Software engineering is what happens …</itunes:summary>
-        <content:encoded><![CDATA[
-
-<p>Softwareentwicklung ist nicht nur Code schreiben, sondern meistens auch Teamarbeit. In dieser Folgen reden wir über die sozialen Aspekte von Softwareentwicklung.</p>
-
+        <content:encoded><![CDATA[<p>Softwareentwicklung ist nicht nur Code schreiben, sondern meistens auch Teamarbeit. In dieser Folgen reden wir über die sozialen Aspekte von Softwareentwicklung.</p>
 <blockquote>
 <p>Software engineering is what happens to programming when you add time and other programmers.</p>
 </blockquote>
-
 <p>– Russ Cox, Go Entwickler</p>
-
 <p><strong>Gebt uns Feedback:</strong></p>
-
 <ul>
 <li>Twitter <a href="https://twitter.com/codeandship">@codeandship</a></li>
 <li>Mastodon <a href="https://norden.social/users/codeandship">@codeandship@norden.social</a></li>
 <li>Jonathan <a href="https://twitter.com/jowiemers">@jowiemers</a></li>
 <li>Ingmar <a href="https://twitter.com/_truefalse">@_truefalse</a></li>
 </ul>
-
 <p>oder per Email an <a href="mailto:feedback@codeandship.rocks">feedback (at) codeandship.rocks</a>.</p>
-
-<h2 id="links-für-diese-folge">Links für diese Folge</h2>
-
+<h2 id="links-fr-diese-folge">Links für diese Folge</h2>
 <ul>
 <li><a href="https://github.com/google/wire">wire: Compile-time Dependency Injection for Go</a></li>
 <li><a href="https://de.wikipedia.org/wiki/Gesetz_von_Conway">Gesetz von Conway</a></li>
@@ -810,46 +721,39 @@ Gebt uns Feedback:
         <guid>https://codeandship.rocks/podcast/5/</guid>
 
         <itunes:author></itunes:author>
-        <itunes:summary> Heute sprechen wir über Metriken, Logs, Traces sowie bekannte Tools und Patterns aus dem Monitoring Feld. Als Ergänzung zur Folge haben wir ein kleines Repository angelegt, um Anfängern den Einstieg …</itunes:summary>
-        <content:encoded><![CDATA[
-
-<p>Heute sprechen wir über Metriken, Logs, Traces sowie bekannte Tools und Patterns aus dem Monitoring Feld. Als Ergänzung zur Folge haben wir ein <a href="https://github.com/codeandship/metrics-example">kleines Repository</a> angelegt, um Anfängern den Einstieg in das Sammeln von Metriken mit unseren Lieblingstools zu vereinfachen.</p>
-
+        <itunes:summary>Heute sprechen wir über Metriken, Logs, Traces sowie bekannte Tools und Patterns aus dem Monitoring Feld. Als Ergänzung zur Folge haben wir ein kleines Repository angelegt, um Anfängern den Einstieg …</itunes:summary>
+        <content:encoded><![CDATA[<p>Heute sprechen wir über Metriken, Logs, Traces sowie bekannte Tools und Patterns aus dem Monitoring Feld. Als Ergänzung zur Folge haben wir ein <a href="https://github.com/codeandship/metrics-example">kleines Repository</a> angelegt, um Anfängern den Einstieg in das Sammeln von Metriken mit unseren Lieblingstools zu vereinfachen.</p>
 <p><strong>Gebt uns Feedback:</strong></p>
-
 <ul>
 <li>Twitter <a href="https://twitter.com/codeandship">@codeandship</a></li>
 <li>Mastodon <a href="https://norden.social/users/codeandship">@codeandship@norden.social</a></li>
 <li>Jonathan <a href="https://twitter.com/jowiemers">@jowiemers</a></li>
 <li>Ingmar <a href="https://twitter.com/_truefalse">@_truefalse</a></li>
 </ul>
-
 <p>oder per Email an <a href="mailto:feedback@codeandship.rocks">feedback (at) codeandship.rocks</a>.</p>
-
-<h2 id="links-für-diese-folge">Links für diese Folge</h2>
-
+<h2 id="links-fr-diese-folge">Links für diese Folge</h2>
 <ul>
 <li><a href="https://twitter.com/adrianfcole">@adrianfcole</a> auf Twitter</li>
 <li><a href="https://www.jaegertracing.io/">Jaeger: open source, end-to-end distributed tracing</a></li>
 <li><a href="https://dave.cheney.net/2015/11/05/lets-talk-about-logging">Dave Cheney - Let’s talk about logging</a></li>
 <li><a href="https://www.graylog.org/products/open-source">graylog log management</a>
-
 <ul>
 <li><a href="https://docs.graylog.org/en/3.0/pages/faq.html#i-dont-want-to-use-elasticsearch-as-my-backend-storage-system-can-i-use-another-database-like-mysql-oracle-etc">alternate backend storage system </a></li>
-</ul></li>
+</ul>
+</li>
 <li><a href="https://prometheus.io/">Prometheus</a>
-
 <ul>
 <li><a href="https://prometheus.io/docs/instrumenting/clientlibs/">SDKs</a></li>
 <li><a href="https://prometheus.io/docs/instrumenting/exporters/">Exporter</a></li>
 <li><a href="https://prometheus.io/docs/alerting/alertmanager/">Alertmanager</a></li>
-</ul></li>
+</ul>
+</li>
 <li><a href="https://grafana.com/">Grafana</a>
-
 <ul>
 <li><a href="https://play.grafana.org/">Playground</a></li>
 <li><a href="https://github.com/hagen1778/grafana-import-export">Dashboards Import/Export Script</a></li>
-</ul></li>
+</ul>
+</li>
 <li>Prometheus und Grafana zum Ausprobieren und Testen: <a href="https://github.com/codeandship/metrics-example">codeandship/metrics-example</a></li>
 <li><a href="https://www.elastic.co/de/elk-stack">ELK Stack: Elasticsearch, Logstash, Kibana</a></li>
 <li><a href="https://sensu.io/">Sensu</a></li>
@@ -873,25 +777,18 @@ Gebt uns Feedback:
         <guid>https://codeandship.rocks/podcast/4/</guid>
 
         <itunes:author></itunes:author>
-        <itunes:summary> In dieser Folge sprechen wir über Testing in Go und einige unterstützende Libraries. Ingmar löscht Code um sein Testcoverage zu verbessern und Jonathan mag seltsame Ordnerstrukturen.
+        <itunes:summary>In dieser Folge sprechen wir über Testing in Go und einige unterstützende Libraries. Ingmar löscht Code um sein Testcoverage zu verbessern und Jonathan mag seltsame Ordnerstrukturen.
 Gebt uns …</itunes:summary>
-        <content:encoded><![CDATA[
-
-<p>In dieser Folge sprechen wir über Testing in Go und einige unterstützende Libraries. Ingmar löscht Code um sein Testcoverage zu verbessern und Jonathan mag seltsame Ordnerstrukturen.</p>
-
+        <content:encoded><![CDATA[<p>In dieser Folge sprechen wir über Testing in Go und einige unterstützende Libraries. Ingmar löscht Code um sein Testcoverage zu verbessern und Jonathan mag seltsame Ordnerstrukturen.</p>
 <p><strong>Gebt uns Feedback:</strong></p>
-
 <ul>
 <li>Twitter <a href="https://twitter.com/codeandship">@codeandship</a></li>
 <li>Mastodon <a href="https://norden.social/users/codeandship">@codeandship@norden.social</a></li>
 <li>Jonathan <a href="https://twitter.com/jowiemers">@jowiemers</a></li>
 <li>Ingmar <a href="https://twitter.com/_truefalse">@_truefalse</a></li>
 </ul>
-
 <p>oder per Email an <a href="mailto:feedback@codeandship.rocks">feedback (at) codeandship.rocks</a>.</p>
-
-<h2 id="links-für-diese-folge">Links für diese Folge</h2>
-
+<h2 id="links-fr-diese-folge">Links für diese Folge</h2>
 <ul>
 <li>Go Playground unterstütz jetzt <a href="https://play.golang.org/p/eqEo7mqdS9l">Third-party Imports</a> und <a href="https://play.golang.org/p/KLZR7NlVZNX">mehrere Dateien</a>.</li>
 <li><a href="https://www.docker.com/dockercon/2019-videos/">DockerCon Videos</a></li>
@@ -918,23 +815,16 @@ Gebt uns …</itunes:summary>
         <guid>https://codeandship.rocks/podcast/3/</guid>
 
         <itunes:author></itunes:author>
-        <itunes:summary> In dieser Folge sprechen wir über Buildprozesse, Pipelines, Deployments und Development Server Setups. Jonathan denkt über schlechte Entwickler-Witze nach und Ingmar guckt paranoid auf den Upstream …</itunes:summary>
-        <content:encoded><![CDATA[
-
-<p>In dieser Folge sprechen wir über Buildprozesse, Pipelines, Deployments und Development Server Setups. Jonathan denkt über schlechte Entwickler-Witze nach und Ingmar guckt paranoid auf den Upstream seiner Fritzbox.</p>
-
+        <itunes:summary>In dieser Folge sprechen wir über Buildprozesse, Pipelines, Deployments und Development Server Setups. Jonathan denkt über schlechte Entwickler-Witze nach und Ingmar guckt paranoid auf den Upstream …</itunes:summary>
+        <content:encoded><![CDATA[<p>In dieser Folge sprechen wir über Buildprozesse, Pipelines, Deployments und Development Server Setups. Jonathan denkt über schlechte Entwickler-Witze nach und Ingmar guckt paranoid auf den Upstream seiner Fritzbox.</p>
 <p><strong>Gebt uns Feedback auf Twitter:</strong></p>
-
 <ul>
 <li><a href="https://twitter.com/codeandship">@codeandship</a></li>
 <li>Jonathan <a href="https://twitter.com/jowiemers">@jowiemers</a></li>
 <li>Ingmar <a href="https://twitter.com/_truefalse">@_truefalse</a></li>
 </ul>
-
 <p>oder per Email an <a href="mailto:feedback@codeandship.rocks">feedback (at) codeandship.rocks</a>.</p>
-
-<h2 id="links-für-diese-folge">Links für diese Folge</h2>
-
+<h2 id="links-fr-diese-folge">Links für diese Folge</h2>
 <ul>
 <li><a href="https://www.heise.de/security/meldung/Docker-Hub-gehackt-190-000-Nutzerkonten-betroffen-4408810.html">heise.de: Docker Hub gehackt</a></li>
 <li><a href="https://brew.sh/">Homebrew - The missing package manager for macOS (or Linux)</a></li>
@@ -949,18 +839,18 @@ Gebt uns …</itunes:summary>
 <li><a href="https://blog.jessfraz.com/post/docker-containers-on-the-desktop/">jessfraz: Docker Containers on the Desktop</a> (z.B. Spotify oder Skype als Container auf dem Desktop)</li>
 <li><a href="https://www.bleepingcomputer.com/news/security/escaping-containers-to-execute-commands-on-play-with-docker-servers/">Escaping Containers to Execute Commands on Play with Docker Servers</a></li>
 <li><a href="https://docs.docker.com/v17.12/docker-cloud/builds/image-scan/">Docker Security Scanning</a>
-
 <ul>
 <li><a href="https://imgur.com/a/flGmjxE">Scan Ergebnis</a> sieht man nur im eingeloggten Zustand, auch für andere Images.</li>
-</ul></li>
+</ul>
+</li>
 <li><a href="https://github.com/wagoodman/dive">Docker Image Inspection Tool <code>dive</code></a></li>
 <li><a href="https://hub.docker.com/r/mdillon/postgis/">Postgis im Dockerhub</a></li>
 <li><a href="https://docs.docker.com/registry/">Docker Registry</a></li>
 <li><a href="https://about.gitlab.com/community/">GitLab Community Edition</a>
-
 <ul>
 <li><a href="https://docs.gitlab.com/ce/user/project/container_registry.html">Eingebaute Registry</a></li>
-</ul></li>
+</ul>
+</li>
 <li><a href="https://docs.docker.com/engine/swarm/">Docker Swarm</a></li>
 <li><a href="https://docs.docker.com/compose/">Docker Compose</a></li>
 <li><a href="https://traefik.io/">Traefik</a> (<a href="https://docs.traefik.io/configuration/backends/docker/#labels-overriding-default-behavior">Docker Labels</a>)</li>
@@ -970,10 +860,10 @@ Gebt uns …</itunes:summary>
 <li><a href="https://grafana.com/">Grafana</a></li>
 <li><a href="https://prometheus.io/">Prometheus</a></li>
 <li><a href="https://prometheus.io/docs/instrumenting/clientlibs/">Prometheus Client Libraries</a>
-
 <ul>
 <li>Go, Java, Scala, Python, Ruby</li>
-</ul></li>
+</ul>
+</li>
 <li><a href="https://github.com/ndecker/fritzbox_exporter">Fritzbox Exporter</a></li>
 <li><a href="https://docs.docker.com/config/containers/logging/configure/">Docker Logging Konfiguration</a></li>
 <li><a href="https://github.com/gomods/athens">Athens - Go Modules Proxy</a></li>
@@ -1000,137 +890,97 @@ Gebt uns …</itunes:summary>
         <guid>https://codeandship.rocks/podcast/2/</guid>
 
         <itunes:author></itunes:author>
-        <itunes:summary> Diesmal geht es um HTTP Libraries und Frameworks für Go. Jonathan fürchtet um seine Stellung als “Herr der Dinge”, denn bei Frameworks muss man sich manchmal in die Welt der Codegenerierung begeben. …</itunes:summary>
-        <content:encoded><![CDATA[
-
-<p>Diesmal geht es um HTTP Libraries und Frameworks für Go. Jonathan fürchtet um seine Stellung als “Herr der Dinge”, denn bei Frameworks muss man sich manchmal in die Welt der Codegenerierung begeben. Hilfe, Kontrollverlust! Außerdem geht es darum, wie man gute Libraries erkennt und warum man eine spezielle lieber meiden sollte.
+        <itunes:summary>Diesmal geht es um HTTP Libraries und Frameworks für Go. Jonathan fürchtet um seine Stellung als “Herr der Dinge”, denn bei Frameworks muss man sich manchmal in die Welt der Codegenerierung begeben. …</itunes:summary>
+        <content:encoded><![CDATA[<p>Diesmal geht es um HTTP Libraries und Frameworks für Go. Jonathan fürchtet um seine Stellung als “Herr der Dinge”, denn bei Frameworks muss man sich manchmal in die Welt der Codegenerierung begeben. Hilfe, Kontrollverlust! Außerdem geht es darum, wie man gute Libraries erkennt und warum man eine spezielle lieber meiden sollte.
 Am Ende sprechen wir noch über Libraries für die Entwicklung von CLI Tools.</p>
-
 <h1 id="http-frameworks">HTTP Frameworks</h1>
-
-<h2 id="negroni-github-com-urfave-negroni-http-github-com-urfave-negroni">Negroni (<a href="http://github.com/urfave/negroni">github.com/urfave/negroni</a>)</h2>
-
+<h2 id="negroni-githubcomurfavenegronihttpgithubcomurfavenegroni">Negroni (<a href="http://github.com/urfave/negroni">github.com/urfave/negroni</a>)</h2>
 <blockquote>
 <p>Negroni is an idiomatic approach to web middleware in Go. It is tiny, non-intrusive, and encourages use of <code>net/http</code> Handlers.</p>
 </blockquote>
-
 <p>Kein Framework!</p>
-
 <p><strong>Vorteil</strong></p>
-
 <ul>
 <li>Nah an der Standard Library</li>
 </ul>
-
 <p><strong>Nachteil</strong></p>
-
 <ul>
 <li>Kein automatischen Binding/Rendering
-
 <ul>
 <li>Requests werden nicht automatisch in Structs gemarshalt</li>
 <li>Responses werden nicht automatisch zu JSON umgewandelt.</li>
-</ul></li>
 </ul>
-
-<h2 id="go-chi-github-com-go-chi-chi-http-github-com-go-chi-chi">Go Chi (<a href="http://github.com/go-chi/chi">github.com/go-chi/chi</a>)</h2>
-
+</li>
+</ul>
+<h2 id="go-chi-githubcomgochichihttpgithubcomgochichi">Go Chi (<a href="http://github.com/go-chi/chi">github.com/go-chi/chi</a>)</h2>
 <blockquote>
-<p><code>chi</code> is a lightweight, idiomatic and composable router for building Go HTTP services. It’s especially good at helping you write large REST API services that are kept maintainable as your project grows and changes.</p>
+<p><code>chi</code> is a lightweight, idiomatic and composable router for building Go HTTP services. It's especially good at helping you write large REST API services that are kept maintainable as your project grows and changes.</p>
 </blockquote>
-
 <p><strong>Positives</strong></p>
-
 <ul>
 <li>Nah an der Standard Library</li>
 </ul>
-
 <p><strong>Nachteil</strong></p>
-
 <ul>
 <li>Kein automatischen Binding/Rendering
-
 <ul>
 <li>Requests werden nicht automatisch in Structs gemarshalt</li>
 <li>Responses werden nicht automatisch zu JSON umgewandelt.</li>
-</ul></li>
+</ul>
+</li>
 <li>Man muss leere Interface Methoden implementieren um ein Struct überhaupt rendern oder binden zu können</li>
 </ul>
-
-<h2 id="gin-gonic-gin-gonic-com-http-gin-gonic-com">Gin-Gonic (<a href="http://gin-gonic.com/">gin-gonic.com</a>)</h2>
-
+<h2 id="gingonic-gingoniccomhttpgingoniccom">Gin-Gonic (<a href="http://gin-gonic.com/">gin-gonic.com</a>)</h2>
 <blockquote>
 <p>Gin is a web framework written in Go (Golang). It features a martini-like API with much better performance, up to 40 times faster thanks to <a href="https://github.com/julienschmidt/httprouter">httprouter</a>. If you need performance and good productivity, you will love Gin.</p>
 </blockquote>
-
 <p>Vergleichbar mit Express für Node oder Ktor für Kotlin. Sehr gut um schnell REST APIs zu entwickeln. Größere APIs sind auch kein Problem.</p>
-
 <p><strong>Positives</strong></p>
-
 <ul>
 <li>Einfache API</li>
 <li>Aufgeräumte Doku</li>
 <li>Erweiterbar trotz eigener Handler Implementierung (<code>gin.WrapF</code>)</li>
 <li>Sehr einfaches Rendering (JSON, HTML)</li>
 </ul>
-
 <p><strong>Nachteil</strong></p>
-
 <ul>
 <li>Manche Middlewares sind nicht so optimal (CORS)</li>
 </ul>
-
-<h2 id="goa-github-com-goadesign-http-github-com-goadesign">Goa (<a href="http://github.com/goadesign/">github.com/goadesign</a>)</h2>
-
+<h2 id="goa-githubcomgoadesignhttpgithubcomgoadesign">Goa (<a href="http://github.com/goadesign/">github.com/goadesign</a>)</h2>
 <blockquote>
 <p>goa is a framework for building micro-services and REST APIs in Go using a unique design-first approach.</p>
 </blockquote>
-
 <p>Erstellt mittels Code-Generation Boilerplate-Code, programmiert wird nur noch die Logik, der Rest wird generiert.</p>
-
 <p><strong>Nennenswert</strong></p>
-
 <ul>
 <li>Unterstützt OAuth2</li>
 </ul>
-
-<h2 id="revel-revel-github-io-http-revel-github-io">Revel (<a href="http://revel.github.io/">revel.github.io</a>)</h2>
-
+<h2 id="revel-revelgithubiohttprevelgithubio">Revel (<a href="http://revel.github.io/">revel.github.io</a>)</h2>
 <blockquote>
 <p>A high productivity, full-stack web framework for the <a href="http://www.golang.org/">Go language</a>.</p>
 </blockquote>
-
 <p>Bietet wesentlich mehr Möglichkeiten als die bisher genannten. Dennoch geht es vergleichsweise low-levelig zu (vgl. Spring, Rails, SailsJs usw.).</p>
-
 <p>Ist ein klassisches MVC mit template-engine, request validation usw.</p>
-
 <p><strong>Vorteile</strong></p>
-
 <ul>
 <li>Hot Code Reloading</li>
 <li>MVC mit Template-Engine</li>
 <li>Request Validation</li>
 </ul>
-
 <p><strong>Nachteile</strong></p>
-
 <ul>
 <li>Keine einfache, eingebaute Möglichkeit Datenbanken anzubinden
-
 <ul>
 <li>Es werden <a href="https://github.com/jinzhu/gorm">gorm</a> oder andere externe Libraries empfohlen</li>
-</ul></li>
+</ul>
+</li>
 <li>Für Authentication werden ebenfalls externe Libraries empfohlen</li>
 </ul>
-
-<h2 id="buffalo-github-com-gobuffalo-buffalo-https-github-com-gobuffalo-buffalo">Buffalo (<a href="https://github.com/gobuffalo/buffalo">github.com/gobuffalo/buffalo</a>)</h2>
-
+<h2 id="buffalo-githubcomgobuffalobuffalohttpsgithubcomgobuffalobuffalo">Buffalo (<a href="https://github.com/gobuffalo/buffalo">github.com/gobuffalo/buffalo</a>)</h2>
 <blockquote>
-<p>Buffalo <strong>isn’t just a framework</strong>; it’s a holistic web development environment and project structure that <strong>lets developers get straight to the business</strong> of, well, building their business.</p>
+<p>Buffalo <strong>isn't just a framework</strong>; it's a holistic web development environment and project structure that <strong>lets developers get straight to the business</strong> of, well, building their business.</p>
 </blockquote>
-
 <p><strong>Features</strong></p>
-
 <ul>
 <li>Templating</li>
 <li>Routing</li>
@@ -1138,28 +988,20 @@ Am Ende sprechen wir noch über Libraries für die Entwicklung von CLI Tools.</p
 <li>Models/ORM (optional)</li>
 <li>Sessions, Cookies, WebSockets uvm.</li>
 </ul>
-
 <p><strong>Pluspunkte</strong></p>
-
 <ul>
 <li>Gute Doku</li>
 <li>Viele Tutorials und Beispiele</li>
 </ul>
-
-<h2 id="iris-github-com-kataras-iris-nope">Iris (<a href="#nope">github.com/kataras/iris</a>)</h2>
-
+<h2 id="iris-githubcomkatarasirisnope">Iris (<a href="#nope">github.com/kataras/iris</a>)</h2>
 <p><em>Eine Nicht-Empfehlung</em></p>
-
 <p><strong>Features</strong></p>
-
 <ul>
 <li>Sehr umfangreiche Funktionen</li>
 <li>Form-Validation</li>
 <li>Controller, ähnlich wie in anderen großen Web Frameworks</li>
 </ul>
-
 <p><strong>Bedenklich</strong></p>
-
 <ul>
 <li><a href="https://www.reddit.com/r/golang/comments/b481q7/a_warning_about_githubcomkatarasiris">Thread bei /r/golang</a></li>
 <li>Ziemlich merkwürdige Vergangenheit</li>
@@ -1168,46 +1010,32 @@ Am Ende sprechen wir noch über Libraries für die Entwicklung von CLI Tools.</p
 <li>Maintainer Verhalten verstößt gegen den Golang Code of Conduct</li>
 <li>“Unbeatable free support for everyone”</li>
 </ul>
-
 <h1 id="http-libraries">HTTP Libraries</h1>
-
-<h2 id="swag-github-com-swaggo-swag-http-github-com-swaggo-swag">Swag (<a href="http://github.com/swaggo/swag">github.com/swaggo/swag</a>)</h2>
-
+<h2 id="swag-githubcomswaggoswaghttpgithubcomswaggoswag">Swag (<a href="http://github.com/swaggo/swag">github.com/swaggo/swag</a>)</h2>
 <blockquote>
 <p>Swag converts Go annotations to Swagger Documentation 2.0.</p>
 </blockquote>
-
 <p>Generiert eine <code>swagger.json</code> anhand von Kommentaren im Code.</p>
-
 <p><strong>Positives</strong></p>
-
 <ul>
 <li>HTTP Framework/Library unabhängig</li>
 <li>Wenn man die API einmal geblickt hat ist es sehr einfach zu benutzten.</li>
 <li>Bietet auch Code-Generation features (haben wir nicht getestet)</li>
 </ul>
-
 <p><strong>Nachteil</strong></p>
-
 <ul>
 <li>Doku nur in der README und auf <a href="https://godoc.org/github.com/swaggo/swag">godoc.org</a></li>
 <li>Einige Features mehr oder weniger nicht dokumentiert</li>
 </ul>
-
-<h2 id="go-swagger-github-com-go-swagger-go-swagger-https-github-com-go-swagger-go-swagger">go-swagger (<a href="https://github.com/go-swagger/go-swagger">github.com/go-swagger/go-swagger</a>)</h2>
-
+<h2 id="goswagger-githubcomgoswaggergoswaggerhttpsgithubcomgoswaggergoswagger">go-swagger (<a href="https://github.com/go-swagger/go-swagger">github.com/go-swagger/go-swagger</a>)</h2>
 <blockquote>
 <p>This package contains a golang implementation of Swagger 2.0 (aka <a href="https://github.com/OAI/OpenAPI-Specification/blob/master/versions/2.0.md">OpenAPI 2.0</a>): it knows how to serialize and deserialize swagger specifications.</p>
 </blockquote>
-
-<h2 id="gorilla-webtoolkit-gorillatoolkit-org-http-www-gorillatoolkit-org">Gorilla Webtoolkit (<a href="http://www.gorillatoolkit.org/">gorillatoolkit.org</a>)</h2>
-
+<h2 id="gorilla-webtoolkit-gorillatoolkitorghttpwwwgorillatoolkitorg">Gorilla Webtoolkit (<a href="http://www.gorillatoolkit.org/">gorillatoolkit.org</a>)</h2>
 <blockquote>
 <p>Gorilla is a web toolkit for the <a href="http://golang.org/">Go programming language</a>.</p>
 </blockquote>
-
 <p>Alles was man sonst noch so braucht, vor allem:</p>
-
 <ul>
 <li>context: stores global request variables.</li>
 <li>mux: is a powerful URL router and dispatcher.</li>
@@ -1216,102 +1044,70 @@ Am Ende sprechen wir noch über Libraries für die Entwicklung von CLI Tools.</p
 <li>sessions: saves cookie and filesystem sessions and allows custom session backends.</li>
 <li>websocket: implements the WebSocket protocol defined in RFC 6455.</li>
 </ul>
-
 <p>HTTP Multiplexer Implementierung werden häufig mit <code>mux</code> abgekürzt oder einfach “Router” genannt.</p>
-
 <h2 id="weitere-projekte">Weitere Projekte</h2>
-
 <p>Ein weiteres HTTP Framework:</p>
-
 <blockquote>
-<p>High performance, minimalist Go web framework<br />
+<p>High performance, minimalist Go web framework<br>
 <a href="https://github.com/labstack/echo">labstack/echo</a></p>
 </blockquote>
-
 <p>Eine weitere HTTP Multiplexer Implementierung:</p>
-
 <blockquote>
 <p>A high performance HTTP request router
 <a href="https://github.com/julienschmidt/httprouter">HttpRouter</a></p>
 </blockquote>
-
 <p>Noch ein <code>mux</code>:</p>
-
 <blockquote>
 <p><a href="https://github.com/goji/goji">Goji</a> is a minimalistic and flexible HTTP request multiplexer</p>
 </blockquote>
-
 <p>Datenbank Library für MySQL, PostgreSQL, Sqlite3:</p>
-
 <blockquote>
 <p>The fantastic ORM library for Golang, aims to be developer friendly
 <a href="https://github.com/jinzhu/gorm">gorm</a></p>
 </blockquote>
-
 <p>Dateien, zum Bespiel HTML Templates, in Go Binaries einbauen:</p>
-
 <blockquote>
 <p>Embed files into a Go executable
 <a href="https://github.com/rakyll/statik">statik</a></p>
 </blockquote>
-
 <p>… eine weitere Möglichkeit:</p>
-
 <blockquote>
 <p>The simple and easy way to embed static files into Go binaries.
 <a href="https://github.com/gobuffalo/packr">packr</a></p>
 </blockquote>
-
 <p>Gültige (!)  Zertifikate zum lokalen Entwickeln:</p>
-
 <blockquote>
-<p>A simple zero-config tool to make locally trusted development certificates with any names you’d like.
+<p>A simple zero-config tool to make locally trusted development certificates with any names you'd like.
 <a href="https://github.com/FiloSottile/mkcert">mkcert</a></p>
 </blockquote>
-
-<h1 id="libraries-für-cli-software">Libraries für CLI Software</h1>
-
-<h2 id="go-cui-github-com-jroimartin-gocui-github-com-jroimartin-gocui">go cui (<a href="github.com/jroimartin/gocui">github.com/jroimartin/gocui</a>)</h2>
-
-<p><img src="https://cloud.githubusercontent.com/assets/1223476/19418932/63645052-93ce-11e6-867c-da5e97e37237.png" alt="gocui demo" /></p>
-
+<h1 id="libraries-fr-cli-software">Libraries für CLI Software</h1>
+<h2 id="go-cui-githubcomjroimartingocuigithubcomjroimartingocui">go cui (<a href="github.com/jroimartin/gocui">github.com/jroimartin/gocui</a>)</h2>
+<p><img src="https://cloud.githubusercontent.com/assets/1223476/19418932/63645052-93ce-11e6-867c-da5e97e37237.png" alt="gocui demo"></p>
 <blockquote>
 <p>Minimalist Go package aimed at creating Console User Interfaces.</p>
 </blockquote>
-
-<h2 id="termui-github-com-gizak-termui-github-com-gizak-termui">termui (<a href="github.com/gizak/termui">github.com/gizak/termui</a>)</h2>
-
-<p><img src="https://github.com/gizak/termui/raw/master/_assets/demo.gif" alt="termui demo" /></p>
-
+<h2 id="termui-githubcomgizaktermuigithubcomgizaktermui">termui (<a href="github.com/gizak/termui">github.com/gizak/termui</a>)</h2>
+<p><img src="https://github.com/gizak/termui/raw/master/_assets/demo.gif" alt="termui demo"></p>
 <blockquote>
 <p>termui is a cross-platform and fully-customizable terminal dashboard and widget library built on top of <a href="https://github.com/nsf/termbox-go">termbox-go</a>.</p>
 </blockquote>
-
-<h2 id="promptui-github-com-manifoldco-promptui-https-github-com-manifoldco-promptui">promptui (<a href="https://github.com/manifoldco/promptui">github.com/manifoldco/promptui</a>)</h2>
-
-<p><img src="https://media.giphy.com/media/xUNda0Ngb5qsogLsBi/giphy.gif" alt="PromptUI Demo" /></p>
-
+<h2 id="promptui-githubcommanifoldcopromptuihttpsgithubcommanifoldcopromptui">promptui (<a href="https://github.com/manifoldco/promptui">github.com/manifoldco/promptui</a>)</h2>
+<p><img src="https://media.giphy.com/media/xUNda0Ngb5qsogLsBi/giphy.gif" alt="PromptUI Demo"></p>
 <blockquote>
 <p>Interactive prompt for command-line applications.</p>
 </blockquote>
-
 <h2 id="weitere">Weitere</h2>
-
 <ul>
 <li>Filewatcher für schnelles Entwickeln: <a href="https://github.com/mitranim/gow">gow</a></li>
 <li>Frotschrittsbalken: <a href="https://github.com/gosuri/uiprogress">uiprogress</a></li>
 </ul>
-
-<h2 id="vielen-dank-fürs-zuhören">Vielen Dank fürs Zuhören!</h2>
-
+<h2 id="vielen-dank-frs-zuhren">Vielen Dank fürs Zuhören!</h2>
 <p><strong>Gebt uns Feedback auf Twitter:</strong></p>
-
 <ul>
 <li><a href="https://twitter.com/codeandship">@codeandship</a></li>
 <li>Jonathan <a href="https://twitter.com/jowiemers">@jowiemers</a></li>
 <li>Ingmar <a href="https://twitter.com/_truefalse">@_truefalse</a></li>
 </ul>
-
 <p>oder per Email an <a href="mailto:feedback@codeandship.rocks">feedback (at) codeandship.rocks</a>.</p>
 ]]></content:encoded>
         <itunes:image href="https://codeandship.rocks/cover-feed.jpg" />
@@ -1334,48 +1130,41 @@ Am Ende sprechen wir noch über Libraries für die Entwicklung von CLI Tools.</p
 In der ersten Folge geht es um die Programmiersprache Go.
 Topics:
  Was spricht für Go? Unterschiede zu Java und anderen Programmiersprachen / Frameworks Go …</itunes:summary>
-        <content:encoded><![CDATA[<p><strong>Herzlich Willkommen zu unserem Podcast!</strong><br />
+        <content:encoded><![CDATA[<p><strong>Herzlich Willkommen zu unserem Podcast!</strong><br>
 In der ersten Folge geht es um die Programmiersprache Go.</p>
-
 <p>Topics:</p>
-
 <ul>
 <li>Was spricht für Go?</li>
 <li>Unterschiede zu Java und anderen Programmiersprachen / Frameworks</li>
 <li>Go Features
-
 <ul>
 <li>Go Routines</li>
-</ul></li>
+</ul>
+</li>
 <li>Woran muss man sich gewöhnen?
-
 <ul>
 <li><code>gofmt</code></li>
 <li><a href="https://blog.golang.org/using-go-modules">Dependency Management</a></li>
-</ul></li>
+</ul>
+</li>
 <li>Error Handling</li>
 <li><a href="https://github.com/golang-standards/project-layout">Projektstruktur</a>
-
 <ul>
 <li>WTF Dial (<a href="https://medium.com/wtf-dial">Medium</a>, <a href="https://github.com/benbjohnson/wtf/tree/http">GitHub</a>)</li>
-</ul></li>
+</ul>
+</li>
 <li>Standard <a href="https://github.com/golang/go/wiki/CodeTools">Go Tools</a></li>
 </ul>
-
 <p>Ideen für das erste eigene Go Projekt:</p>
-
 <ul>
 <li>CLI Tools</li>
 <li><a href="https://rosettacode.org/wiki/Category:Draft_Programming_Tasks">Rosetta Code Programming Tasks</a></li>
 </ul>
-
 <p>Weitere hilfreiche Links:</p>
-
 <ul>
 <li><a href="https://tour.golang.org/welcome/1">Tour of Go</a></li>
 <li><a href="https://github.com/golang/go/wiki">Go Wiki</a></li>
 </ul>
-
 <p>Gebt uns Feedback auf Twitter: <a href="https://twitter.com/codeandship">@codeandship</a>, Jonathan (<a href="https://twitter.com/jowiemers">@jowiemers</a>), Ingmar (<a href="https://twitter.com/_truefalse">@_truefalse</a>), oder per Email an <a href="mailto:feedback@codeandship.rocks">feedback (at) codeandship.rocks</a></p>
 ]]></content:encoded>
         <itunes:image href="https://codeandship.rocks/cover-feed.jpg" />
